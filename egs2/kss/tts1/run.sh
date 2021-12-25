@@ -16,7 +16,8 @@ n_shift=300
 win_length=1200
 
 # Data prep related
-text_format=raw  # Use "raw" or "phn". If use "phn", convert to phn in data prep.
+#text_format=raw  # Use "raw" or "phn". If use "phn", convert to phn in data prep.
+text_format=phn
 local_data_opts=""
 local_data_opts+=" --text_format ${text_format}"
 

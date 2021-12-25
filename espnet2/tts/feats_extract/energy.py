@@ -32,7 +32,8 @@ class Energy(AbsFeatsExtract):
         center: bool = True,
         normalized: bool = False,
         onesided: bool = True,
-        use_token_averaged_energy: bool = True,
+        #use_token_averaged_energy: bool = True,
+        use_token_averaged_energy: bool = False,
         reduction_factor: int = None,
     ):
         assert check_argument_types()

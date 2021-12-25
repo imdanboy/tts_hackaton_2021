@@ -33,7 +33,8 @@ class LogMelFbank(AbsFeatsExtract):
         fmin: Optional[int] = 80,
         fmax: Optional[int] = 7600,
         htk: bool = False,
-        log_base: Optional[float] = 10.0,
+        log_base: Optional[float] = None,
+        #log_base: Optional[float] = 10.0,
     ):
         assert check_argument_types()
         super().__init__()

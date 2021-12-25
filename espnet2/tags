@@ -1,0 +1,1701 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/data1/users/satoshi/espnet/espnet2/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210926.0/
+ASRPackedContents	bin/pack.py	/^class ASRPackedContents(PackedContents):$/;"	c
+ASRTask	tasks/asr.py	/^class ASRTask(AbsTask):$/;"	c
+ASRTask	tasks/enh_asr.py	/^class ASRTask(AbsTask):$/;"	c
+AVAILABLE_DISCRIMINATORS	gan_tts/joint/joint_text2wav.py	/^AVAILABLE_DISCRIMINATORS = {$/;"	v
+AVAILABLE_DISCRIMINATORS	gan_tts/vits/vits.py	/^AVAILABLE_DISCRIMINATORS = {$/;"	v
+AVAILABLE_GENERATERS	gan_tts/vits/vits.py	/^AVAILABLE_GENERATERS = {$/;"	v
+AVAILABLE_TEXT2MEL	gan_tts/joint/joint_text2wav.py	/^AVAILABLE_TEXT2MEL = {$/;"	v
+AVAILABLE_VOCODER	gan_tts/joint/joint_text2wav.py	/^AVAILABLE_VOCODER = {$/;"	v
+AbsAttractor	diar/attractor/abs_attractor.py	/^class AbsAttractor(torch.nn.Module, ABC):$/;"	c
+AbsBatchStepScheduler	schedulers/abs_scheduler.py	/^class AbsBatchStepScheduler(AbsScheduler):$/;"	c
+AbsDataset	train/dataset.py	/^class AbsDataset(Dataset, ABC):$/;"	c
+AbsDecoder	asr/decoder/abs_decoder.py	/^class AbsDecoder(torch.nn.Module, ScorerInterface, ABC):$/;"	c
+AbsDecoder	diar/decoder/abs_decoder.py	/^class AbsDecoder(torch.nn.Module, ABC):$/;"	c
+AbsDecoder	enh/decoder/abs_decoder.py	/^class AbsDecoder(torch.nn.Module, ABC):$/;"	c
+AbsDiarization	diar/abs_diar.py	/^class AbsDiarization(torch.nn.Module, ABC):$/;"	c
+AbsESPnetModel	train/abs_espnet_model.py	/^class AbsESPnetModel(torch.nn.Module, ABC):$/;"	c
+AbsEncoder	asr/encoder/abs_encoder.py	/^class AbsEncoder(torch.nn.Module, ABC):$/;"	c
+AbsEncoder	enh/encoder/abs_encoder.py	/^class AbsEncoder(torch.nn.Module, ABC):$/;"	c
+AbsEnhLoss	enh/loss/criterions/abs_loss.py	/^class AbsEnhLoss(torch.nn.Module, ABC):$/;"	c
+AbsEnhancement	enh/abs_enh.py	/^class AbsEnhancement(torch.nn.Module, ABC):$/;"	c
+AbsEpochStepScheduler	schedulers/abs_scheduler.py	/^class AbsEpochStepScheduler(AbsScheduler):$/;"	c
+AbsFeatsExtract	tts/feats_extract/abs_feats_extract.py	/^class AbsFeatsExtract(torch.nn.Module, ABC):$/;"	c
+AbsFrontend	asr/frontend/abs_frontend.py	/^class AbsFrontend(torch.nn.Module, ABC):$/;"	c
+AbsGANESPnetModel	train/abs_gan_espnet_model.py	/^class AbsGANESPnetModel(AbsESPnetModel, torch.nn.Module, ABC):$/;"	c
+AbsGANTTS	gan_tts/abs_gan_tts.py	/^class AbsGANTTS(AbsTTS, ABC):$/;"	c
+AbsIterFactory	iterators/abs_iter_factory.py	/^class AbsIterFactory(ABC):$/;"	c
+AbsLM	lm/abs_model.py	/^class AbsLM(torch.nn.Module, BatchScorerInterface, ABC):$/;"	c
+AbsLossWrapper	enh/loss/wrappers/abs_wrapper.py	/^class AbsLossWrapper(torch.nn.Module, ABC):$/;"	c
+AbsNormalize	layers/abs_normalize.py	/^class AbsNormalize(torch.nn.Module, ABC):$/;"	c
+AbsPostEncoder	asr/postencoder/abs_postencoder.py	/^class AbsPostEncoder(torch.nn.Module, ABC):$/;"	c
+AbsPreEncoder	asr/preencoder/abs_preencoder.py	/^class AbsPreEncoder(torch.nn.Module, ABC):$/;"	c
+AbsPreprocessor	train/preprocessor.py	/^class AbsPreprocessor(ABC):$/;"	c
+AbsSampler	samplers/abs_sampler.py	/^class AbsSampler(Sampler, ABC):$/;"	c
+AbsScheduler	schedulers/abs_scheduler.py	/^class AbsScheduler(ABC):$/;"	c
+AbsSeparator	enh/separator/abs_separator.py	/^class AbsSeparator(torch.nn.Module, ABC):$/;"	c
+AbsSpecAug	asr/specaug/abs_specaug.py	/^class AbsSpecAug(torch.nn.Module):$/;"	c
+AbsTTS	tts/abs_tts.py	/^class AbsTTS(torch.nn.Module, ABC):$/;"	c
+AbsTask	tasks/abs_task.py	/^class AbsTask(ABC):$/;"	c
+AbsTokenizer	text/abs_tokenizer.py	/^class AbsTokenizer(ABC):$/;"	c
+AbsValEpochStepScheduler	schedulers/abs_scheduler.py	/^class AbsValEpochStepScheduler(AbsEpochStepScheduler):$/;"	c
+AdapterForSoundScpReader	train/dataset.py	/^class AdapterForSoundScpReader(collections.abc.Mapping):$/;"	c
+Archiver	main_funcs/pack_funcs.py	/^class Archiver:$/;"	c
+ArgumentDefaultsRawTextHelpFormatter	tasks/abs_task.py	/^        class ArgumentDefaultsRawTextHelpFormatter($/;"	c	member:AbsTask.get_parser	file:
+ArgumentParser	utils/config_argparse.py	/^class ArgumentParser(argparse.ArgumentParser):$/;"	c
+AsteroidModel_Converter	enh/separator/asteroid_models.py	/^class AsteroidModel_Converter(AbsSeparator):$/;"	c
+AttentionReference	enh/layers/dnn_beamformer.py	/^class AttentionReference(torch.nn.Module):$/;"	c
+Average	train/reporter.py	/^class Average(ReportedValue):$/;"	c
+BATCH_TYPES	samplers/build_batch_sampler.py	/^BATCH_TYPES = dict($/;"	v
+BEAMFORMER_TYPES	enh/layers/dnn_beamformer.py	/^BEAMFORMER_TYPES = ($/;"	v
+BarkScale	layers/sinc_conv.py	/^class BarkScale:$/;"	c
+BaseDiscriminator	gan_tts/style_melgan/style_melgan.py	/^from espnet2.gan_tts.melgan import MelGANDiscriminator as BaseDiscriminator$/;"	x	nameref:unknown:MelGANDiscriminator
+BaseMultiHeadedAttention	tts/gst/style_encoder.py	/^    MultiHeadedAttention as BaseMultiHeadedAttention,  # NOQA$/;"	x	nameref:unknown:MultiHeadedAttention
+BaseTransformerDecoder	asr/decoder/transformer_decoder.py	/^class BaseTransformerDecoder(AbsDecoder, BatchScorerInterface):$/;"	c
+CISDRLoss	enh/loss/criterions/time_domain.py	/^class CISDRLoss(TimeDomainLoss):$/;"	c
+CTC	asr/ctc.py	/^class CTC(torch.nn.Module):$/;"	c
+CTCSegmentation	bin/asr_align.py	/^class CTCSegmentation:$/;"	c
+CTCSegmentationTask	bin/asr_align.py	/^class CTCSegmentationTask:$/;"	c
+ChannelwiseLayerNorm	enh/layers/tcn.py	/^class ChannelwiseLayerNorm(nn.Module):$/;"	c
+CharTokenizer	text/char_tokenizer.py	/^class CharTokenizer(AbsTokenizer):$/;"	c
+Chomp1d	enh/layers/tcn.py	/^class Chomp1d(nn.Module):$/;"	c
+ChunkIterFactory	iterators/chunk_iter_factory.py	/^class ChunkIterFactory(AbsIterFactory):$/;"	c
+ClassChoices	train/class_choices.py	/^class ClassChoices:$/;"	c
+CommonCollateFn	train/collate_fn.py	/^class CommonCollateFn:$/;"	c
+CommonPreprocessor	train/preprocessor.py	/^class CommonPreprocessor(AbsPreprocessor):$/;"	c
+CommonPreprocessor_multi	train/preprocessor.py	/^class CommonPreprocessor_multi(AbsPreprocessor):$/;"	c
+ConformerEncoder	asr/encoder/conformer_encoder.py	/^class ConformerEncoder(AbsEncoder):$/;"	c
+ConformerEncoder	enh/separator/conformer_separator.py	/^    Encoder as ConformerEncoder,  # noqa: H301$/;"	x	nameref:unknown:Encoder
+ConformerEncoder	tts/fastspeech/fastspeech.py	/^    Encoder as ConformerEncoder,  # noqa: H301$/;"	x	nameref:unknown:Encoder
+ConformerEncoder	tts/fastspeech2/fastspeech2.py	/^    Encoder as ConformerEncoder,  # noqa: H301$/;"	x	nameref:unknown:Encoder
+ConformerSeparator	enh/separator/conformer_separator.py	/^class ConformerSeparator(AbsSeparator):$/;"	c
+ContextualBlockConformerEncoder	asr/encoder/contextual_block_conformer_encoder.py	/^class ContextualBlockConformerEncoder(AbsEncoder):$/;"	c
+ContextualBlockTransformerEncoder	asr/encoder/contextual_block_transformer_encoder.py	/^class ContextualBlockTransformerEncoder(AbsEncoder):$/;"	c
+Conv1d	gan_tts/wavenet/residual_block.py	/^class Conv1d(torch.nn.Conv1d):$/;"	c
+Conv1d1x1	gan_tts/wavenet/residual_block.py	/^class Conv1d1x1(Conv1d):$/;"	c
+Conv2d	gan_tts/parallel_wavegan/upsample.py	/^class Conv2d(torch.nn.Conv2d):$/;"	c
+ConvDecoder	enh/decoder/conv_decoder.py	/^class ConvDecoder(AbsDecoder):$/;"	c
+ConvEncoder	enh/encoder/conv_encoder.py	/^class ConvEncoder(AbsEncoder):$/;"	c
+ConvFlow	gan_tts/vits/flow.py	/^class ConvFlow(torch.nn.Module):$/;"	c
+ConvInUpsampleNetwork	gan_tts/parallel_wavegan/upsample.py	/^class ConvInUpsampleNetwork(torch.nn.Module):$/;"	c
+DATA_TYPES	train/dataset.py	/^DATA_TYPES = {$/;"	v
+DATA_TYPES	train/iterable_dataset.py	/^DATA_TYPES = {$/;"	v
+DEFAULT_MIN_BIN_HEIGHT	gan_tts/vits/transform.py	/^DEFAULT_MIN_BIN_HEIGHT = 1e-3$/;"	v
+DEFAULT_MIN_BIN_WIDTH	gan_tts/vits/transform.py	/^DEFAULT_MIN_BIN_WIDTH = 1e-3$/;"	v
+DEFAULT_MIN_DERIVATIVE	gan_tts/vits/transform.py	/^DEFAULT_MIN_DERIVATIVE = 1e-3$/;"	v
+DEFAULT_TIME_WARP_MODE	layers/time_warp.py	/^DEFAULT_TIME_WARP_MODE = "bicubic"$/;"	v
+DNN_Beamformer	enh/layers/dnn_beamformer.py	/^class DNN_Beamformer(torch.nn.Module):$/;"	c
+DNN_WPE	enh/layers/dnn_wpe.py	/^class DNN_WPE(torch.nn.Module):$/;"	c
+DPRNN	enh/layers/dprnn.py	/^class DPRNN(nn.Module):$/;"	c
+DPRNNSeparator	enh/separator/dprnn_separator.py	/^class DPRNNSeparator(AbsSeparator):$/;"	c
+DatadirWriter	fileio/datadir_writer.py	/^class DatadirWriter:$/;"	c
+DecoderPrenet	tts/transformer/transformer.py	/^from espnet.nets.pytorch_backend.tacotron2.decoder import Prenet as DecoderPrenet$/;"	x	nameref:unknown:Prenet
+DefaultFrontend	asr/frontend/default.py	/^class DefaultFrontend(AbsFrontend):$/;"	c
+DepthwiseSeparableConv	enh/layers/tcn.py	/^class DepthwiseSeparableConv(nn.Module):$/;"	c
+DiarPackedContents	bin/pack.py	/^class DiarPackedContents(PackedContents):$/;"	c
+DiarizationTask	tasks/diar.py	/^class DiarizationTask(AbsTask):$/;"	c
+DiarizeSpeech	bin/diar_inference.py	/^class DiarizeSpeech:$/;"	c
+DilatedDepthSeparableConv	gan_tts/vits/flow.py	/^class DilatedDepthSeparableConv(torch.nn.Module):$/;"	c
+Dio	tts/feats_extract/dio.py	/^class Dio(AbsFeatsExtract):$/;"	c
+DiscriminatorAdversarialLoss	gan_tts/hifigan/loss.py	/^class DiscriminatorAdversarialLoss(torch.nn.Module):$/;"	c
+DistributedOption	train/distributed_utils.py	/^class DistributedOption:$/;"	c
+DurationCalculator	tts/utils/duration_calculator.py	/^class DurationCalculator(torch.nn.Module):$/;"	c
+DynamicConvolution2DTransformerDecoder	asr/decoder/transformer_decoder.py	/^class DynamicConvolution2DTransformerDecoder(BaseTransformerDecoder):$/;"	c
+DynamicConvolutionTransformerDecoder	asr/decoder/transformer_decoder.py	/^class DynamicConvolutionTransformerDecoder(BaseTransformerDecoder):$/;"	c
+EPS	bin/enh_inference.py	/^EPS = torch.finfo(torch.get_default_dtype()).eps$/;"	v
+EPS	enh/espnet_model.py	/^EPS = torch.finfo(torch.get_default_dtype()).eps$/;"	v
+EPS	enh/layers/beamformer.py	/^EPS = torch.finfo(torch.double).eps$/;"	v
+EPS	enh/layers/complex_utils.py	/^EPS = torch.finfo(torch.double).eps$/;"	v
+EPS	enh/layers/dprnn.py	/^EPS = torch.finfo(torch.get_default_dtype()).eps$/;"	v
+EPS	enh/layers/tcn.py	/^EPS = torch.finfo(torch.get_default_dtype()).eps$/;"	v
+EPS	enh/loss/criterions/abs_loss.py	/^EPS = torch.finfo(torch.get_default_dtype()).eps$/;"	v
+EPS	enh/loss/criterions/tf_domain.py	/^EPS = torch.finfo(torch.get_default_dtype()).eps$/;"	v
+EPS	enh/loss/criterions/time_domain.py	/^EPS = torch.finfo(torch.get_default_dtype()).eps$/;"	v
+EPS	utils/griffin_lim.py	/^EPS = 1e-10$/;"	v
+ESPnetASRModel	asr/espnet_model.py	/^class ESPnetASRModel(AbsESPnetModel):$/;"	c
+ESPnetDataset	train/dataset.py	/^class ESPnetDataset(AbsDataset):$/;"	c
+ESPnetDiarizationModel	diar/espnet_model.py	/^class ESPnetDiarizationModel(AbsESPnetModel):$/;"	c
+ESPnetEnhancementModel	enh/espnet_model.py	/^class ESPnetEnhancementModel(AbsESPnetModel):$/;"	c
+ESPnetGANTTSModel	gan_tts/espnet_model.py	/^class ESPnetGANTTSModel(AbsGANESPnetModel):$/;"	c
+ESPnetLanguageModel	lm/espnet_model.py	/^class ESPnetLanguageModel(AbsESPnetModel):$/;"	c
+ESPnetTTSModel	tts/espnet_model.py	/^class ESPnetTTSModel(AbsESPnetModel):$/;"	c
+ElementwiseAffineFlow	gan_tts/vits/flow.py	/^class ElementwiseAffineFlow(torch.nn.Module):$/;"	c
+EncoderPrenet	tts/transformer/transformer.py	/^from espnet.nets.pytorch_backend.tacotron2.encoder import Encoder as EncoderPrenet$/;"	x	nameref:unknown:Encoder
+Energy	tts/feats_extract/energy.py	/^class Energy(AbsFeatsExtract):$/;"	c
+EnhPackedContents	bin/pack.py	/^class EnhPackedContents(PackedContents):$/;"	c
+EnhancementTask	tasks/enh.py	/^class EnhancementTask(AbsTask):$/;"	c
+F	asr/ctc.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	asr/decoder/rnn_decoder.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	enh/layers/dnn_beamformer.py	/^from torch.nn import functional as F$/;"	x	nameref:unknown:functional
+F	enh/layers/mask_estimator.py	/^from torch.nn import functional as F$/;"	x	nameref:unknown:functional
+F	enh/layers/tcn.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	enh/layers/wpe.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	gan_tts/hifigan/hifigan.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	gan_tts/hifigan/loss.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	gan_tts/melgan/pqmf.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	gan_tts/parallel_wavegan/upsample.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	gan_tts/style_melgan/style_melgan.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	gan_tts/vits/duration_predictor.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	gan_tts/vits/generator.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	gan_tts/vits/transform.py	/^from torch.nn import functional as F$/;"	x	nameref:unknown:functional
+F	gan_tts/wavenet/residual_block.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	hubert/hubert_loss.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	lm/espnet_model.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	tts/fastspeech/fastspeech.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	tts/fastspeech2/fastspeech2.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	tts/feats_extract/dio.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	tts/feats_extract/energy.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	tts/tacotron2/tacotron2.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	tts/transformer/transformer.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+FC	enh/layers/beamformer.py	/^from torch_complex import functional as FC$/;"	x	nameref:unknown:functional
+FC	enh/layers/complex_utils.py	/^from torch_complex import functional as FC$/;"	x	nameref:unknown:functional
+FC	enh/layers/dnn_beamformer.py	/^from torch_complex import functional as FC$/;"	x	nameref:unknown:functional
+FC	enh/layers/wpe.py	/^import torch_complex.functional as FC$/;"	I	nameref:module:torch_complex.functional
+FairSeqWav2Vec2Encoder	asr/encoder/wav2vec2_encoder.py	/^class FairSeqWav2Vec2Encoder(AbsEncoder):$/;"	c
+FairseqHubertEncoder	asr/encoder/hubert_encoder.py	/^class FairseqHubertEncoder(AbsEncoder):$/;"	c
+FairseqHubertPretrainEncoder	asr/encoder/hubert_encoder.py	/^class FairseqHubertPretrainEncoder(AbsEncoder):$/;"	c
+FastSpeech	tts/fastspeech/fastspeech.py	/^class FastSpeech(AbsTTS):$/;"	c
+FastSpeech2	tts/fastspeech2/fastspeech2.py	/^class FastSpeech2(AbsTTS):$/;"	c
+FastSpeech2Loss	tts/fastspeech2/loss.py	/^class FastSpeech2Loss(torch.nn.Module):$/;"	c
+FastSpeechLoss	tts/fastspeech/fastspeech.py	/^    FeedForwardTransformerLoss as FastSpeechLoss,  # NOQA$/;"	x	nameref:unknown:FeedForwardTransformerLoss
+FeatureMatchLoss	gan_tts/hifigan/loss.py	/^class FeatureMatchLoss(torch.nn.Module):$/;"	c
+FixedOrderSolver	enh/loss/wrappers/fixed_order.py	/^class FixedOrderSolver(AbsLossWrapper):$/;"	c
+FlipFlow	gan_tts/vits/flow.py	/^class FlipFlow(torch.nn.Module):$/;"	c
+FloatRandomGenerateDataset	fileio/rand_gen_dataset.py	/^class FloatRandomGenerateDataset(collections.abc.Mapping):$/;"	c
+FoldedBatchSampler	samplers/folded_batch_sampler.py	/^class FoldedBatchSampler(AbsSampler):$/;"	c
+ForwardAdaptor	torch_utils/forward_adaptor.py	/^class ForwardAdaptor(torch.nn.Module):$/;"	c
+FrequencyDomainL1	enh/loss/criterions/tf_domain.py	/^class FrequencyDomainL1(FrequencyDomainLoss):$/;"	c
+FrequencyDomainLoss	enh/loss/criterions/tf_domain.py	/^class FrequencyDomainLoss(AbsEnhLoss, ABC):$/;"	c
+FrequencyDomainMSE	enh/loss/criterions/tf_domain.py	/^class FrequencyDomainMSE(FrequencyDomainLoss):$/;"	c
+FusedFrontends	asr/frontend/fused.py	/^class FusedFrontends(AbsFrontend):$/;"	c
+G2p_en	text/phoneme_tokenizer.py	/^class G2p_en:$/;"	c
+G2pk	text/phoneme_tokenizer.py	/^class G2pk:$/;"	c
+GANTTSTask	tasks/gan_tts.py	/^class GANTTSTask(AbsTask):$/;"	c
+GANTrainer	train/gan_trainer.py	/^class GANTrainer(Trainer):$/;"	c
+GANTrainerOptions	train/gan_trainer.py	/^class GANTrainerOptions(TrainerOptions):$/;"	c
+GeneratorAdversarialLoss	gan_tts/hifigan/loss.py	/^class GeneratorAdversarialLoss(torch.nn.Module):$/;"	c
+GlobalLayerNorm	enh/layers/tcn.py	/^class GlobalLayerNorm(nn.Module):$/;"	c
+GlobalMVN	layers/global_mvn.py	/^class GlobalMVN(AbsNormalize, InversibleInterface):$/;"	c
+GradScaler	train/gan_trainer.py	/^    GradScaler = None$/;"	v
+GradScaler	train/trainer.py	/^    GradScaler = None$/;"	v
+H5FileWrapper	train/dataset.py	/^class H5FileWrapper:$/;"	c
+HiFiGANGenerator	gan_tts/hifigan/hifigan.py	/^class HiFiGANGenerator(torch.nn.Module):$/;"	c
+HiFiGANMultiPeriodDiscriminator	gan_tts/hifigan/hifigan.py	/^class HiFiGANMultiPeriodDiscriminator(torch.nn.Module):$/;"	c
+HiFiGANMultiScaleDiscriminator	gan_tts/hifigan/hifigan.py	/^class HiFiGANMultiScaleDiscriminator(torch.nn.Module):$/;"	c
+HiFiGANMultiScaleMultiPeriodDiscriminator	gan_tts/hifigan/hifigan.py	/^class HiFiGANMultiScaleMultiPeriodDiscriminator(torch.nn.Module):$/;"	c
+HiFiGANPeriodDiscriminator	gan_tts/hifigan/hifigan.py	/^class HiFiGANPeriodDiscriminator(torch.nn.Module):$/;"	c
+HiFiGANScaleDiscriminator	gan_tts/hifigan/hifigan.py	/^class HiFiGANScaleDiscriminator(torch.nn.Module):$/;"	c
+HubertPretrainLoss	hubert/hubert_loss.py	/^class HubertPretrainLoss(nn.Module):$/;"	c
+HubertPretrainModel	hubert/espnet_model.py	/^class HubertPretrainModel(AbsESPnetModel):$/;"	c
+HubertTask	tasks/hubert.py	/^class HubertTask(AbsTask):$/;"	c
+HuggingFaceTransformersPostEncoder	asr/postencoder/hugging_face_transformers_postencoder.py	/^class HuggingFaceTransformersPostEncoder(AbsPostEncoder):$/;"	c
+IntRandomGenerateDataset	fileio/rand_gen_dataset.py	/^class IntRandomGenerateDataset(collections.abc.Mapping):$/;"	c
+Invalid	utils/get_default_kwargs.py	/^class Invalid:$/;"	c
+InversibleInterface	layers/inversible_interface.py	/^class InversibleInterface(ABC):$/;"	c
+IterableESPnetDataset	train/iterable_dataset.py	/^class IterableESPnetDataset(IterableDataset):$/;"	c
+IteratorOptions	tasks/abs_task.py	/^class IteratorOptions:$/;"	c
+JAMO_LEADS	text/phoneme_tokenizer.py	/^    JAMO_LEADS = "".join([chr(_) for _ in range(0x1100, 0x1113)])$/;"	v	class:Jaso
+JAMO_TAILS	text/phoneme_tokenizer.py	/^    JAMO_TAILS = "".join([chr(_) for _ in range(0x11A8, 0x11C3)])$/;"	v	class:Jaso
+JAMO_VOWELS	text/phoneme_tokenizer.py	/^    JAMO_VOWELS = "".join([chr(_) for _ in range(0x1161, 0x1176)])$/;"	v	class:Jaso
+Jaso	text/phoneme_tokenizer.py	/^class Jaso:$/;"	c
+JointText2Wav	gan_tts/joint/joint_text2wav.py	/^class JointText2Wav(AbsGANTTS):$/;"	c
+KLDivergenceLoss	gan_tts/vits/loss.py	/^class KLDivergenceLoss(torch.nn.Module):$/;"	c
+KoreanCleaner	text/korean_cleaner.py	/^class KoreanCleaner:$/;"	c
+L	schedulers/abs_scheduler.py	/^import torch.optim.lr_scheduler as L$/;"	I	nameref:module:torch.optim.lr_scheduler
+LMTask	tasks/lm.py	/^class LMTask(AbsTask):$/;"	c
+LabelAggregate	layers/label_aggregation.py	/^class LabelAggregate(torch.nn.Module):$/;"	c
+LabelProcessor	diar/label_processor.py	/^class LabelProcessor(torch.nn.Module):$/;"	c
+LengthBatchSampler	samplers/length_batch_sampler.py	/^class LengthBatchSampler(AbsSampler):$/;"	c
+LightweightConvolution2DTransformerDecoder	asr/decoder/transformer_decoder.py	/^class LightweightConvolution2DTransformerDecoder(BaseTransformerDecoder):$/;"	c
+LightweightConvolutionTransformerDecoder	asr/decoder/transformer_decoder.py	/^class LightweightConvolutionTransformerDecoder(BaseTransformerDecoder):$/;"	c
+LightweightSincConvs	asr/preencoder/sinc.py	/^class LightweightSincConvs(AbsPreEncoder):$/;"	c
+LinearDecoder	diar/decoder/linear_decoder.py	/^class LinearDecoder(AbsDecoder):$/;"	c
+LinearProjection	asr/preencoder/linear.py	/^class LinearProjection(AbsPreEncoder):$/;"	c
+LinearSpectrogram	tts/feats_extract/linear_spectrogram.py	/^class LinearSpectrogram(AbsFeatsExtract):$/;"	c
+LogCompression	layers/sinc_conv.py	/^class LogCompression(torch.nn.Module):$/;"	c
+LogFlow	gan_tts/vits/flow.py	/^class LogFlow(torch.nn.Module):$/;"	c
+LogMel	layers/log_mel.py	/^class LogMel(torch.nn.Module):$/;"	c
+LogMelFbank	tts/feats_extract/log_mel_fbank.py	/^class LogMelFbank(AbsFeatsExtract):$/;"	c
+LogSpectrogram	tts/feats_extract/log_spectrogram.py	/^class LogSpectrogram(AbsFeatsExtract):$/;"	c
+MAX_REFERENCE_NUM	tasks/enh.py	/^MAX_REFERENCE_NUM = 100$/;"	v
+MAX_REFERENCE_NUM	tasks/enh_asr.py	/^MAX_REFERENCE_NUM = 100$/;"	v
+MaskAlongAxis	layers/mask_along_axis.py	/^class MaskAlongAxis(torch.nn.Module):$/;"	c
+MaskEstimator	enh/layers/mask_estimator.py	/^class MaskEstimator(torch.nn.Module):$/;"	c
+MelGANDiscriminator	gan_tts/melgan/melgan.py	/^class MelGANDiscriminator(torch.nn.Module):$/;"	c
+MelGANGenerator	gan_tts/melgan/melgan.py	/^class MelGANGenerator(torch.nn.Module):$/;"	c
+MelGANMultiScaleDiscriminator	gan_tts/melgan/melgan.py	/^class MelGANMultiScaleDiscriminator(torch.nn.Module):$/;"	c
+MelScale	layers/sinc_conv.py	/^class MelScale:$/;"	c
+MelSpectrogramLoss	gan_tts/hifigan/loss.py	/^class MelSpectrogramLoss(torch.nn.Module):$/;"	c
+MultiHeadedAttention	tts/gst/style_encoder.py	/^class MultiHeadedAttention(BaseMultiHeadedAttention):$/;"	c
+MultipleIterFactory	iterators/multiple_iter_factory.py	/^class MultipleIterFactory(AbsIterFactory):$/;"	c
+NestedDictAction	utils/nested_dict_action.py	/^class NestedDictAction(argparse.Action):$/;"	c
+NeuralBeamformer	enh/separator/neural_beamformer.py	/^class NeuralBeamformer(AbsSeparator):$/;"	c
+NoAliasSafeDumper	utils/yaml_no_alias_safe_dump.py	/^class NoAliasSafeDumper(yaml.SafeDumper):$/;"	c
+NoamLR	schedulers/noam_lr.py	/^class NoamLR(_LRScheduler, AbsBatchStepScheduler):$/;"	c
+NpyScpReader	fileio/npy_scp.py	/^class NpyScpReader(collections.abc.Mapping):$/;"	c
+NpyScpWriter	fileio/npy_scp.py	/^class NpyScpWriter:$/;"	c
+NullDecoder	enh/decoder/null_decoder.py	/^class NullDecoder(AbsDecoder):$/;"	c
+NullEncoder	enh/encoder/null_encoder.py	/^class NullEncoder(AbsEncoder):$/;"	c
+Num	train/reporter.py	/^Num = Union[float, int, complex, torch.Tensor, np.ndarray]$/;"	v
+NumElementsBatchSampler	samplers/num_elements_batch_sampler.py	/^class NumElementsBatchSampler(AbsSampler):$/;"	c
+PITSolver	enh/loss/wrappers/pit_solver.py	/^class PITSolver(AbsLossWrapper):$/;"	c
+PQMF	gan_tts/melgan/pqmf.py	/^class PQMF(torch.nn.Module):$/;"	c
+PUNC	text/phoneme_tokenizer.py	/^    PUNC = "!'(),-.:;?"$/;"	v	class:Jaso
+PackedContents	bin/pack.py	/^class PackedContents:$/;"	c
+ParallelWaveGANDiscriminator	gan_tts/parallel_wavegan/parallel_wavegan.py	/^class ParallelWaveGANDiscriminator(torch.nn.Module):$/;"	c
+ParallelWaveGANGenerator	gan_tts/parallel_wavegan/parallel_wavegan.py	/^class ParallelWaveGANGenerator(torch.nn.Module):$/;"	c
+ParallelWaveGANPretrainedVocoder	tts/utils/parallel_wavegan_pretrained_vocoder.py	/^class ParallelWaveGANPretrainedVocoder(torch.nn.Module):$/;"	c
+PhonemeTokenizer	text/phoneme_tokenizer.py	/^class PhonemeTokenizer(AbsTokenizer):$/;"	c
+Phonemizer	text/phoneme_tokenizer.py	/^class Phonemizer:$/;"	c
+PosteriorEncoder	gan_tts/vits/posterior_encoder.py	/^class PosteriorEncoder(torch.nn.Module):$/;"	c
+ProcessContext	tasks/abs_task.py	/^    from torch.multiprocessing.spawn import SpawnContext as ProcessContext$/;"	x	nameref:unknown:SpawnContext
+RNNDecoder	asr/decoder/rnn_decoder.py	/^class RNNDecoder(AbsDecoder):$/;"	c
+RNNEncoder	asr/encoder/rnn_encoder.py	/^class RNNEncoder(AbsEncoder):$/;"	c
+RNNSeparator	enh/separator/rnn_separator.py	/^class RNNSeparator(AbsSeparator):$/;"	c
+RawSampler	iterators/sequence_iter_factory.py	/^class RawSampler(AbsSampler):$/;"	c
+ReferenceEncoder	tts/gst/style_encoder.py	/^class ReferenceEncoder(torch.nn.Module):$/;"	c
+ReportedValue	train/reporter.py	/^class ReportedValue:$/;"	c
+Reporter	train/reporter.py	/^class Reporter:$/;"	c
+ResidualAffineCouplingBlock	gan_tts/vits/residual_coupling.py	/^class ResidualAffineCouplingBlock(torch.nn.Module):$/;"	c
+ResidualAffineCouplingLayer	gan_tts/vits/residual_coupling.py	/^class ResidualAffineCouplingLayer(torch.nn.Module):$/;"	c
+ResidualBlock	gan_tts/hifigan/residual_block.py	/^class ResidualBlock(torch.nn.Module):$/;"	c
+ResidualBlock	gan_tts/wavenet/residual_block.py	/^class ResidualBlock(torch.nn.Module):$/;"	c
+ResidualStack	gan_tts/melgan/residual_stack.py	/^class ResidualStack(torch.nn.Module):$/;"	c
+RnnAttractor	diar/attractor/rnn_attractor.py	/^class RnnAttractor(AbsAttractor):$/;"	c
+RttmReader	fileio/rttm.py	/^class RttmReader(collections.abc.Mapping):$/;"	c
+S3prlFrontend	asr/frontend/s3prl.py	/^class S3prlFrontend(AbsFrontend):$/;"	c
+SGD	optimizers/sgd.py	/^class SGD(torch.optim.SGD):$/;"	c
+SISNRLoss	enh/loss/criterions/time_domain.py	/^class SISNRLoss(TimeDomainLoss):$/;"	c
+SNRLoss	enh/loss/criterions/time_domain.py	/^class SNRLoss(TimeDomainLoss):$/;"	c
+SPACE	text/phoneme_tokenizer.py	/^    SPACE = " "$/;"	v	class:Jaso
+STFTDecoder	enh/decoder/stft_decoder.py	/^class STFTDecoder(AbsDecoder):$/;"	c
+STFTEncoder	enh/encoder/stft_encoder.py	/^class STFTEncoder(AbsEncoder):$/;"	c
+SentencepiecesTokenizer	text/sentencepiece_tokenizer.py	/^class SentencepiecesTokenizer(AbsTokenizer):$/;"	c
+SeparateSpeech	bin/enh_inference.py	/^class SeparateSpeech:$/;"	c
+SequenceIterFactory	iterators/sequence_iter_factory.py	/^class SequenceIterFactory(AbsIterFactory):$/;"	c
+SequentialRNNLM	lm/seq_rnn_lm.py	/^class SequentialRNNLM(AbsLM):$/;"	c
+SincConv	layers/sinc_conv.py	/^class SincConv(torch.nn.Module):$/;"	c
+SingleRNN	enh/layers/dprnn.py	/^class SingleRNN(nn.Module):$/;"	c
+SizedDict	utils/sized_dict.py	/^class SizedDict(collections.abc.MutableMapping):$/;"	c
+SlidingWindow	asr/frontend/windowing.py	/^class SlidingWindow(AbsFrontend):$/;"	c
+SortedBatchSampler	samplers/sorted_batch_sampler.py	/^class SortedBatchSampler(AbsSampler):$/;"	c
+SoundScpReader	fileio/sound_scp.py	/^class SoundScpReader(collections.abc.Mapping):$/;"	c
+SoundScpWriter	fileio/sound_scp.py	/^class SoundScpWriter:$/;"	c
+SpatialDropout	asr/preencoder/sinc.py	/^class SpatialDropout(torch.nn.Module):$/;"	c
+SpecAug	asr/specaug/specaug.py	/^class SpecAug(AbsSpecAug):$/;"	c
+Spectrogram2Waveform	utils/griffin_lim.py	/^class Spectrogram2Waveform(object):$/;"	c
+Speech2Text	bin/asr_inference.py	/^class Speech2Text:$/;"	c
+Speech2TextStreaming	bin/asr_inference_streaming.py	/^class Speech2TextStreaming:$/;"	c
+Stft	layers/stft.py	/^class Stft(torch.nn.Module, InversibleInterface):$/;"	c
+StochasticDurationPredictor	gan_tts/vits/duration_predictor.py	/^class StochasticDurationPredictor(torch.nn.Module):$/;"	c
+Stretch2d	gan_tts/parallel_wavegan/upsample.py	/^class Stretch2d(torch.nn.Module):$/;"	c
+StyleEncoder	tts/gst/style_encoder.py	/^class StyleEncoder(torch.nn.Module):$/;"	c
+StyleMelGANDiscriminator	gan_tts/style_melgan/style_melgan.py	/^class StyleMelGANDiscriminator(torch.nn.Module):$/;"	c
+StyleMelGANGenerator	gan_tts/style_melgan/style_melgan.py	/^class StyleMelGANGenerator(torch.nn.Module):$/;"	c
+StyleTokenLayer	tts/gst/style_encoder.py	/^class StyleTokenLayer(torch.nn.Module):$/;"	c
+SubReporter	train/reporter.py	/^class SubReporter:$/;"	c
+TADELayer	gan_tts/style_melgan/tade_res_block.py	/^class TADELayer(torch.nn.Module):$/;"	c
+TADEResBlock	gan_tts/style_melgan/tade_res_block.py	/^class TADEResBlock(torch.nn.Module):$/;"	c
+TCNSeparator	enh/separator/tcn_separator.py	/^class TCNSeparator(AbsSeparator):$/;"	c
+TTSPackedContents	bin/pack.py	/^class TTSPackedContents(PackedContents):$/;"	c
+TTSTask	tasks/tts.py	/^class TTSTask(AbsTask):$/;"	c
+Tacotron2	tts/tacotron2/tacotron2.py	/^class Tacotron2(AbsTTS):$/;"	c
+TemporalBlock	enh/layers/tcn.py	/^class TemporalBlock(nn.Module):$/;"	c
+TemporalConvNet	enh/layers/tcn.py	/^class TemporalConvNet(nn.Module):$/;"	c
+Text2Speech	bin/tts_inference.py	/^class Text2Speech:$/;"	c
+TextCleaner	text/cleaner.py	/^class TextCleaner:$/;"	c
+TextEncoder	gan_tts/vits/text_encoder.py	/^class TextEncoder(torch.nn.Module):$/;"	c
+TimeDomainLoss	enh/loss/criterions/time_domain.py	/^class TimeDomainLoss(AbsEnhLoss, ABC):$/;"	c
+TimeWarp	layers/time_warp.py	/^class TimeWarp(torch.nn.Module):$/;"	c
+TokenIDConverter	text/token_id_converter.py	/^class TokenIDConverter:$/;"	c
+Trainer	train/trainer.py	/^class Trainer:$/;"	c
+TrainerOptions	train/trainer.py	/^class TrainerOptions:$/;"	c
+Transformer	tts/transformer/transformer.py	/^class Transformer(AbsTTS):$/;"	c
+TransformerDecoder	asr/decoder/transformer_decoder.py	/^class TransformerDecoder(BaseTransformerDecoder):$/;"	c
+TransformerEncoder	asr/encoder/transformer_encoder.py	/^class TransformerEncoder(AbsEncoder):$/;"	c
+TransformerEncoder	enh/separator/transformer_separator.py	/^    Encoder as TransformerEncoder,  # noqa: H301$/;"	x	nameref:unknown:Encoder
+TransformerEncoder	tts/fastspeech/fastspeech.py	/^    Encoder as TransformerEncoder,  # noqa: H301$/;"	x	nameref:unknown:Encoder
+TransformerEncoder	tts/fastspeech2/fastspeech2.py	/^    Encoder as TransformerEncoder,  # noqa: H301$/;"	x	nameref:unknown:Encoder
+TransformerLM	lm/transformer_lm.py	/^class TransformerLM(AbsLM):$/;"	c
+TransformerSeparator	enh/separator/transformer_separator.py	/^class TransformerSeparator(AbsSeparator):$/;"	c
+Transpose	gan_tts/vits/flow.py	/^class Transpose(torch.nn.Module):$/;"	c
+UnsortedBatchSampler	samplers/unsorted_batch_sampler.py	/^class UnsortedBatchSampler(AbsSampler):$/;"	c
+UpsampleNetwork	gan_tts/parallel_wavegan/upsample.py	/^class UpsampleNetwork(torch.nn.Module):$/;"	c
+UtteranceMVN	layers/utterance_mvn.py	/^class UtteranceMVN(AbsNormalize):$/;"	c
+VALID_CHARS	text/phoneme_tokenizer.py	/^    VALID_CHARS = JAMO_LEADS + JAMO_VOWELS + JAMO_TAILS + PUNC + SPACE$/;"	v	class:Jaso
+VGGRNNEncoder	asr/encoder/vgg_rnn_encoder.py	/^class VGGRNNEncoder(AbsEncoder):$/;"	c
+VITS	gan_tts/vits/vits.py	/^class VITS(AbsGANTTS):$/;"	c
+VITSGenerator	gan_tts/vits/generator.py	/^class VITSGenerator(torch.nn.Module):$/;"	c
+VariancePredictor	tts/fastspeech2/variance_predictor.py	/^class VariancePredictor(torch.nn.Module):$/;"	c
+WarmupLR	schedulers/warmup_lr.py	/^class WarmupLR(_LRScheduler, AbsBatchStepScheduler):$/;"	c
+WaveNet	gan_tts/wavenet/wavenet.py	/^class WaveNet(torch.nn.Module):$/;"	c
+WeightedAverage	train/reporter.py	/^class WeightedAverage(ReportedValue):$/;"	c
+WordTokenizer	text/word_tokenizer.py	/^class WordTokenizer(AbsTokenizer):$/;"	c
+__call__	bin/asr_align.py	/^    def __call__($/;"	m	class:CTCSegmentation	typeref:typename:CTCSegmentationTask
+__call__	bin/asr_inference.py	/^    def __call__($/;"	m	class:Speech2Text	typeref:typename:List[Tuple[Optional[str],List[str],List[int],Hypothesis]]
+__call__	bin/asr_inference_k2.py	/^    def __call__($/;"	m	class:k2Speech2Text	typeref:typename:List[Tuple[Optional[str],List[str],List[int],float]]
+__call__	bin/asr_inference_streaming.py	/^    def __call__($/;"	m	class:Speech2TextStreaming	typeref:typename:List[Tuple[Optional[str],List[str],List[int],Hypothesis]]
+__call__	bin/diar_inference.py	/^    def __call__($/;"	m	class:DiarizeSpeech	typeref:typename:List[torch.Tensor]
+__call__	bin/enh_inference.py	/^    def __call__($/;"	m	class:SeparateSpeech	typeref:typename:List[torch.Tensor]
+__call__	bin/tts_inference.py	/^    def __call__($/;"	m	class:Text2Speech	typeref:typename:Dict[str,torch.Tensor]
+__call__	text/cleaner.py	/^    def __call__(self, text: str) -> str:$/;"	m	class:TextCleaner	typeref:typename:str
+__call__	text/phoneme_tokenizer.py	/^    def __call__(self, text) -> List[str]:$/;"	m	class:G2p_en	typeref:typename:List[str]
+__call__	text/phoneme_tokenizer.py	/^    def __call__(self, text) -> List[str]:$/;"	m	class:G2pk	typeref:typename:List[str]
+__call__	text/phoneme_tokenizer.py	/^    def __call__(self, text) -> List[str]:$/;"	m	class:Jaso	typeref:typename:List[str]
+__call__	text/phoneme_tokenizer.py	/^    def __call__(self, text) -> List[str]:$/;"	m	class:Phonemizer	typeref:typename:List[str]
+__call__	train/collate_fn.py	/^    def __call__($/;"	m	class:CommonCollateFn	typeref:typename:Tuple[List[str],Dict[str,torch.Tensor]]
+__call__	train/preprocessor.py	/^    def __call__($/;"	m	class:AbsPreprocessor	typeref:typename:Dict[str,np.ndarray]
+__call__	train/preprocessor.py	/^    def __call__($/;"	m	class:CommonPreprocessor	typeref:typename:Dict[str,np.ndarray]
+__call__	train/preprocessor.py	/^    def __call__($/;"	m	class:CommonPreprocessor_multi	typeref:typename:Dict[str,np.ndarray]
+__call__	utils/griffin_lim.py	/^    def __call__(self, spc: torch.Tensor) -> torch.Tensor:$/;"	m	class:Spectrogram2Waveform	typeref:typename:torch.Tensor
+__call__	utils/nested_dict_action.py	/^    def __call__(self, parser, namespace, values, option_strings=None):$/;"	m	class:NestedDictAction
+__contains__	fileio/npy_scp.py	/^    def __contains__(self, item):$/;"	m	class:NpyScpReader
+__contains__	fileio/rttm.py	/^    def __contains__(self, item):$/;"	m	class:RttmReader
+__contains__	fileio/sound_scp.py	/^    def __contains__(self, item):$/;"	m	class:SoundScpReader
+__contains__	utils/sized_dict.py	/^    def __contains__(self, key):$/;"	m	class:SizedDict
+__delitem__	utils/sized_dict.py	/^    def __delitem__(self, key):$/;"	m	class:SizedDict
+__enter__	fileio/datadir_writer.py	/^    def __enter__(self):$/;"	m	class:DatadirWriter
+__enter__	fileio/npy_scp.py	/^    def __enter__(self):$/;"	m	class:NpyScpWriter
+__enter__	fileio/sound_scp.py	/^    def __enter__(self):$/;"	m	class:SoundScpWriter
+__enter__	main_funcs/pack_funcs.py	/^    def __enter__(self):$/;"	m	class:Archiver
+__exit__	fileio/datadir_writer.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:DatadirWriter
+__exit__	fileio/npy_scp.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:NpyScpWriter
+__exit__	fileio/sound_scp.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:SoundScpWriter
+__exit__	main_funcs/pack_funcs.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:Archiver
+__getitem__	fileio/datadir_writer.py	/^    def __getitem__(self, key: str) -> "DatadirWriter":$/;"	m	class:DatadirWriter	typeref:typename:"DatadirWriter"
+__getitem__	fileio/npy_scp.py	/^    def __getitem__(self, key) -> np.ndarray:$/;"	m	class:NpyScpReader	typeref:typename:np.ndarray
+__getitem__	fileio/rand_gen_dataset.py	/^    def __getitem__(self, item) -> np.ndarray:$/;"	m	class:FloatRandomGenerateDataset	typeref:typename:np.ndarray
+__getitem__	fileio/rand_gen_dataset.py	/^    def __getitem__(self, item) -> np.ndarray:$/;"	m	class:IntRandomGenerateDataset	typeref:typename:np.ndarray
+__getitem__	fileio/rttm.py	/^    def __getitem__(self, key):$/;"	m	class:RttmReader
+__getitem__	fileio/sound_scp.py	/^    def __getitem__(self, key):$/;"	m	class:SoundScpReader
+__getitem__	train/dataset.py	/^    def __getitem__(self, key) -> np.ndarray:$/;"	m	class:H5FileWrapper	typeref:typename:np.ndarray
+__getitem__	train/dataset.py	/^    def __getitem__(self, key: str) -> np.ndarray:$/;"	m	class:AdapterForSoundScpReader	typeref:typename:np.ndarray
+__getitem__	train/dataset.py	/^    def __getitem__(self, uid) -> Tuple[Any, Dict[str, np.ndarray]]:$/;"	m	class:AbsDataset	typeref:typename:Tuple[Any,Dict[str,np.ndarray]]
+__getitem__	train/dataset.py	/^    def __getitem__(self, uid: Union[str, int]) -> Tuple[str, Dict[str, np.ndarray]]:$/;"	m	class:ESPnetDataset	typeref:typename:Tuple[str,Dict[str,np.ndarray]]
+__getitem__	utils/sized_dict.py	/^    def __getitem__(self, key):$/;"	m	class:SizedDict
+__init__	asr/ctc.py	/^    def __init__($/;"	m	class:CTC
+__init__	asr/decoder/rnn_decoder.py	/^    def __init__($/;"	m	class:RNNDecoder
+__init__	asr/decoder/transformer_decoder.py	/^    def __init__($/;"	m	class:BaseTransformerDecoder
+__init__	asr/decoder/transformer_decoder.py	/^    def __init__($/;"	m	class:DynamicConvolution2DTransformerDecoder
+__init__	asr/decoder/transformer_decoder.py	/^    def __init__($/;"	m	class:DynamicConvolutionTransformerDecoder
+__init__	asr/decoder/transformer_decoder.py	/^    def __init__($/;"	m	class:LightweightConvolution2DTransformerDecoder
+__init__	asr/decoder/transformer_decoder.py	/^    def __init__($/;"	m	class:LightweightConvolutionTransformerDecoder
+__init__	asr/decoder/transformer_decoder.py	/^    def __init__($/;"	m	class:TransformerDecoder
+__init__	asr/encoder/conformer_encoder.py	/^    def __init__($/;"	m	class:ConformerEncoder
+__init__	asr/encoder/contextual_block_conformer_encoder.py	/^    def __init__($/;"	m	class:ContextualBlockConformerEncoder
+__init__	asr/encoder/contextual_block_transformer_encoder.py	/^    def __init__($/;"	m	class:ContextualBlockTransformerEncoder
+__init__	asr/encoder/hubert_encoder.py	/^    def __init__($/;"	m	class:FairseqHubertEncoder
+__init__	asr/encoder/hubert_encoder.py	/^    def __init__($/;"	m	class:FairseqHubertPretrainEncoder
+__init__	asr/encoder/rnn_encoder.py	/^    def __init__($/;"	m	class:RNNEncoder
+__init__	asr/encoder/transformer_encoder.py	/^    def __init__($/;"	m	class:TransformerEncoder
+__init__	asr/encoder/vgg_rnn_encoder.py	/^    def __init__($/;"	m	class:VGGRNNEncoder
+__init__	asr/encoder/wav2vec2_encoder.py	/^    def __init__($/;"	m	class:FairSeqWav2Vec2Encoder
+__init__	asr/espnet_model.py	/^    def __init__($/;"	m	class:ESPnetASRModel
+__init__	asr/frontend/default.py	/^    def __init__($/;"	m	class:DefaultFrontend
+__init__	asr/frontend/fused.py	/^    def __init__($/;"	m	class:FusedFrontends
+__init__	asr/frontend/s3prl.py	/^    def __init__($/;"	m	class:S3prlFrontend
+__init__	asr/frontend/windowing.py	/^    def __init__($/;"	m	class:SlidingWindow
+__init__	asr/postencoder/hugging_face_transformers_postencoder.py	/^    def __init__($/;"	m	class:HuggingFaceTransformersPostEncoder
+__init__	asr/preencoder/linear.py	/^    def __init__($/;"	m	class:LinearProjection
+__init__	asr/preencoder/sinc.py	/^    def __init__($/;"	m	class:LightweightSincConvs
+__init__	asr/preencoder/sinc.py	/^    def __init__($/;"	m	class:SpatialDropout
+__init__	asr/specaug/specaug.py	/^    def __init__($/;"	m	class:SpecAug
+__init__	bin/asr_align.py	/^    def __init__($/;"	m	class:CTCSegmentation
+__init__	bin/asr_align.py	/^    def __init__(self, **kwargs):$/;"	m	class:CTCSegmentationTask
+__init__	bin/asr_inference.py	/^    def __init__($/;"	m	class:Speech2Text
+__init__	bin/asr_inference_k2.py	/^    def __init__($/;"	m	class:k2Speech2Text
+__init__	bin/asr_inference_streaming.py	/^    def __init__($/;"	m	class:Speech2TextStreaming
+__init__	bin/diar_inference.py	/^    def __init__($/;"	m	class:DiarizeSpeech
+__init__	bin/enh_inference.py	/^    def __init__($/;"	m	class:SeparateSpeech
+__init__	bin/tts_inference.py	/^    def __init__($/;"	m	class:Text2Speech
+__init__	diar/attractor/rnn_attractor.py	/^    def __init__($/;"	m	class:RnnAttractor
+__init__	diar/decoder/linear_decoder.py	/^    def __init__($/;"	m	class:LinearDecoder
+__init__	diar/espnet_model.py	/^    def __init__($/;"	m	class:ESPnetDiarizationModel
+__init__	diar/label_processor.py	/^    def __init__($/;"	m	class:LabelProcessor
+__init__	enh/decoder/conv_decoder.py	/^    def __init__($/;"	m	class:ConvDecoder
+__init__	enh/decoder/null_decoder.py	/^    def __init__(self):$/;"	m	class:NullDecoder
+__init__	enh/decoder/stft_decoder.py	/^    def __init__($/;"	m	class:STFTDecoder
+__init__	enh/encoder/conv_encoder.py	/^    def __init__($/;"	m	class:ConvEncoder
+__init__	enh/encoder/null_encoder.py	/^    def __init__(self):$/;"	m	class:NullEncoder
+__init__	enh/encoder/stft_encoder.py	/^    def __init__($/;"	m	class:STFTEncoder
+__init__	enh/espnet_model.py	/^    def __init__($/;"	m	class:ESPnetEnhancementModel
+__init__	enh/layers/dnn_beamformer.py	/^    def __init__($/;"	m	class:DNN_Beamformer
+__init__	enh/layers/dnn_beamformer.py	/^    def __init__(self, bidim, att_dim):$/;"	m	class:AttentionReference
+__init__	enh/layers/dnn_wpe.py	/^    def __init__($/;"	m	class:DNN_WPE
+__init__	enh/layers/dprnn.py	/^    def __init__($/;"	m	class:DPRNN
+__init__	enh/layers/dprnn.py	/^    def __init__($/;"	m	class:SingleRNN
+__init__	enh/layers/mask_estimator.py	/^    def __init__($/;"	m	class:MaskEstimator
+__init__	enh/layers/tcn.py	/^    def __init__($/;"	m	class:DepthwiseSeparableConv
+__init__	enh/layers/tcn.py	/^    def __init__($/;"	m	class:TemporalBlock
+__init__	enh/layers/tcn.py	/^    def __init__($/;"	m	class:TemporalConvNet
+__init__	enh/layers/tcn.py	/^    def __init__(self, channel_size):$/;"	m	class:ChannelwiseLayerNorm
+__init__	enh/layers/tcn.py	/^    def __init__(self, channel_size):$/;"	m	class:GlobalLayerNorm
+__init__	enh/layers/tcn.py	/^    def __init__(self, chomp_size):$/;"	m	class:Chomp1d
+__init__	enh/loss/criterions/tf_domain.py	/^    def __init__(self, compute_on_mask=False, mask_type="IBM"):$/;"	m	class:FrequencyDomainL1
+__init__	enh/loss/criterions/tf_domain.py	/^    def __init__(self, compute_on_mask=False, mask_type="IBM"):$/;"	m	class:FrequencyDomainMSE
+__init__	enh/loss/criterions/time_domain.py	/^    def __init__(self, eps=EPS):$/;"	m	class:SISNRLoss
+__init__	enh/loss/criterions/time_domain.py	/^    def __init__(self, eps=EPS):$/;"	m	class:SNRLoss
+__init__	enh/loss/criterions/time_domain.py	/^    def __init__(self, filter_length=512):$/;"	m	class:CISDRLoss
+__init__	enh/loss/wrappers/fixed_order.py	/^    def __init__(self, criterion: AbsEnhLoss, weight=1.0):$/;"	m	class:FixedOrderSolver
+__init__	enh/loss/wrappers/pit_solver.py	/^    def __init__(self, criterion: AbsEnhLoss, weight=1.0, independent_perm=True):$/;"	m	class:PITSolver
+__init__	enh/separator/asteroid_models.py	/^    def __init__($/;"	m	class:AsteroidModel_Converter
+__init__	enh/separator/conformer_separator.py	/^    def __init__($/;"	m	class:ConformerSeparator
+__init__	enh/separator/dprnn_separator.py	/^    def __init__($/;"	m	class:DPRNNSeparator
+__init__	enh/separator/neural_beamformer.py	/^    def __init__($/;"	m	class:NeuralBeamformer
+__init__	enh/separator/rnn_separator.py	/^    def __init__($/;"	m	class:RNNSeparator
+__init__	enh/separator/tcn_separator.py	/^    def __init__($/;"	m	class:TCNSeparator
+__init__	enh/separator/transformer_separator.py	/^    def __init__($/;"	m	class:TransformerSeparator
+__init__	fileio/datadir_writer.py	/^    def __init__(self, p: Union[Path, str]):$/;"	m	class:DatadirWriter
+__init__	fileio/npy_scp.py	/^    def __init__(self, fname: Union[Path, str]):$/;"	m	class:NpyScpReader
+__init__	fileio/npy_scp.py	/^    def __init__(self, outdir: Union[Path, str], scpfile: Union[Path, str]):$/;"	m	class:NpyScpWriter
+__init__	fileio/rand_gen_dataset.py	/^    def __init__($/;"	m	class:FloatRandomGenerateDataset
+__init__	fileio/rand_gen_dataset.py	/^    def __init__($/;"	m	class:IntRandomGenerateDataset
+__init__	fileio/rttm.py	/^    def __init__($/;"	m	class:RttmReader
+__init__	fileio/sound_scp.py	/^    def __init__($/;"	m	class:SoundScpReader
+__init__	fileio/sound_scp.py	/^    def __init__($/;"	m	class:SoundScpWriter
+__init__	gan_tts/espnet_model.py	/^    def __init__($/;"	m	class:ESPnetGANTTSModel
+__init__	gan_tts/hifigan/hifigan.py	/^    def __init__($/;"	m	class:HiFiGANGenerator
+__init__	gan_tts/hifigan/hifigan.py	/^    def __init__($/;"	m	class:HiFiGANMultiPeriodDiscriminator
+__init__	gan_tts/hifigan/hifigan.py	/^    def __init__($/;"	m	class:HiFiGANMultiScaleDiscriminator
+__init__	gan_tts/hifigan/hifigan.py	/^    def __init__($/;"	m	class:HiFiGANMultiScaleMultiPeriodDiscriminator
+__init__	gan_tts/hifigan/hifigan.py	/^    def __init__($/;"	m	class:HiFiGANPeriodDiscriminator
+__init__	gan_tts/hifigan/hifigan.py	/^    def __init__($/;"	m	class:HiFiGANScaleDiscriminator
+__init__	gan_tts/hifigan/loss.py	/^    def __init__($/;"	m	class:DiscriminatorAdversarialLoss
+__init__	gan_tts/hifigan/loss.py	/^    def __init__($/;"	m	class:FeatureMatchLoss
+__init__	gan_tts/hifigan/loss.py	/^    def __init__($/;"	m	class:GeneratorAdversarialLoss
+__init__	gan_tts/hifigan/loss.py	/^    def __init__($/;"	m	class:MelSpectrogramLoss
+__init__	gan_tts/hifigan/residual_block.py	/^    def __init__($/;"	m	class:ResidualBlock
+__init__	gan_tts/joint/joint_text2wav.py	/^    def __init__($/;"	m	class:JointText2Wav
+__init__	gan_tts/melgan/melgan.py	/^    def __init__($/;"	m	class:MelGANDiscriminator
+__init__	gan_tts/melgan/melgan.py	/^    def __init__($/;"	m	class:MelGANGenerator
+__init__	gan_tts/melgan/melgan.py	/^    def __init__($/;"	m	class:MelGANMultiScaleDiscriminator
+__init__	gan_tts/melgan/pqmf.py	/^    def __init__($/;"	m	class:PQMF
+__init__	gan_tts/melgan/residual_stack.py	/^    def __init__($/;"	m	class:ResidualStack
+__init__	gan_tts/parallel_wavegan/parallel_wavegan.py	/^    def __init__($/;"	m	class:ParallelWaveGANDiscriminator
+__init__	gan_tts/parallel_wavegan/parallel_wavegan.py	/^    def __init__($/;"	m	class:ParallelWaveGANGenerator
+__init__	gan_tts/parallel_wavegan/upsample.py	/^    def __init__($/;"	m	class:ConvInUpsampleNetwork
+__init__	gan_tts/parallel_wavegan/upsample.py	/^    def __init__($/;"	m	class:UpsampleNetwork
+__init__	gan_tts/parallel_wavegan/upsample.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Conv2d
+__init__	gan_tts/parallel_wavegan/upsample.py	/^    def __init__(self, x_scale: int, y_scale: int, mode: str = "nearest"):$/;"	m	class:Stretch2d
+__init__	gan_tts/style_melgan/style_melgan.py	/^    def __init__($/;"	m	class:StyleMelGANDiscriminator
+__init__	gan_tts/style_melgan/style_melgan.py	/^    def __init__($/;"	m	class:StyleMelGANGenerator
+__init__	gan_tts/style_melgan/tade_res_block.py	/^    def __init__($/;"	m	class:TADELayer
+__init__	gan_tts/style_melgan/tade_res_block.py	/^    def __init__($/;"	m	class:TADEResBlock
+__init__	gan_tts/vits/duration_predictor.py	/^    def __init__($/;"	m	class:StochasticDurationPredictor
+__init__	gan_tts/vits/flow.py	/^    def __init__($/;"	m	class:ConvFlow
+__init__	gan_tts/vits/flow.py	/^    def __init__($/;"	m	class:DilatedDepthSeparableConv
+__init__	gan_tts/vits/flow.py	/^    def __init__(self, channels: int):$/;"	m	class:ElementwiseAffineFlow
+__init__	gan_tts/vits/flow.py	/^    def __init__(self, dim1: int, dim2: int):$/;"	m	class:Transpose
+__init__	gan_tts/vits/generator.py	/^    def __init__($/;"	m	class:VITSGenerator
+__init__	gan_tts/vits/posterior_encoder.py	/^    def __init__($/;"	m	class:PosteriorEncoder
+__init__	gan_tts/vits/residual_coupling.py	/^    def __init__($/;"	m	class:ResidualAffineCouplingBlock
+__init__	gan_tts/vits/residual_coupling.py	/^    def __init__($/;"	m	class:ResidualAffineCouplingLayer
+__init__	gan_tts/vits/text_encoder.py	/^    def __init__($/;"	m	class:TextEncoder
+__init__	gan_tts/vits/vits.py	/^    def __init__($/;"	m	class:VITS
+__init__	gan_tts/wavenet/residual_block.py	/^    def __init__($/;"	m	class:ResidualBlock
+__init__	gan_tts/wavenet/residual_block.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Conv1d
+__init__	gan_tts/wavenet/residual_block.py	/^    def __init__(self, in_channels: int, out_channels: int, bias: bool):$/;"	m	class:Conv1d1x1
+__init__	gan_tts/wavenet/wavenet.py	/^    def __init__($/;"	m	class:WaveNet
+__init__	hubert/espnet_model.py	/^    def __init__($/;"	m	class:HubertPretrainModel
+__init__	hubert/hubert_loss.py	/^    def __init__($/;"	m	class:HubertPretrainLoss
+__init__	iterators/chunk_iter_factory.py	/^    def __init__($/;"	m	class:ChunkIterFactory
+__init__	iterators/multiple_iter_factory.py	/^    def __init__($/;"	m	class:MultipleIterFactory
+__init__	iterators/sequence_iter_factory.py	/^    def __init__($/;"	m	class:SequenceIterFactory
+__init__	iterators/sequence_iter_factory.py	/^    def __init__(self, batches):$/;"	m	class:RawSampler
+__init__	layers/global_mvn.py	/^    def __init__($/;"	m	class:GlobalMVN
+__init__	layers/label_aggregation.py	/^    def __init__($/;"	m	class:LabelAggregate
+__init__	layers/log_mel.py	/^    def __init__($/;"	m	class:LogMel
+__init__	layers/mask_along_axis.py	/^    def __init__($/;"	m	class:MaskAlongAxis
+__init__	layers/sinc_conv.py	/^    def __init__($/;"	m	class:SincConv
+__init__	layers/sinc_conv.py	/^    def __init__(self):$/;"	m	class:LogCompression
+__init__	layers/stft.py	/^    def __init__($/;"	m	class:Stft
+__init__	layers/time_warp.py	/^    def __init__(self, window: int = 80, mode: str = DEFAULT_TIME_WARP_MODE):$/;"	m	class:TimeWarp
+__init__	layers/utterance_mvn.py	/^    def __init__($/;"	m	class:UtteranceMVN
+__init__	lm/espnet_model.py	/^    def __init__(self, lm: AbsLM, vocab_size: int, ignore_id: int = 0):$/;"	m	class:ESPnetLanguageModel
+__init__	lm/seq_rnn_lm.py	/^    def __init__($/;"	m	class:SequentialRNNLM
+__init__	lm/transformer_lm.py	/^    def __init__($/;"	m	class:TransformerLM
+__init__	main_funcs/pack_funcs.py	/^    def __init__(self, file, mode="r"):$/;"	m	class:Archiver
+__init__	optimizers/sgd.py	/^    def __init__($/;"	m	class:SGD
+__init__	samplers/folded_batch_sampler.py	/^    def __init__($/;"	m	class:FoldedBatchSampler
+__init__	samplers/length_batch_sampler.py	/^    def __init__($/;"	m	class:LengthBatchSampler
+__init__	samplers/num_elements_batch_sampler.py	/^    def __init__($/;"	m	class:NumElementsBatchSampler
+__init__	samplers/sorted_batch_sampler.py	/^    def __init__($/;"	m	class:SortedBatchSampler
+__init__	samplers/unsorted_batch_sampler.py	/^    def __init__($/;"	m	class:UnsortedBatchSampler
+__init__	schedulers/noam_lr.py	/^    def __init__($/;"	m	class:NoamLR
+__init__	schedulers/warmup_lr.py	/^    def __init__($/;"	m	class:WarmupLR
+__init__	tasks/abs_task.py	/^    def __init__(self):$/;"	m	class:AbsTask
+__init__	text/char_tokenizer.py	/^    def __init__($/;"	m	class:CharTokenizer
+__init__	text/cleaner.py	/^    def __init__(self, cleaner_types: Collection[str] = None):$/;"	m	class:TextCleaner
+__init__	text/phoneme_tokenizer.py	/^    def __init__($/;"	m	class:G2pk
+__init__	text/phoneme_tokenizer.py	/^    def __init__($/;"	m	class:PhonemeTokenizer
+__init__	text/phoneme_tokenizer.py	/^    def __init__($/;"	m	class:Phonemizer
+__init__	text/phoneme_tokenizer.py	/^    def __init__(self, no_space: bool = False):$/;"	m	class:G2p_en
+__init__	text/phoneme_tokenizer.py	/^    def __init__(self, space_symbol=" ", no_space=False):$/;"	m	class:Jaso
+__init__	text/sentencepiece_tokenizer.py	/^    def __init__(self, model: Union[Path, str]):$/;"	m	class:SentencepiecesTokenizer
+__init__	text/token_id_converter.py	/^    def __init__($/;"	m	class:TokenIDConverter
+__init__	text/word_tokenizer.py	/^    def __init__($/;"	m	class:WordTokenizer
+__init__	torch_utils/forward_adaptor.py	/^    def __init__(self, module: torch.nn.Module, name: str):$/;"	m	class:ForwardAdaptor
+__init__	train/class_choices.py	/^    def __init__($/;"	m	class:ClassChoices
+__init__	train/collate_fn.py	/^    def __init__($/;"	m	class:CommonCollateFn
+__init__	train/dataset.py	/^    def __init__($/;"	m	class:ESPnetDataset
+__init__	train/dataset.py	/^    def __init__(self, loader, dtype=None):$/;"	m	class:AdapterForSoundScpReader
+__init__	train/dataset.py	/^    def __init__(self, path: str):$/;"	m	class:H5FileWrapper
+__init__	train/iterable_dataset.py	/^    def __init__($/;"	m	class:IterableESPnetDataset
+__init__	train/preprocessor.py	/^    def __init__($/;"	m	class:CommonPreprocessor
+__init__	train/preprocessor.py	/^    def __init__($/;"	m	class:CommonPreprocessor_multi
+__init__	train/preprocessor.py	/^    def __init__(self, train: bool):$/;"	m	class:AbsPreprocessor
+__init__	train/reporter.py	/^    def __init__(self, epoch: int = 0):$/;"	m	class:Reporter
+__init__	train/reporter.py	/^    def __init__(self, key: str, epoch: int, total_count: int):$/;"	m	class:SubReporter
+__init__	train/trainer.py	/^    def __init__(self):$/;"	m	class:Trainer
+__init__	tts/espnet_model.py	/^    def __init__($/;"	m	class:ESPnetTTSModel
+__init__	tts/fastspeech/fastspeech.py	/^    def __init__($/;"	m	class:FastSpeech
+__init__	tts/fastspeech2/fastspeech2.py	/^    def __init__($/;"	m	class:FastSpeech2
+__init__	tts/fastspeech2/loss.py	/^    def __init__(self, use_masking: bool = True, use_weighted_masking: bool = False):$/;"	m	class:FastSpeech2Loss
+__init__	tts/fastspeech2/variance_predictor.py	/^    def __init__($/;"	m	class:VariancePredictor
+__init__	tts/feats_extract/dio.py	/^    def __init__($/;"	m	class:Dio
+__init__	tts/feats_extract/energy.py	/^    def __init__($/;"	m	class:Energy
+__init__	tts/feats_extract/linear_spectrogram.py	/^    def __init__($/;"	m	class:LinearSpectrogram
+__init__	tts/feats_extract/log_mel_fbank.py	/^    def __init__($/;"	m	class:LogMelFbank
+__init__	tts/feats_extract/log_spectrogram.py	/^    def __init__($/;"	m	class:LogSpectrogram
+__init__	tts/gst/style_encoder.py	/^    def __init__($/;"	m	class:ReferenceEncoder
+__init__	tts/gst/style_encoder.py	/^    def __init__($/;"	m	class:StyleEncoder
+__init__	tts/gst/style_encoder.py	/^    def __init__($/;"	m	class:StyleTokenLayer
+__init__	tts/gst/style_encoder.py	/^    def __init__(self, q_dim, k_dim, v_dim, n_head, n_feat, dropout_rate=0.0):$/;"	m	class:MultiHeadedAttention
+__init__	tts/tacotron2/tacotron2.py	/^    def __init__($/;"	m	class:Tacotron2
+__init__	tts/transformer/transformer.py	/^    def __init__($/;"	m	class:Transformer
+__init__	tts/utils/parallel_wavegan_pretrained_vocoder.py	/^    def __init__($/;"	m	class:ParallelWaveGANPretrainedVocoder
+__init__	utils/config_argparse.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:ArgumentParser
+__init__	utils/griffin_lim.py	/^    def __init__($/;"	m	class:Spectrogram2Waveform
+__init__	utils/nested_dict_action.py	/^    def __init__($/;"	m	class:NestedDictAction
+__init__	utils/sized_dict.py	/^    def __init__(self, shared: bool = False, data: dict = None):$/;"	m	class:SizedDict
+__iter__	fileio/npy_scp.py	/^    def __iter__(self):$/;"	m	class:NpyScpReader
+__iter__	fileio/rand_gen_dataset.py	/^    def __iter__(self):$/;"	m	class:FloatRandomGenerateDataset
+__iter__	fileio/rand_gen_dataset.py	/^    def __iter__(self):$/;"	m	class:IntRandomGenerateDataset
+__iter__	fileio/rttm.py	/^    def __iter__(self):$/;"	m	class:RttmReader
+__iter__	fileio/sound_scp.py	/^    def __iter__(self):$/;"	m	class:SoundScpReader
+__iter__	iterators/sequence_iter_factory.py	/^    def __iter__(self):$/;"	m	class:RawSampler
+__iter__	main_funcs/pack_funcs.py	/^    def __iter__(self):$/;"	m	class:Archiver
+__iter__	samplers/abs_sampler.py	/^    def __iter__(self) -> Iterator[Tuple[str, ...]]:$/;"	m	class:AbsSampler	typeref:typename:Iterator[Tuple[str,...]]
+__iter__	samplers/folded_batch_sampler.py	/^    def __iter__(self) -> Iterator[Tuple[str, ...]]:$/;"	m	class:FoldedBatchSampler	typeref:typename:Iterator[Tuple[str,...]]
+__iter__	samplers/length_batch_sampler.py	/^    def __iter__(self) -> Iterator[Tuple[str, ...]]:$/;"	m	class:LengthBatchSampler	typeref:typename:Iterator[Tuple[str,...]]
+__iter__	samplers/num_elements_batch_sampler.py	/^    def __iter__(self) -> Iterator[Tuple[str, ...]]:$/;"	m	class:NumElementsBatchSampler	typeref:typename:Iterator[Tuple[str,...]]
+__iter__	samplers/sorted_batch_sampler.py	/^    def __iter__(self) -> Iterator[Tuple[str, ...]]:$/;"	m	class:SortedBatchSampler	typeref:typename:Iterator[Tuple[str,...]]
+__iter__	samplers/unsorted_batch_sampler.py	/^    def __iter__(self) -> Iterator[Tuple[str, ...]]:$/;"	m	class:UnsortedBatchSampler	typeref:typename:Iterator[Tuple[str,...]]
+__iter__	train/dataset.py	/^    def __iter__(self):$/;"	m	class:AdapterForSoundScpReader
+__iter__	train/dataset.py	/^    def __iter__(self):$/;"	m	class:ESPnetDataset
+__iter__	train/dataset.py	/^    def __iter__(self):$/;"	m	class:H5FileWrapper
+__iter__	train/iterable_dataset.py	/^    def __iter__(self) -> Iterator[Tuple[Union[str, int], Dict[str, np.ndarray]]]:$/;"	m	class:IterableESPnetDataset	typeref:typename:Iterator[Tuple[Union[str,int],Dict[str,np.ndarray]]]
+__iter__	utils/sized_dict.py	/^    def __iter__(self):$/;"	m	class:SizedDict
+__len__	fileio/npy_scp.py	/^    def __len__(self):$/;"	m	class:NpyScpReader
+__len__	fileio/rand_gen_dataset.py	/^    def __len__(self):$/;"	m	class:FloatRandomGenerateDataset
+__len__	fileio/rand_gen_dataset.py	/^    def __len__(self):$/;"	m	class:IntRandomGenerateDataset
+__len__	fileio/rttm.py	/^    def __len__(self):$/;"	m	class:RttmReader
+__len__	fileio/sound_scp.py	/^    def __len__(self):$/;"	m	class:SoundScpReader
+__len__	iterators/sequence_iter_factory.py	/^    def __len__(self):$/;"	m	class:RawSampler
+__len__	samplers/abs_sampler.py	/^    def __len__(self) -> int:$/;"	m	class:AbsSampler	typeref:typename:int
+__len__	samplers/folded_batch_sampler.py	/^    def __len__(self):$/;"	m	class:FoldedBatchSampler
+__len__	samplers/length_batch_sampler.py	/^    def __len__(self):$/;"	m	class:LengthBatchSampler
+__len__	samplers/num_elements_batch_sampler.py	/^    def __len__(self):$/;"	m	class:NumElementsBatchSampler
+__len__	samplers/sorted_batch_sampler.py	/^    def __len__(self):$/;"	m	class:SortedBatchSampler
+__len__	samplers/unsorted_batch_sampler.py	/^    def __len__(self):$/;"	m	class:UnsortedBatchSampler
+__len__	train/dataset.py	/^    def __len__(self) -> int:$/;"	m	class:H5FileWrapper	typeref:typename:int
+__len__	train/dataset.py	/^    def __len__(self):$/;"	m	class:AdapterForSoundScpReader
+__len__	utils/sized_dict.py	/^    def __len__(self):$/;"	m	class:SizedDict
+__repr__	samplers/folded_batch_sampler.py	/^    def __repr__(self):$/;"	m	class:FoldedBatchSampler
+__repr__	samplers/length_batch_sampler.py	/^    def __repr__(self):$/;"	m	class:LengthBatchSampler
+__repr__	samplers/num_elements_batch_sampler.py	/^    def __repr__(self):$/;"	m	class:NumElementsBatchSampler
+__repr__	samplers/sorted_batch_sampler.py	/^    def __repr__(self):$/;"	m	class:SortedBatchSampler
+__repr__	samplers/unsorted_batch_sampler.py	/^    def __repr__(self):$/;"	m	class:UnsortedBatchSampler
+__repr__	schedulers/noam_lr.py	/^    def __repr__(self):$/;"	m	class:NoamLR
+__repr__	schedulers/warmup_lr.py	/^    def __repr__(self):$/;"	m	class:WarmupLR
+__repr__	text/char_tokenizer.py	/^    def __repr__(self):$/;"	m	class:CharTokenizer
+__repr__	text/phoneme_tokenizer.py	/^    def __repr__(self):$/;"	m	class:PhonemeTokenizer
+__repr__	text/sentencepiece_tokenizer.py	/^    def __repr__(self):$/;"	m	class:SentencepiecesTokenizer
+__repr__	text/word_tokenizer.py	/^    def __repr__(self):$/;"	m	class:WordTokenizer
+__repr__	train/collate_fn.py	/^    def __repr__(self):$/;"	m	class:CommonCollateFn
+__repr__	train/dataset.py	/^    def __repr__(self) -> str:$/;"	m	class:H5FileWrapper	typeref:typename:str
+__repr__	train/dataset.py	/^    def __repr__(self):$/;"	m	class:ESPnetDataset
+__repr__	train/iterable_dataset.py	/^    def __repr__(self):$/;"	m	class:IterableESPnetDataset
+__repr__	utils/griffin_lim.py	/^    def __repr__(self):$/;"	m	class:Spectrogram2Waveform
+__setitem__	fileio/datadir_writer.py	/^    def __setitem__(self, key: str, value: str):$/;"	m	class:DatadirWriter
+__setitem__	fileio/npy_scp.py	/^    def __setitem__(self, key, value):$/;"	m	class:NpyScpWriter
+__setitem__	fileio/sound_scp.py	/^    def __setitem__(self, key: str, value):$/;"	m	class:SoundScpWriter
+__setitem__	utils/sized_dict.py	/^    def __setitem__(self, key, value):$/;"	m	class:SizedDict
+__str__	bin/asr_align.py	/^    def __str__(self):$/;"	m	class:CTCSegmentationTask
+_add_first_frame_and_remove_last_frame	tts/transformer/transformer.py	/^    def _add_first_frame_and_remove_last_frame(self, ys: torch.Tensor) -> torch.Tensor:$/;"	m	class:Transformer	typeref:typename:torch.Tensor
+_adjust_num_frames	tts/feats_extract/dio.py	/^    def _adjust_num_frames(x: torch.Tensor, num_frames: torch.Tensor) -> torch.Tensor:$/;"	m	class:Dio	typeref:typename:torch.Tensor
+_adjust_num_frames	tts/feats_extract/energy.py	/^    def _adjust_num_frames(x: torch.Tensor, num_frames: torch.Tensor) -> torch.Tensor:$/;"	m	class:Energy	typeref:typename:torch.Tensor
+_apply_spectral_norm	gan_tts/hifigan/hifigan.py	/^        def _apply_spectral_norm(m: torch.nn.Module):$/;"	f	member:HiFiGANPeriodDiscriminator.apply_spectral_norm	file:
+_apply_spectral_norm	gan_tts/hifigan/hifigan.py	/^        def _apply_spectral_norm(m: torch.nn.Module):$/;"	f	member:HiFiGANScaleDiscriminator.apply_spectral_norm	file:
+_apply_weight_norm	gan_tts/hifigan/hifigan.py	/^        def _apply_weight_norm(m: torch.nn.Module):$/;"	f	member:HiFiGANGenerator.apply_weight_norm	file:
+_apply_weight_norm	gan_tts/hifigan/hifigan.py	/^        def _apply_weight_norm(m: torch.nn.Module):$/;"	f	member:HiFiGANPeriodDiscriminator.apply_weight_norm	file:
+_apply_weight_norm	gan_tts/hifigan/hifigan.py	/^        def _apply_weight_norm(m: torch.nn.Module):$/;"	f	member:HiFiGANScaleDiscriminator.apply_weight_norm	file:
+_apply_weight_norm	gan_tts/melgan/melgan.py	/^        def _apply_weight_norm(m: torch.nn.Module):$/;"	f	member:MelGANGenerator.apply_weight_norm	file:
+_apply_weight_norm	gan_tts/melgan/melgan.py	/^        def _apply_weight_norm(m: torch.nn.Module):$/;"	f	member:MelGANMultiScaleDiscriminator.apply_weight_norm	file:
+_apply_weight_norm	gan_tts/parallel_wavegan/parallel_wavegan.py	/^        def _apply_weight_norm(m: torch.nn.Module):$/;"	f	member:ParallelWaveGANDiscriminator.apply_weight_norm	file:
+_apply_weight_norm	gan_tts/parallel_wavegan/parallel_wavegan.py	/^        def _apply_weight_norm(m: torch.nn.Module):$/;"	f	member:ParallelWaveGANGenerator.apply_weight_norm	file:
+_apply_weight_norm	gan_tts/style_melgan/style_melgan.py	/^        def _apply_weight_norm(m: torch.nn.Module):$/;"	f	member:StyleMelGANDiscriminator.apply_weight_norm	file:
+_apply_weight_norm	gan_tts/style_melgan/style_melgan.py	/^        def _apply_weight_norm(m: torch.nn.Module):$/;"	f	member:StyleMelGANGenerator.apply_weight_norm	file:
+_apply_weight_norm	gan_tts/wavenet/wavenet.py	/^        def _apply_weight_norm(m: torch.nn.Module):$/;"	f	member:WaveNet.apply_weight_norm	file:
+_average_by_duration	tts/feats_extract/dio.py	/^    def _average_by_duration(self, x: torch.Tensor, d: torch.Tensor) -> torch.Tensor:$/;"	m	class:Dio	typeref:typename:torch.Tensor
+_average_by_duration	tts/feats_extract/energy.py	/^    def _average_by_duration(self, x: torch.Tensor, d: torch.Tensor) -> torch.Tensor:$/;"	m	class:Energy	typeref:typename:torch.Tensor
+_build_dictionary	asr/encoder/hubert_encoder.py	/^    def _build_dictionary(self, dictionary, hubert_dict_path):$/;"	m	class:FairseqHubertPretrainEncoder
+_build_ext	gan_tts/vits/monotonic_align/setup.py	/^from setuptools.command.build_ext import build_ext as _build_ext$/;"	x	nameref:unknown:build_ext
+_build_loader	train/dataset.py	/^    def _build_loader($/;"	m	class:ESPnetDataset	typeref:typename:Mapping[str,Union[np.ndarray,torch.Tensor,str,numbers.Number]]
+_build_sentence_piece_processor	text/sentencepiece_tokenizer.py	/^    def _build_sentence_piece_processor(self):$/;"	m	class:SentencepiecesTokenizer
+_calc_att_loss	asr/espnet_model.py	/^    def _calc_att_loss($/;"	m	class:ESPnetASRModel
+_calc_ctc_loss	asr/espnet_model.py	/^    def _calc_ctc_loss($/;"	m	class:ESPnetASRModel
+_calc_hubert_loss	hubert/espnet_model.py	/^    def _calc_hubert_loss($/;"	m	class:HubertPretrainModel
+_calc_rnnt_loss	asr/espnet_model.py	/^    def _calc_rnnt_loss($/;"	m	class:ESPnetASRModel
+_calculate_duration	tts/utils/duration_calculator.py	/^    def _calculate_duration(att_ws):$/;"	m	class:DurationCalculator
+_calculate_f0	tts/feats_extract/dio.py	/^    def _calculate_f0(self, input: torch.Tensor) -> torch.Tensor:$/;"	m	class:Dio	typeref:typename:torch.Tensor
+_calculate_focus_rete	tts/utils/duration_calculator.py	/^    def _calculate_focus_rete(att_ws):$/;"	m	class:DurationCalculator
+_compute_stft	asr/frontend/default.py	/^    def _compute_stft($/;"	m	class:DefaultFrontend	typeref:typename:torch.Tensor
+_convert_to_continuous_f0	tts/feats_extract/dio.py	/^    def _convert_to_continuous_f0(f0: np.array) -> np.array:$/;"	m	class:Dio	typeref:typename:np.array
+_create_filters	layers/sinc_conv.py	/^    def _create_filters(self, device: str):$/;"	m	class:SincConv
+_create_mask_label	enh/loss/criterions/tf_domain.py	/^def _create_mask_label(mix_spec, ref_spec, mask_type="IAM"):$/;"	f
+_create_sinc_convs	asr/preencoder/sinc.py	/^    def _create_sinc_convs(self):$/;"	m	class:LightweightSincConvs
+_extend_attention_mask	asr/postencoder/hugging_face_transformers_postencoder.py	/^def _extend_attention_mask(mask: torch.Tensor) -> torch.Tensor:$/;"	f	typeref:typename:torch.Tensor
+_extract_feats	asr/espnet_model.py	/^    def _extract_feats($/;"	m	class:ESPnetASRModel	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+_extract_feats	diar/espnet_model.py	/^    def _extract_feats($/;"	m	class:ESPnetDiarizationModel	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+_extract_feats	hubert/espnet_model.py	/^    def _extract_feats($/;"	m	class:HubertPretrainModel	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+_forward	gan_tts/style_melgan/style_melgan.py	/^    def _forward(self, x: torch.Tensor) -> List[torch.Tensor]:$/;"	m	class:StyleMelGANDiscriminator	typeref:typename:List[torch.Tensor]
+_forward	tts/fastspeech/fastspeech.py	/^    def _forward($/;"	m	class:FastSpeech	typeref:typename:Sequence[torch.Tensor]
+_forward	tts/fastspeech2/fastspeech2.py	/^    def _forward($/;"	m	class:FastSpeech2	typeref:typename:Sequence[torch.Tensor]
+_forward	tts/tacotron2/tacotron2.py	/^    def _forward($/;"	m	class:Tacotron2	typeref:typename:Tuple[torch.Tensor,torch.Tensor,torch.Tensor]
+_forward	tts/transformer/transformer.py	/^    def _forward($/;"	m	class:Transformer	typeref:typename:Tuple[torch.Tensor,torch.Tensor,torch.Tensor]
+_forward_discrminator	gan_tts/joint/joint_text2wav.py	/^    def _forward_discrminator($/;"	m	class:JointText2Wav	typeref:typename:Dict[str,Any]
+_forward_discrminator	gan_tts/vits/vits.py	/^    def _forward_discrminator($/;"	m	class:VITS	typeref:typename:Dict[str,Any]
+_forward_generator	gan_tts/joint/joint_text2wav.py	/^    def _forward_generator($/;"	m	class:JointText2Wav	typeref:typename:Dict[str,Any]
+_forward_generator	gan_tts/vits/vits.py	/^    def _forward_generator($/;"	m	class:VITS	typeref:typename:Dict[str,Any]
+_generate_mini_batches	iterators/chunk_iter_factory.py	/^    def _generate_mini_batches($/;"	m	class:ChunkIterFactory
+_generate_path	gan_tts/vits/generator.py	/^    def _generate_path(self, dur: torch.Tensor, mask: torch.Tensor) -> torch.Tensor:$/;"	m	class:VITSGenerator	typeref:typename:torch.Tensor
+_get_receptive_field_size	gan_tts/parallel_wavegan/parallel_wavegan.py	/^    def _get_receptive_field_size($/;"	m	class:ParallelWaveGANGenerator
+_get_receptive_field_size	gan_tts/wavenet/wavenet.py	/^    def _get_receptive_field_size($/;"	m	class:WaveNet	typeref:typename:int
+_get_upstream	asr/frontend/s3prl.py	/^    def _get_upstream(self, frontend_conf):$/;"	m	class:S3prlFrontend
+_hinge_fake_loss	gan_tts/hifigan/loss.py	/^    def _hinge_fake_loss(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:DiscriminatorAdversarialLoss	typeref:typename:torch.Tensor
+_hinge_loss	gan_tts/hifigan/loss.py	/^    def _hinge_loss(self, x):$/;"	m	class:GeneratorAdversarialLoss
+_hinge_real_loss	gan_tts/hifigan/loss.py	/^    def _hinge_real_loss(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:DiscriminatorAdversarialLoss	typeref:typename:torch.Tensor
+_int_or_none	train/distributed_utils.py	/^def _int_or_none(x: Optional[str]) -> Optional[int]:$/;"	f	typeref:typename:Optional[int]
+_integrate_with_spk_embed	tts/fastspeech/fastspeech.py	/^    def _integrate_with_spk_embed($/;"	m	class:FastSpeech	typeref:typename:torch.Tensor
+_integrate_with_spk_embed	tts/fastspeech2/fastspeech2.py	/^    def _integrate_with_spk_embed($/;"	m	class:FastSpeech2	typeref:typename:torch.Tensor
+_integrate_with_spk_embed	tts/tacotron2/tacotron2.py	/^    def _integrate_with_spk_embed($/;"	m	class:Tacotron2	typeref:typename:torch.Tensor
+_integrate_with_spk_embed	tts/transformer/transformer.py	/^    def _integrate_with_spk_embed($/;"	m	class:Transformer	typeref:typename:torch.Tensor
+_intersect_device	fst/lm_rescore.py	/^def _intersect_device($/;"	f
+_load_state_dict_pre_hook	gan_tts/parallel_wavegan/parallel_wavegan.py	/^    def _load_state_dict_pre_hook($/;"	m	class:ParallelWaveGANGenerator
+_mse_fake_loss	gan_tts/hifigan/loss.py	/^    def _mse_fake_loss(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:DiscriminatorAdversarialLoss	typeref:typename:torch.Tensor
+_mse_loss	gan_tts/hifigan/loss.py	/^    def _mse_loss(self, x):$/;"	m	class:GeneratorAdversarialLoss
+_mse_real_loss	gan_tts/hifigan/loss.py	/^    def _mse_real_loss(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:DiscriminatorAdversarialLoss	typeref:typename:torch.Tensor
+_normalize_english_text	text/korean_cleaner.py	/^    def _normalize_english_text(cls, text):$/;"	m	class:KoreanCleaner
+_normalize_numbers	text/korean_cleaner.py	/^    def _normalize_numbers(cls, text):$/;"	m	class:KoreanCleaner
+_numeric_feature_by_regex	text/phoneme_tokenizer.py	/^def _numeric_feature_by_regex(regex, s):$/;"	f
+_pad_segment	enh/layers/dprnn.py	/^def _pad_segment(input, segment_size):$/;"	f
+_plot_stats	train/reporter.py	/^    def _plot_stats(self, keys: Sequence[str], key2: str):$/;"	m	class:Reporter
+_remove_non_korean_characters	text/phoneme_tokenizer.py	/^    def _remove_non_korean_characters(self, tokens):$/;"	m	class:Jaso
+_remove_weight_norm	gan_tts/hifigan/hifigan.py	/^        def _remove_weight_norm(m: torch.nn.Module):$/;"	f	member:HiFiGANGenerator.remove_weight_norm	file:
+_remove_weight_norm	gan_tts/melgan/melgan.py	/^        def _remove_weight_norm(m: torch.nn.Module):$/;"	f	member:MelGANGenerator.remove_weight_norm	file:
+_remove_weight_norm	gan_tts/melgan/melgan.py	/^        def _remove_weight_norm(m: torch.nn.Module):$/;"	f	member:MelGANMultiScaleDiscriminator.remove_weight_norm	file:
+_remove_weight_norm	gan_tts/parallel_wavegan/parallel_wavegan.py	/^        def _remove_weight_norm(m: torch.nn.Module):$/;"	f	member:ParallelWaveGANDiscriminator.remove_weight_norm	file:
+_remove_weight_norm	gan_tts/parallel_wavegan/parallel_wavegan.py	/^        def _remove_weight_norm(m: torch.nn.Module):$/;"	f	member:ParallelWaveGANGenerator.remove_weight_norm	file:
+_remove_weight_norm	gan_tts/style_melgan/style_melgan.py	/^        def _remove_weight_norm(m: torch.nn.Module):$/;"	f	member:StyleMelGANGenerator.remove_weight_norm	file:
+_remove_weight_norm	gan_tts/wavenet/wavenet.py	/^        def _remove_weight_norm(m: torch.nn.Module):$/;"	f	member:WaveNet.remove_weight_norm	file:
+_reserved	train/reporter.py	/^_reserved = {"time", "total_count"}$/;"	v
+_reset_parameters	gan_tts/hifigan/hifigan.py	/^        def _reset_parameters(m: torch.nn.Module):$/;"	f	member:HiFiGANGenerator.reset_parameters	file:
+_reset_parameters	gan_tts/melgan/melgan.py	/^        def _reset_parameters(m):$/;"	f	member:MelGANGenerator.reset_parameters	file:
+_reset_parameters	gan_tts/melgan/melgan.py	/^        def _reset_parameters(m: torch.nn.Module):$/;"	f	member:MelGANMultiScaleDiscriminator.reset_parameters	file:
+_reset_parameters	gan_tts/style_melgan/style_melgan.py	/^        def _reset_parameters(m: torch.nn.Module):$/;"	f	member:StyleMelGANDiscriminator.reset_parameters	file:
+_reset_parameters	gan_tts/style_melgan/style_melgan.py	/^        def _reset_parameters(m: torch.nn.Module):$/;"	f	member:StyleMelGANGenerator.reset_parameters	file:
+_reset_parameters	tts/fastspeech/fastspeech.py	/^    def _reset_parameters($/;"	m	class:FastSpeech
+_reset_parameters	tts/fastspeech2/fastspeech2.py	/^    def _reset_parameters($/;"	m	class:FastSpeech2
+_reset_parameters	tts/transformer/transformer.py	/^    def _reset_parameters(self, init_type, init_enc_alpha=1.0, init_dec_alpha=1.0):$/;"	m	class:Transformer
+_searchsorted	gan_tts/vits/transform.py	/^def _searchsorted(bin_locations, inputs, eps=1e-6):$/;"	f
+_source_mask	tts/fastspeech/fastspeech.py	/^    def _source_mask(self, ilens: torch.Tensor) -> torch.Tensor:$/;"	m	class:FastSpeech	typeref:typename:torch.Tensor
+_source_mask	tts/fastspeech2/fastspeech2.py	/^    def _source_mask(self, ilens: torch.Tensor) -> torch.Tensor:$/;"	m	class:FastSpeech2	typeref:typename:torch.Tensor
+_source_mask	tts/transformer/transformer.py	/^    def _source_mask(self, ilens):$/;"	m	class:Transformer
+_split_text	bin/asr_align.py	/^    def _split_text(self, text):$/;"	m	class:CTCSegmentation
+_syntax	utils/nested_dict_action.py	/^    _syntax = """Syntax:$/;"	v	class:NestedDictAction
+_target_mask	lm/transformer_lm.py	/^    def _target_mask(self, ys_in_pad):$/;"	m	class:TransformerLM
+_target_mask	tts/transformer/transformer.py	/^    def _target_mask(self, olens: torch.Tensor) -> torch.Tensor:$/;"	m	class:Transformer	typeref:typename:torch.Tensor
+_text_to_jaso	text/phoneme_tokenizer.py	/^    def _text_to_jaso(self, line: str) -> List[str]:$/;"	m	class:Jaso	typeref:typename:List[str]
+_tile_representations	asr/frontend/s3prl.py	/^    def _tile_representations(self, feature):$/;"	m	class:S3prlFrontend
+_to_relative_or_resolve	main_funcs/pack_funcs.py	/^def _to_relative_or_resolve(f):$/;"	f
+add	main_funcs/pack_funcs.py	/^    def add(self, filename, arcname=None, recursive: bool = True):$/;"	m	class:Archiver
+add_arguments	bin/pack.py	/^def add_arguments(parser: argparse.ArgumentParser, contents: Type[PackedContents]):$/;"	f
+add_arguments	train/class_choices.py	/^    def add_arguments(self, parser):$/;"	m	class:ClassChoices
+add_arguments	train/gan_trainer.py	/^    def add_arguments(cls, parser: argparse.ArgumentParser):$/;"	m	class:GANTrainer
+add_arguments	train/trainer.py	/^    def add_arguments(cls, parser: argparse.ArgumentParser):$/;"	m	class:Trainer
+add_gradient_noise	torch_utils/add_gradient_noise.py	/^def add_gradient_noise($/;"	f
+add_task_arguments	tasks/abs_task.py	/^    def add_task_arguments(cls, parser: argparse.ArgumentParser):$/;"	m	class:AbsTask
+add_task_arguments	tasks/asr.py	/^    def add_task_arguments(cls, parser: argparse.ArgumentParser):$/;"	m	class:ASRTask
+add_task_arguments	tasks/diar.py	/^    def add_task_arguments(cls, parser: argparse.ArgumentParser):$/;"	m	class:DiarizationTask
+add_task_arguments	tasks/enh.py	/^    def add_task_arguments(cls, parser: argparse.ArgumentParser):$/;"	m	class:EnhancementTask
+add_task_arguments	tasks/enh_asr.py	/^    def add_task_arguments(cls, parser: argparse.ArgumentParser):$/;"	m	class:ASRTask
+add_task_arguments	tasks/gan_tts.py	/^    def add_task_arguments(cls, parser: argparse.ArgumentParser):$/;"	m	class:GANTTSTask
+add_task_arguments	tasks/hubert.py	/^    def add_task_arguments(cls, parser: argparse.ArgumentParser):$/;"	m	class:HubertTask
+add_task_arguments	tasks/lm.py	/^    def add_task_arguments(cls, parser: argparse.ArgumentParser):$/;"	m	class:LMTask
+add_task_arguments	tasks/tts.py	/^    def add_task_arguments(cls, parser: argparse.ArgumentParser):$/;"	m	class:TTSTask
+addfile	main_funcs/pack_funcs.py	/^    def addfile(self, info, fileobj):$/;"	m	class:Archiver
+aggregate	train/reporter.py	/^def aggregate(values: Sequence["ReportedValue"]) -> Num:$/;"	f	typeref:typename:Num
+aggregate_stats_dirs	bin/aggregate_stats_dirs.py	/^def aggregate_stats_dirs($/;"	f
+analysis	gan_tts/melgan/pqmf.py	/^    def analysis(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:PQMF	typeref:typename:torch.Tensor
+apply_beamforming	enh/layers/dnn_beamformer.py	/^        def apply_beamforming(data, ilens, psd_n, psd_speech, psd_distortion=None):$/;"	f	member:DNN_Beamformer.forward	file:
+apply_beamforming_vector	enh/layers/beamformer.py	/^def apply_beamforming_vector($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+apply_frontend	bin/asr_inference_streaming.py	/^    def apply_frontend($/;"	m	class:Speech2TextStreaming
+apply_spectral_norm	gan_tts/hifigan/hifigan.py	/^    def apply_spectral_norm(self):$/;"	m	class:HiFiGANPeriodDiscriminator
+apply_spectral_norm	gan_tts/hifigan/hifigan.py	/^    def apply_spectral_norm(self):$/;"	m	class:HiFiGANScaleDiscriminator
+apply_weight_norm	gan_tts/hifigan/hifigan.py	/^    def apply_weight_norm(self):$/;"	m	class:HiFiGANGenerator
+apply_weight_norm	gan_tts/hifigan/hifigan.py	/^    def apply_weight_norm(self):$/;"	m	class:HiFiGANPeriodDiscriminator
+apply_weight_norm	gan_tts/hifigan/hifigan.py	/^    def apply_weight_norm(self):$/;"	m	class:HiFiGANScaleDiscriminator
+apply_weight_norm	gan_tts/melgan/melgan.py	/^    def apply_weight_norm(self):$/;"	m	class:MelGANGenerator
+apply_weight_norm	gan_tts/melgan/melgan.py	/^    def apply_weight_norm(self):$/;"	m	class:MelGANMultiScaleDiscriminator
+apply_weight_norm	gan_tts/parallel_wavegan/parallel_wavegan.py	/^    def apply_weight_norm(self):$/;"	m	class:ParallelWaveGANDiscriminator
+apply_weight_norm	gan_tts/parallel_wavegan/parallel_wavegan.py	/^    def apply_weight_norm(self):$/;"	m	class:ParallelWaveGANGenerator
+apply_weight_norm	gan_tts/style_melgan/style_melgan.py	/^    def apply_weight_norm(self):$/;"	m	class:StyleMelGANDiscriminator
+apply_weight_norm	gan_tts/style_melgan/style_melgan.py	/^    def apply_weight_norm(self):$/;"	m	class:StyleMelGANGenerator
+apply_weight_norm	gan_tts/wavenet/wavenet.py	/^    def apply_weight_norm(self):$/;"	m	class:WaveNet
+argmax	asr/ctc.py	/^    def argmax(self, hs_pad):$/;"	m	class:CTC
+assemble_hyps	bin/asr_inference_streaming.py	/^    def assemble_hyps(self, hyps):$/;"	m	class:Speech2TextStreaming
+attractor_choices	tasks/diar.py	/^attractor_choices = ClassChoices($/;"	v
+attractor_loss	diar/espnet_model.py	/^    def attractor_loss(self, att_prob, label):$/;"	m	class:ESPnetDiarizationModel
+autocast	asr/espnet_model.py	/^    def autocast(enabled=True):$/;"	f
+autocast	diar/espnet_model.py	/^    def autocast(enabled=True):$/;"	f
+autocast	gan_tts/espnet_model.py	/^    def autocast(enabled=True):  # NOQA$/;"	f
+autocast	hubert/espnet_model.py	/^    def autocast(enabled=True):$/;"	f
+autocast	train/gan_trainer.py	/^    def autocast(enabled=True):  # NOQA$/;"	f
+autocast	train/trainer.py	/^    def autocast(enabled=True):$/;"	f
+autocast	tts/espnet_model.py	/^    def autocast(enabled=True):  # NOQA$/;"	f
+average_nbest_models	main_funcs/average_nbest_models.py	/^def average_nbest_models($/;"	f	typeref:typename:None
+bank	layers/sinc_conv.py	/^    def bank(cls, channels: int, fs: float) -> torch.Tensor:$/;"	m	class:BarkScale	typeref:typename:torch.Tensor
+bank	layers/sinc_conv.py	/^    def bank(cls, channels: int, fs: float) -> torch.Tensor:$/;"	m	class:MelScale	typeref:typename:torch.Tensor
+base_s3prl_setup	asr/frontend/s3prl.py	/^def base_s3prl_setup(args):$/;"	f
+batch_score	asr/decoder/transformer_decoder.py	/^    def batch_score($/;"	m	class:BaseTransformerDecoder	typeref:typename:Tuple[torch.Tensor,List[Any]]
+batch_score	lm/seq_rnn_lm.py	/^    def batch_score($/;"	m	class:SequentialRNNLM	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+batch_score	lm/transformer_lm.py	/^    def batch_score($/;"	m	class:TransformerLM	typeref:typename:Tuple[torch.Tensor,List[Any]]
+batchify_nll	asr/espnet_model.py	/^    def batchify_nll($/;"	m	class:ESPnetASRModel
+batchify_nll	lm/espnet_model.py	/^    def batchify_nll($/;"	m	class:ESPnetLanguageModel	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+build_attention_list	asr/decoder/rnn_decoder.py	/^def build_attention_list($/;"	f
+build_batch_sampler	samplers/build_batch_sampler.py	/^def build_batch_sampler($/;"	f	typeref:typename:AbsSampler
+build_chunk_iter_factory	tasks/abs_task.py	/^    def build_chunk_iter_factory($/;"	m	class:AbsTask	typeref:typename:AbsIterFactory
+build_collate_fn	tasks/abs_task.py	/^    def build_collate_fn($/;"	m	class:AbsTask	typeref:typename:Callable[[Sequence[Dict[str,np.ndarray]]],Dict[str,torch.Tensor]]
+build_collate_fn	tasks/asr.py	/^    def build_collate_fn($/;"	m	class:ASRTask	typeref:typename:Callable[[Collection[Tuple[str,Dict[str,np.ndarray]]]],Tuple[List[str],Dict[str,torch.Tensor]],]
+build_collate_fn	tasks/diar.py	/^    def build_collate_fn($/;"	m	class:DiarizationTask	typeref:typename:Callable[[Collection[Tuple[str,Dict[str,np.ndarray]]]],Tuple[List[str],Dict[str,torch.Tensor]],]
+build_collate_fn	tasks/enh.py	/^    def build_collate_fn($/;"	m	class:EnhancementTask	typeref:typename:Callable[[Collection[Tuple[str,Dict[str,np.ndarray]]]],Tuple[List[str],Dict[str,torch.Tensor]],]
+build_collate_fn	tasks/enh_asr.py	/^    def build_collate_fn($/;"	m	class:ASRTask	typeref:typename:Callable[[Collection[Tuple[str,Dict[str,np.ndarray]]]],Tuple[List[str],Dict[str,torch.Tensor]],]
+build_collate_fn	tasks/gan_tts.py	/^    def build_collate_fn($/;"	m	class:GANTTSTask	typeref:typename:Callable[[Collection[Tuple[str,Dict[str,np.ndarray]]]],Tuple[List[str],Dict[str,torch.Tensor]],]
+build_collate_fn	tasks/hubert.py	/^    def build_collate_fn($/;"	m	class:HubertTask	typeref:typename:Callable[[Collection[Tuple[str,Dict[str,np.ndarray]]]],Tuple[List[str],Dict[str,torch.Tensor]],]
+build_collate_fn	tasks/lm.py	/^    def build_collate_fn($/;"	m	class:LMTask	typeref:typename:Callable[[Collection[Tuple[str,Dict[str,np.ndarray]]]],Tuple[List[str],Dict[str,torch.Tensor]],]
+build_collate_fn	tasks/tts.py	/^    def build_collate_fn($/;"	m	class:TTSTask	typeref:typename:Callable[[Collection[Tuple[str,Dict[str,np.ndarray]]]],Tuple[List[str],Dict[str,torch.Tensor]],]
+build_ctc_topo	bin/asr_inference_k2.py	/^def build_ctc_topo(tokens: List[int]) -> k2.Fsa:$/;"	f	typeref:typename:k2.Fsa
+build_dataclass	utils/build_dataclass.py	/^def build_dataclass(dataclass, args: argparse.Namespace):$/;"	f
+build_ext	gan_tts/vits/monotonic_align/setup.py	/^class build_ext(_build_ext):$/;"	c
+build_iter	iterators/abs_iter_factory.py	/^    def build_iter(self, epoch: int, shuffle: bool = None) -> Iterator:$/;"	m	class:AbsIterFactory	typeref:typename:Iterator
+build_iter	iterators/chunk_iter_factory.py	/^    def build_iter($/;"	m	class:ChunkIterFactory	typeref:typename:Iterator[Tuple[List[str],Dict[str,torch.Tensor]]]
+build_iter	iterators/multiple_iter_factory.py	/^    def build_iter(self, epoch: int, shuffle: bool = None) -> Iterator:$/;"	m	class:MultipleIterFactory	typeref:typename:Iterator
+build_iter	iterators/sequence_iter_factory.py	/^    def build_iter(self, epoch: int, shuffle: bool = None) -> DataLoader:$/;"	m	class:SequenceIterFactory	typeref:typename:DataLoader
+build_iter_factory	tasks/abs_task.py	/^    def build_iter_factory($/;"	m	class:AbsTask	typeref:typename:AbsIterFactory
+build_iter_options	tasks/abs_task.py	/^    def build_iter_options($/;"	m	class:AbsTask
+build_model	tasks/abs_task.py	/^    def build_model(cls, args: argparse.Namespace) -> AbsESPnetModel:$/;"	m	class:AbsTask	typeref:typename:AbsESPnetModel
+build_model	tasks/asr.py	/^    def build_model(cls, args: argparse.Namespace) -> ESPnetASRModel:$/;"	m	class:ASRTask	typeref:typename:ESPnetASRModel
+build_model	tasks/diar.py	/^    def build_model(cls, args: argparse.Namespace) -> ESPnetDiarizationModel:$/;"	m	class:DiarizationTask	typeref:typename:ESPnetDiarizationModel
+build_model	tasks/enh.py	/^    def build_model(cls, args: argparse.Namespace) -> ESPnetEnhancementModel:$/;"	m	class:EnhancementTask	typeref:typename:ESPnetEnhancementModel
+build_model	tasks/enh_asr.py	/^    def build_model(cls, args: argparse.Namespace) -> ESPnetEnhASRModel:$/;"	m	class:ASRTask	typeref:typename:ESPnetEnhASRModel
+build_model	tasks/gan_tts.py	/^    def build_model(cls, args: argparse.Namespace) -> ESPnetGANTTSModel:$/;"	m	class:GANTTSTask	typeref:typename:ESPnetGANTTSModel
+build_model	tasks/hubert.py	/^    def build_model(cls, args: argparse.Namespace) -> HubertPretrainModel:$/;"	m	class:HubertTask	typeref:typename:HubertPretrainModel
+build_model	tasks/lm.py	/^    def build_model(cls, args: argparse.Namespace) -> ESPnetLanguageModel:$/;"	m	class:LMTask	typeref:typename:ESPnetLanguageModel
+build_model	tasks/tts.py	/^    def build_model(cls, args: argparse.Namespace) -> ESPnetTTSModel:$/;"	m	class:TTSTask	typeref:typename:ESPnetTTSModel
+build_model_from_file	tasks/abs_task.py	/^    def build_model_from_file($/;"	m	class:AbsTask	typeref:typename:Tuple[AbsESPnetModel,argparse.Namespace]
+build_multiple_iter_factory	tasks/abs_task.py	/^    def build_multiple_iter_factory($/;"	m	class:AbsTask
+build_optimizers	tasks/abs_task.py	/^    def build_optimizers($/;"	m	class:AbsTask	typeref:typename:List[torch.optim.Optimizer]
+build_optimizers	tasks/gan_tts.py	/^    def build_optimizers($/;"	m	class:GANTTSTask	typeref:typename:List[torch.optim.Optimizer]
+build_options	train/gan_trainer.py	/^    def build_options(cls, args: argparse.Namespace) -> TrainerOptions:$/;"	m	class:GANTrainer	typeref:typename:TrainerOptions
+build_options	train/trainer.py	/^    def build_options(cls, args: argparse.Namespace) -> TrainerOptions:$/;"	m	class:Trainer	typeref:typename:TrainerOptions
+build_preprocess_fn	tasks/abs_task.py	/^    def build_preprocess_fn($/;"	m	class:AbsTask	typeref:typename:Optional[Callable[[str,Dict[str,np.array]],Dict[str,np.ndarray]]]
+build_preprocess_fn	tasks/asr.py	/^    def build_preprocess_fn($/;"	m	class:ASRTask	typeref:typename:Optional[Callable[[str,Dict[str,np.array]],Dict[str,np.ndarray]]]
+build_preprocess_fn	tasks/diar.py	/^    def build_preprocess_fn($/;"	m	class:DiarizationTask	typeref:typename:Optional[Callable[[str,Dict[str,np.array]],Dict[str,np.ndarray]]]
+build_preprocess_fn	tasks/enh.py	/^    def build_preprocess_fn($/;"	m	class:EnhancementTask	typeref:typename:Optional[Callable[[str,Dict[str,np.array]],Dict[str,np.ndarray]]]
+build_preprocess_fn	tasks/enh_asr.py	/^    def build_preprocess_fn($/;"	m	class:ASRTask	typeref:typename:Optional[Callable[[str,Dict[str,np.array]],Dict[str,np.ndarray]]]
+build_preprocess_fn	tasks/gan_tts.py	/^    def build_preprocess_fn($/;"	m	class:GANTTSTask	typeref:typename:Optional[Callable[[str,Dict[str,np.array]],Dict[str,np.ndarray]]]
+build_preprocess_fn	tasks/hubert.py	/^    def build_preprocess_fn($/;"	m	class:HubertTask	typeref:typename:Optional[Callable[[str,Dict[str,np.array]],Dict[str,np.ndarray]]]
+build_preprocess_fn	tasks/lm.py	/^    def build_preprocess_fn($/;"	m	class:LMTask	typeref:typename:Optional[Callable[[str,Dict[str,np.array]],Dict[str,np.ndarray]]]
+build_preprocess_fn	tasks/tts.py	/^    def build_preprocess_fn($/;"	m	class:TTSTask	typeref:typename:Optional[Callable[[str,Dict[str,np.array]],Dict[str,np.ndarray]]]
+build_sequence_iter_factory	tasks/abs_task.py	/^    def build_sequence_iter_factory($/;"	m	class:AbsTask	typeref:typename:AbsIterFactory
+build_streaming_iterator	tasks/abs_task.py	/^    def build_streaming_iterator($/;"	m	class:AbsTask	typeref:typename:DataLoader
+build_task_iter_factory	tasks/abs_task.py	/^    def build_task_iter_factory($/;"	m	class:AbsTask	typeref:typename:AbsIterFactory
+build_tokenizer	text/build_tokenizer.py	/^def build_tokenizer($/;"	f	typeref:typename:AbsTokenizer
+build_vocoder_from_file	tasks/tts.py	/^    def build_vocoder_from_file($/;"	m	class:TTSTask
+cal_permumation	bin/enh_inference.py	/^    def cal_permumation(self, ref_wavs, enh_wavs, criterion="si_snr"):$/;"	m	class:SeparateSpeech
+calc_diarization_error	diar/espnet_model.py	/^    def calc_diarization_error(pred, label, length):$/;"	m	class:ESPnetDiarizationModel
+calc_perplexity	bin/lm_calc_perplexity.py	/^def calc_perplexity($/;"	f
+calculate_all_attentions	main_funcs/calculate_all_attentions.py	/^def calculate_all_attentions($/;"	f	typeref:typename:Dict[str,List[torch.Tensor]]
+cast_mask_emb	asr/encoder/hubert_encoder.py	/^    def cast_mask_emb(self):$/;"	m	class:FairseqHubertPretrainEncoder
+char_probs	bin/asr_align.py	/^    char_probs = None$/;"	v	class:CTCSegmentationTask
+check_early_stopping	train/reporter.py	/^    def check_early_stopping($/;"	m	class:Reporter	typeref:typename:bool
+check_nonlinear	enh/layers/tcn.py	/^def check_nonlinear(nolinear_type):$/;"	f
+check_required_command_args	tasks/abs_task.py	/^    def check_required_command_args(cls, args: argparse.Namespace):$/;"	m	class:AbsTask
+check_task_requirements	tasks/abs_task.py	/^    def check_task_requirements($/;"	m	class:AbsTask	typeref:typename:None
+choices	train/class_choices.py	/^    def choices(self) -> Tuple[Optional[str], ...]:$/;"	m	class:ClassChoices	typeref:typename:Tuple[Optional[str],...]
+choices_text_converter	bin/asr_align.py	/^    choices_text_converter = ["tokenize", "classic"]$/;"	v	class:CTCSegmentation
+choices_time_stamps	bin/asr_align.py	/^    choices_time_stamps = ["auto", "fixed"]$/;"	v	class:CTCSegmentation
+chose_norm	enh/layers/tcn.py	/^def chose_norm(norm_type, channel_size):$/;"	f
+class_choices_list	tasks/abs_task.py	/^    class_choices_list: List[ClassChoices] = []$/;"	v	class:AbsTask	typeref:typename:List[ClassChoices]
+class_choices_list	tasks/asr.py	/^    class_choices_list = [$/;"	v	class:ASRTask
+class_choices_list	tasks/diar.py	/^    class_choices_list = [$/;"	v	class:DiarizationTask
+class_choices_list	tasks/enh.py	/^    class_choices_list = [$/;"	v	class:EnhancementTask
+class_choices_list	tasks/enh_asr.py	/^    class_choices_list = [$/;"	v	class:ASRTask
+class_choices_list	tasks/gan_tts.py	/^    class_choices_list = [$/;"	v	class:GANTTSTask
+class_choices_list	tasks/hubert.py	/^    class_choices_list = [$/;"	v	class:HubertTask
+class_choices_list	tasks/lm.py	/^    class_choices_list = [lm_choices]$/;"	v	class:LMTask
+class_choices_list	tasks/tts.py	/^    class_choices_list = [$/;"	v	class:TTSTask
+close	fileio/datadir_writer.py	/^    def close(self):$/;"	m	class:DatadirWriter
+close	fileio/npy_scp.py	/^    def close(self):$/;"	m	class:NpyScpWriter
+close	fileio/sound_scp.py	/^    def close(self):$/;"	m	class:SoundScpWriter
+close	main_funcs/pack_funcs.py	/^    def close(self):$/;"	m	class:Archiver
+collect_feats	asr/espnet_model.py	/^    def collect_feats($/;"	m	class:ESPnetASRModel	typeref:typename:Dict[str,torch.Tensor]
+collect_feats	diar/espnet_model.py	/^    def collect_feats($/;"	m	class:ESPnetDiarizationModel	typeref:typename:Dict[str,torch.Tensor]
+collect_feats	enh/espnet_model.py	/^    def collect_feats($/;"	m	class:ESPnetEnhancementModel	typeref:typename:Dict[str,torch.Tensor]
+collect_feats	gan_tts/espnet_model.py	/^    def collect_feats($/;"	m	class:ESPnetGANTTSModel	typeref:typename:Dict[str,torch.Tensor]
+collect_feats	hubert/espnet_model.py	/^    def collect_feats($/;"	m	class:HubertPretrainModel	typeref:typename:Dict[str,torch.Tensor]
+collect_feats	lm/espnet_model.py	/^    def collect_feats($/;"	m	class:ESPnetLanguageModel	typeref:typename:Dict[str,torch.Tensor]
+collect_feats	train/abs_espnet_model.py	/^    def collect_feats(self, **batch: torch.Tensor) -> Dict[str, torch.Tensor]:$/;"	m	class:AbsESPnetModel	typeref:typename:Dict[str,torch.Tensor]
+collect_feats	train/abs_gan_espnet_model.py	/^    def collect_feats(self, **batch: torch.Tensor) -> Dict[str, torch.Tensor]:$/;"	m	class:AbsGANESPnetModel	typeref:typename:Dict[str,torch.Tensor]
+collect_feats	tts/espnet_model.py	/^    def collect_feats($/;"	m	class:ESPnetTTSModel	typeref:typename:Dict[str,torch.Tensor]
+collect_stats	main_funcs/collect_stats.py	/^def collect_stats($/;"	f	typeref:typename:None
+common_collate_fn	train/collate_fn.py	/^def common_collate_fn($/;"	f	typeref:typename:Tuple[List[str],Dict[str,torch.Tensor]]
+complex_norm	enh/layers/complex_utils.py	/^def complex_norm(c: Union[torch.Tensor, ComplexTensor]) -> torch.Tensor:$/;"	f	typeref:typename:torch.Tensor
+compute_am_scores_and_lm_scores	fst/lm_rescore.py	/^def compute_am_scores_and_lm_scores($/;"	f	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+compute_correct	hubert/espnet_model.py	/^    def compute_correct($/;"	m	class:HubertPretrainModel
+compute_on_mask	enh/loss/criterions/tf_domain.py	/^    def compute_on_mask() -> bool:$/;"	m	class:FrequencyDomainLoss	typeref:typename:bool
+compute_on_mask	enh/loss/criterions/tf_domain.py	/^    def compute_on_mask(self) -> bool:$/;"	m	class:FrequencyDomainL1	typeref:typename:bool
+compute_on_mask	enh/loss/criterions/tf_domain.py	/^    def compute_on_mask(self) -> bool:$/;"	m	class:FrequencyDomainMSE	typeref:typename:bool
+config	bin/asr_align.py	/^    config = CtcSegmentationParameters()$/;"	v	class:CTCSegmentation
+config	bin/asr_align.py	/^    config = None$/;"	v	class:CTCSegmentationTask
+convert	layers/sinc_conv.py	/^    def convert(f):$/;"	m	class:BarkScale
+convert	layers/sinc_conv.py	/^    def convert(f):$/;"	m	class:MelScale
+create_length_mask	diar/espnet_model.py	/^    def create_length_mask(self, length, max_len, num_output):$/;"	m	class:ESPnetDiarizationModel
+create_mask_label	enh/loss/criterions/tf_domain.py	/^    def create_mask_label(self, mix_spec, ref_spec):$/;"	m	class:FrequencyDomainLoss
+criterion_choices	tasks/enh.py	/^criterion_choices = ClassChoices($/;"	v
+ctc_align	bin/asr_align.py	/^def ctc_align($/;"	f
+decoder_choices	tasks/asr.py	/^decoder_choices = ClassChoices($/;"	v
+decoder_choices	tasks/diar.py	/^decoder_choices = ClassChoices($/;"	v
+decoder_choices	tasks/enh.py	/^decoder_choices = ClassChoices($/;"	v
+decoder_choices	tasks/enh_asr.py	/^decoder_choices = ClassChoices($/;"	v
+design_prototype_filter	gan_tts/melgan/pqmf.py	/^def design_prototype_filter($/;"	f	typeref:typename:np.ndarray
+detect_non_silence	train/preprocessor.py	/^def detect_non_silence($/;"	f	typeref:typename:np.ndarray
+dist_backend	train/distributed_utils.py	/^    dist_backend: str = "nccl"$/;"	v	class:DistributedOption	typeref:typename:str
+dist_init_method	train/distributed_utils.py	/^    dist_init_method: str = "env:\/\/"$/;"	v	class:DistributedOption	typeref:typename:str
+dist_launcher	train/distributed_utils.py	/^    dist_launcher: Optional[str] = None$/;"	v	class:DistributedOption	typeref:typename:Optional[str]
+dist_master_addr	train/distributed_utils.py	/^    dist_master_addr: Optional[str] = None$/;"	v	class:DistributedOption	typeref:typename:Optional[str]
+dist_master_port	train/distributed_utils.py	/^    dist_master_port: Optional[int] = None$/;"	v	class:DistributedOption	typeref:typename:Optional[int]
+dist_rank	train/distributed_utils.py	/^    dist_rank: Optional[int] = None$/;"	v	class:DistributedOption	typeref:typename:Optional[int]
+dist_world_size	train/distributed_utils.py	/^    dist_world_size: Optional[int] = None$/;"	v	class:DistributedOption	typeref:typename:Optional[int]
+distributed	train/distributed_utils.py	/^    distributed: bool = False$/;"	v	class:DistributedOption	typeref:typename:bool
+done	bin/asr_align.py	/^    done = False$/;"	v	class:CTCSegmentationTask
+download_hubert	asr/encoder/hubert_encoder.py	/^def download_hubert(model_url, dir_path):$/;"	f
+download_w2v	asr/encoder/wav2vec2_encoder.py	/^def download_w2v(model_url, dir_path):$/;"	f
+einsum	enh/layers/complex_utils.py	/^def einsum(equation, *operands):$/;"	f
+encode	asr/espnet_model.py	/^    def encode($/;"	m	class:ESPnetASRModel	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+encode	diar/espnet_model.py	/^    def encode($/;"	m	class:ESPnetDiarizationModel	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+encode	hubert/espnet_model.py	/^    def encode($/;"	m	class:HubertPretrainModel	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+encoder_choices	tasks/asr.py	/^encoder_choices = ClassChoices($/;"	v
+encoder_choices	tasks/diar.py	/^encoder_choices = ClassChoices($/;"	v
+encoder_choices	tasks/enh.py	/^encoder_choices = ClassChoices($/;"	v
+encoder_choices	tasks/enh_asr.py	/^encoder_choices = ClassChoices($/;"	v
+encoder_choices	tasks/hubert.py	/^encoder_choices = ClassChoices($/;"	v
+energy_extractor_choices	tasks/gan_tts.py	/^energy_extractor_choices = ClassChoices($/;"	v
+energy_extractor_choices	tasks/tts.py	/^energy_extractor_choices = ClassChoices($/;"	v
+energy_normalize_choices	tasks/gan_tts.py	/^energy_normalize_choices = ClassChoices($/;"	v
+energy_normalize_choices	tasks/tts.py	/^energy_normalize_choices = ClassChoices($/;"	v
+enh_choices	tasks/enh_asr.py	/^enh_choices = ClassChoices($/;"	v
+espnet_initialization_fn	asr/preencoder/sinc.py	/^    def espnet_initialization_fn(self):$/;"	m	class:LightweightSincConvs
+estimate_samples_to_frames_ratio	bin/asr_align.py	/^    def estimate_samples_to_frames_ratio(self, speech_len=215040):$/;"	m	class:CTCSegmentation
+exclude_opts	tasks/abs_task.py	/^    def exclude_opts(cls) -> Tuple[str, ...]:$/;"	m	class:AbsTask	typeref:typename:Tuple[str,...]
+extra_repr	layers/global_mvn.py	/^    def extra_repr(self):$/;"	m	class:GlobalMVN
+extra_repr	layers/label_aggregation.py	/^    def extra_repr(self):$/;"	m	class:LabelAggregate
+extra_repr	layers/log_mel.py	/^    def extra_repr(self):$/;"	m	class:LogMel
+extra_repr	layers/mask_along_axis.py	/^    def extra_repr(self):$/;"	m	class:MaskAlongAxis
+extra_repr	layers/stft.py	/^    def extra_repr(self):$/;"	m	class:Stft
+extra_repr	layers/time_warp.py	/^    def extra_repr(self):$/;"	m	class:TimeWarp
+extra_repr	layers/utterance_mvn.py	/^    def extra_repr(self):$/;"	m	class:UtteranceMVN
+extract	main_funcs/pack_funcs.py	/^    def extract(self, info, path=None):$/;"	m	class:Archiver
+extractfile	main_funcs/pack_funcs.py	/^    def extractfile(self, info, mode="r"):$/;"	m	class:Archiver
+exts	gan_tts/vits/monotonic_align/setup.py	/^exts = [$/;"	v
+fairscale	tasks/abs_task.py	/^    fairscale = None$/;"	v
+fairscale	train/gan_trainer.py	/^    fairscale = None$/;"	v
+fairscale	train/trainer.py	/^    fairscale = None$/;"	v
+feats_extractor_choices	tasks/gan_tts.py	/^feats_extractor_choices = ClassChoices($/;"	v
+feats_extractor_choices	tasks/tts.py	/^feats_extractor_choices = ClassChoices($/;"	v
+field2slice	bin/tokenize_text.py	/^def field2slice(field: Optional[str]) -> slice:$/;"	f	typeref:typename:slice
+files	bin/pack.py	/^    files = ["asr_model_file", "lm_file"]$/;"	v	class:ASRPackedContents
+files	bin/pack.py	/^    files = ["model_file"]$/;"	v	class:DiarPackedContents
+files	bin/pack.py	/^    files = ["model_file"]$/;"	v	class:EnhPackedContents
+files	bin/pack.py	/^    files = ["model_file"]$/;"	v	class:TTSPackedContents
+files	bin/pack.py	/^    files = []$/;"	v	class:PackedContents
+filter_minimum_gain_like	enh/layers/beamformer.py	/^def filter_minimum_gain_like($/;"	f
+filter_state_dict	torch_utils/load_pretrained_model.py	/^def filter_state_dict($/;"	f
+finalize_options	gan_tts/vits/monotonic_align/setup.py	/^    def finalize_options(self):$/;"	m	class:build_ext
+find_path_and_change_it_recursive	main_funcs/pack_funcs.py	/^def find_path_and_change_it_recursive(value, src: str, tgt: str):$/;"	f
+finish_epoch	train/reporter.py	/^    def finish_epoch(self, sub_reporter: SubReporter) -> None:$/;"	m	class:Reporter	typeref:typename:None
+finished	train/reporter.py	/^    def finished(self) -> None:$/;"	m	class:SubReporter	typeref:typename:None
+float_or_none	utils/types.py	/^def float_or_none(value: str) -> Optional[float]:$/;"	f	typeref:typename:Optional[float]
+force_gatherable	torch_utils/device_funcs.py	/^def force_gatherable(data, device):$/;"	f
+forward	asr/ctc.py	/^    def forward(self, hs_pad, hlens, ys_pad, ys_lens):$/;"	m	class:CTC
+forward	asr/decoder/abs_decoder.py	/^    def forward($/;"	m	class:AbsDecoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	asr/decoder/rnn_decoder.py	/^    def forward(self, hs_pad, hlens, ys_in_pad, ys_in_lens, strm_idx=0):$/;"	m	class:RNNDecoder
+forward	asr/decoder/transformer_decoder.py	/^    def forward($/;"	m	class:BaseTransformerDecoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	asr/encoder/abs_encoder.py	/^    def forward($/;"	m	class:AbsEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,Optional[torch.Tensor]]
+forward	asr/encoder/conformer_encoder.py	/^    def forward($/;"	m	class:ConformerEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,Optional[torch.Tensor]]
+forward	asr/encoder/contextual_block_conformer_encoder.py	/^    def forward($/;"	m	class:ContextualBlockConformerEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,Optional[torch.Tensor]]
+forward	asr/encoder/contextual_block_transformer_encoder.py	/^    def forward($/;"	m	class:ContextualBlockTransformerEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,Optional[torch.Tensor]]
+forward	asr/encoder/hubert_encoder.py	/^    def forward($/;"	m	class:FairseqHubertEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,Optional[torch.Tensor]]
+forward	asr/encoder/hubert_encoder.py	/^    def forward($/;"	m	class:FairseqHubertPretrainEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,Optional[torch.Tensor]]
+forward	asr/encoder/rnn_encoder.py	/^    def forward($/;"	m	class:RNNEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,torch.Tensor]
+forward	asr/encoder/transformer_encoder.py	/^    def forward($/;"	m	class:TransformerEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,Optional[torch.Tensor]]
+forward	asr/encoder/vgg_rnn_encoder.py	/^    def forward($/;"	m	class:VGGRNNEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,torch.Tensor]
+forward	asr/encoder/wav2vec2_encoder.py	/^    def forward($/;"	m	class:FairSeqWav2Vec2Encoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,Optional[torch.Tensor]]
+forward	asr/espnet_model.py	/^    def forward($/;"	m	class:ESPnetASRModel	typeref:typename:Tuple[torch.Tensor,Dict[str,torch.Tensor],torch.Tensor]
+forward	asr/frontend/abs_frontend.py	/^    def forward($/;"	m	class:AbsFrontend	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	asr/frontend/default.py	/^    def forward($/;"	m	class:DefaultFrontend	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	asr/frontend/fused.py	/^    def forward($/;"	m	class:FusedFrontends	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	asr/frontend/s3prl.py	/^    def forward($/;"	m	class:S3prlFrontend	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	asr/frontend/windowing.py	/^    def forward($/;"	m	class:SlidingWindow	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	asr/postencoder/abs_postencoder.py	/^    def forward($/;"	m	class:AbsPostEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	asr/postencoder/hugging_face_transformers_postencoder.py	/^    def forward($/;"	m	class:HuggingFaceTransformersPostEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	asr/preencoder/abs_preencoder.py	/^    def forward($/;"	m	class:AbsPreEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	asr/preencoder/linear.py	/^    def forward($/;"	m	class:LinearProjection	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	asr/preencoder/sinc.py	/^    def forward($/;"	m	class:LightweightSincConvs	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	asr/preencoder/sinc.py	/^    def forward(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:SpatialDropout	typeref:typename:torch.Tensor
+forward	asr/specaug/abs_specaug.py	/^    def forward($/;"	m	class:AbsSpecAug	typeref:typename:Tuple[torch.Tensor,Optional[torch.Tensor]]
+forward	asr/specaug/specaug.py	/^    def forward(self, x, x_lengths=None):$/;"	m	class:SpecAug
+forward	diar/abs_diar.py	/^    def forward($/;"	m	class:AbsDiarization	typeref:typename:Tuple[torch.Tensor,torch.Tensor,OrderedDict]
+forward	diar/attractor/abs_attractor.py	/^    def forward($/;"	m	class:AbsAttractor	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	diar/attractor/rnn_attractor.py	/^    def forward($/;"	m	class:RnnAttractor
+forward	diar/decoder/abs_decoder.py	/^    def forward($/;"	m	class:AbsDecoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	diar/decoder/linear_decoder.py	/^    def forward(self, input: torch.Tensor, ilens: torch.Tensor):$/;"	m	class:LinearDecoder
+forward	diar/espnet_model.py	/^    def forward($/;"	m	class:ESPnetDiarizationModel	typeref:typename:Tuple[torch.Tensor,Dict[str,torch.Tensor],torch.Tensor]
+forward	diar/label_processor.py	/^    def forward(self, input: torch.Tensor, ilens: torch.Tensor):$/;"	m	class:LabelProcessor
+forward	enh/abs_enh.py	/^    def forward($/;"	m	class:AbsEnhancement	typeref:typename:Tuple[torch.Tensor,torch.Tensor,OrderedDict]
+forward	enh/decoder/abs_decoder.py	/^    def forward($/;"	m	class:AbsDecoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	enh/decoder/conv_decoder.py	/^    def forward(self, input: torch.Tensor, ilens: torch.Tensor):$/;"	m	class:ConvDecoder
+forward	enh/decoder/null_decoder.py	/^    def forward(self, input: torch.Tensor, ilens: torch.Tensor):$/;"	m	class:NullDecoder
+forward	enh/decoder/stft_decoder.py	/^    def forward(self, input: ComplexTensor, ilens: torch.Tensor):$/;"	m	class:STFTDecoder
+forward	enh/encoder/abs_encoder.py	/^    def forward($/;"	m	class:AbsEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	enh/encoder/conv_encoder.py	/^    def forward(self, input: torch.Tensor, ilens: torch.Tensor):$/;"	m	class:ConvEncoder
+forward	enh/encoder/null_encoder.py	/^    def forward(self, input: torch.Tensor, ilens: torch.Tensor):$/;"	m	class:NullEncoder
+forward	enh/encoder/stft_encoder.py	/^    def forward(self, input: torch.Tensor, ilens: torch.Tensor):$/;"	m	class:STFTEncoder
+forward	enh/espnet_model.py	/^    def forward($/;"	m	class:ESPnetEnhancementModel	typeref:typename:Tuple[torch.Tensor,Dict[str,torch.Tensor],torch.Tensor]
+forward	enh/layers/dnn_beamformer.py	/^    def forward($/;"	m	class:AttentionReference	typeref:typename:Tuple[torch.Tensor,torch.LongTensor]
+forward	enh/layers/dnn_beamformer.py	/^    def forward($/;"	m	class:DNN_Beamformer	typeref:typename:Tuple[Union[torch.Tensor,ComplexTensor],torch.LongTensor,torch.Tensor]
+forward	enh/layers/dnn_wpe.py	/^    def forward($/;"	m	class:DNN_WPE	typeref:typename:Tuple[Union[torch.Tensor,ComplexTensor],torch.LongTensor,Union[torch.Tensor,ComplexTensor],]
+forward	enh/layers/dprnn.py	/^    def forward(self, input):$/;"	m	class:DPRNN
+forward	enh/layers/dprnn.py	/^    def forward(self, input):$/;"	m	class:SingleRNN
+forward	enh/layers/mask_estimator.py	/^    def forward($/;"	m	class:MaskEstimator	typeref:typename:Tuple[Tuple[torch.Tensor,...],torch.LongTensor]
+forward	enh/layers/tcn.py	/^    def forward(self, mixture_w):$/;"	m	class:TemporalConvNet
+forward	enh/layers/tcn.py	/^    def forward(self, x):$/;"	m	class:Chomp1d
+forward	enh/layers/tcn.py	/^    def forward(self, x):$/;"	m	class:DepthwiseSeparableConv
+forward	enh/layers/tcn.py	/^    def forward(self, x):$/;"	m	class:TemporalBlock
+forward	enh/layers/tcn.py	/^    def forward(self, y):$/;"	m	class:ChannelwiseLayerNorm
+forward	enh/layers/tcn.py	/^    def forward(self, y):$/;"	m	class:GlobalLayerNorm
+forward	enh/loss/criterions/abs_loss.py	/^    def forward($/;"	m	class:AbsEnhLoss	typeref:typename:torch.Tensor
+forward	enh/loss/criterions/tf_domain.py	/^    def forward(self, ref, inf) -> torch.Tensor:$/;"	m	class:FrequencyDomainL1	typeref:typename:torch.Tensor
+forward	enh/loss/criterions/tf_domain.py	/^    def forward(self, ref, inf) -> torch.Tensor:$/;"	m	class:FrequencyDomainMSE	typeref:typename:torch.Tensor
+forward	enh/loss/criterions/time_domain.py	/^    def forward($/;"	m	class:CISDRLoss	typeref:typename:torch.Tensor
+forward	enh/loss/criterions/time_domain.py	/^    def forward($/;"	m	class:SISNRLoss	typeref:typename:torch.Tensor
+forward	enh/loss/criterions/time_domain.py	/^    def forward($/;"	m	class:SNRLoss	typeref:typename:torch.Tensor
+forward	enh/loss/wrappers/abs_wrapper.py	/^    def forward($/;"	m	class:AbsLossWrapper	typeref:typename:Tuple[torch.Tensor,Dict,Dict]
+forward	enh/loss/wrappers/fixed_order.py	/^    def forward(self, ref, inf, others={}):$/;"	m	class:FixedOrderSolver
+forward	enh/loss/wrappers/pit_solver.py	/^    def forward(self, ref, inf, others={}):$/;"	m	class:PITSolver
+forward	enh/separator/abs_separator.py	/^    def forward($/;"	m	class:AbsSeparator	typeref:typename:Tuple[Tuple[torch.Tensor],torch.Tensor,OrderedDict]
+forward	enh/separator/asteroid_models.py	/^    def forward(self, input: torch.Tensor, ilens: torch.Tensor = None):$/;"	m	class:AsteroidModel_Converter
+forward	enh/separator/conformer_separator.py	/^    def forward($/;"	m	class:ConformerSeparator	typeref:typename:Tuple[List[Union[torch.Tensor,ComplexTensor]],torch.Tensor,OrderedDict]
+forward	enh/separator/dprnn_separator.py	/^    def forward($/;"	m	class:DPRNNSeparator	typeref:typename:Tuple[List[Union[torch.Tensor,ComplexTensor]],torch.Tensor,OrderedDict]
+forward	enh/separator/neural_beamformer.py	/^    def forward($/;"	m	class:NeuralBeamformer	typeref:typename:Tuple[List[Union[torch.Tensor,ComplexTensor]],torch.Tensor,OrderedDict]
+forward	enh/separator/rnn_separator.py	/^    def forward($/;"	m	class:RNNSeparator	typeref:typename:Tuple[List[Union[torch.Tensor,ComplexTensor]],torch.Tensor,OrderedDict]
+forward	enh/separator/tcn_separator.py	/^    def forward($/;"	m	class:TCNSeparator	typeref:typename:Tuple[List[Union[torch.Tensor,ComplexTensor]],torch.Tensor,OrderedDict]
+forward	enh/separator/transformer_separator.py	/^    def forward($/;"	m	class:TransformerSeparator	typeref:typename:Tuple[List[Union[torch.Tensor,ComplexTensor]],torch.Tensor,OrderedDict]
+forward	gan_tts/abs_gan_tts.py	/^    def forward($/;"	m	class:AbsGANTTS	typeref:typename:Dict[str,Union[torch.Tensor,Dict[str,torch.Tensor],int]]
+forward	gan_tts/espnet_model.py	/^    def forward($/;"	m	class:ESPnetGANTTSModel	typeref:typename:Dict[str,Any]
+forward	gan_tts/hifigan/hifigan.py	/^    def forward($/;"	m	class:HiFiGANGenerator	typeref:typename:torch.Tensor
+forward	gan_tts/hifigan/hifigan.py	/^    def forward(self, x: torch.Tensor) -> List[List[torch.Tensor]]:$/;"	m	class:HiFiGANMultiScaleDiscriminator	typeref:typename:List[List[torch.Tensor]]
+forward	gan_tts/hifigan/hifigan.py	/^    def forward(self, x: torch.Tensor) -> List[List[torch.Tensor]]:$/;"	m	class:HiFiGANMultiScaleMultiPeriodDiscriminator	typeref:typename:List[List[torch.Tensor]]
+forward	gan_tts/hifigan/hifigan.py	/^    def forward(self, x: torch.Tensor) -> List[torch.Tensor]:$/;"	m	class:HiFiGANScaleDiscriminator	typeref:typename:List[torch.Tensor]
+forward	gan_tts/hifigan/hifigan.py	/^    def forward(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:HiFiGANMultiPeriodDiscriminator	typeref:typename:torch.Tensor
+forward	gan_tts/hifigan/hifigan.py	/^    def forward(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:HiFiGANPeriodDiscriminator	typeref:typename:torch.Tensor
+forward	gan_tts/hifigan/loss.py	/^    def forward($/;"	m	class:DiscriminatorAdversarialLoss	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	gan_tts/hifigan/loss.py	/^    def forward($/;"	m	class:FeatureMatchLoss	typeref:typename:torch.Tensor
+forward	gan_tts/hifigan/loss.py	/^    def forward($/;"	m	class:GeneratorAdversarialLoss	typeref:typename:torch.Tensor
+forward	gan_tts/hifigan/loss.py	/^    def forward($/;"	m	class:MelSpectrogramLoss	typeref:typename:torch.Tensor
+forward	gan_tts/hifigan/residual_block.py	/^    def forward(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:ResidualBlock	typeref:typename:torch.Tensor
+forward	gan_tts/joint/joint_text2wav.py	/^    def forward($/;"	m	class:JointText2Wav	typeref:typename:Dict[str,Any]
+forward	gan_tts/melgan/melgan.py	/^    def forward(self, c: torch.Tensor) -> torch.Tensor:$/;"	m	class:MelGANGenerator	typeref:typename:torch.Tensor
+forward	gan_tts/melgan/melgan.py	/^    def forward(self, x: torch.Tensor) -> List[List[torch.Tensor]]:$/;"	m	class:MelGANMultiScaleDiscriminator	typeref:typename:List[List[torch.Tensor]]
+forward	gan_tts/melgan/melgan.py	/^    def forward(self, x: torch.Tensor) -> List[torch.Tensor]:$/;"	m	class:MelGANDiscriminator	typeref:typename:List[torch.Tensor]
+forward	gan_tts/melgan/residual_stack.py	/^    def forward(self, c: torch.Tensor) -> torch.Tensor:$/;"	m	class:ResidualStack	typeref:typename:torch.Tensor
+forward	gan_tts/parallel_wavegan/parallel_wavegan.py	/^    def forward($/;"	m	class:ParallelWaveGANGenerator	typeref:typename:torch.Tensor
+forward	gan_tts/parallel_wavegan/parallel_wavegan.py	/^    def forward(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:ParallelWaveGANDiscriminator	typeref:typename:torch.Tensor
+forward	gan_tts/parallel_wavegan/upsample.py	/^    def forward(self, c: torch.Tensor) -> torch.Tensor:$/;"	m	class:ConvInUpsampleNetwork	typeref:typename:torch.Tensor
+forward	gan_tts/parallel_wavegan/upsample.py	/^    def forward(self, c: torch.Tensor) -> torch.Tensor:$/;"	m	class:UpsampleNetwork	typeref:typename:torch.Tensor
+forward	gan_tts/parallel_wavegan/upsample.py	/^    def forward(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:Stretch2d	typeref:typename:torch.Tensor
+forward	gan_tts/style_melgan/style_melgan.py	/^    def forward($/;"	m	class:StyleMelGANGenerator	typeref:typename:torch.Tensor
+forward	gan_tts/style_melgan/style_melgan.py	/^    def forward(self, x: torch.Tensor) -> List[torch.Tensor]:$/;"	m	class:StyleMelGANDiscriminator	typeref:typename:List[torch.Tensor]
+forward	gan_tts/style_melgan/tade_res_block.py	/^    def forward(self, x: torch.Tensor, c: torch.Tensor) -> torch.Tensor:$/;"	m	class:TADELayer	typeref:typename:torch.Tensor
+forward	gan_tts/style_melgan/tade_res_block.py	/^    def forward(self, x: torch.Tensor, c: torch.Tensor) -> torch.Tensor:$/;"	m	class:TADEResBlock	typeref:typename:torch.Tensor
+forward	gan_tts/vits/duration_predictor.py	/^    def forward($/;"	m	class:StochasticDurationPredictor	typeref:typename:torch.Tensor
+forward	gan_tts/vits/flow.py	/^    def forward($/;"	m	class:ConvFlow	typeref:typename:Union[torch.Tensor,Tuple[torch.Tensor,torch.Tensor]]
+forward	gan_tts/vits/flow.py	/^    def forward($/;"	m	class:DilatedDepthSeparableConv	typeref:typename:torch.Tensor
+forward	gan_tts/vits/flow.py	/^    def forward($/;"	m	class:ElementwiseAffineFlow	typeref:typename:Union[torch.Tensor,Tuple[torch.Tensor,torch.Tensor]]
+forward	gan_tts/vits/flow.py	/^    def forward($/;"	m	class:FlipFlow	typeref:typename:Union[torch.Tensor,Tuple[torch.Tensor,torch.Tensor]]
+forward	gan_tts/vits/flow.py	/^    def forward($/;"	m	class:LogFlow	typeref:typename:Union[torch.Tensor,Tuple[torch.Tensor,torch.Tensor]]
+forward	gan_tts/vits/flow.py	/^    def forward(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:Transpose	typeref:typename:torch.Tensor
+forward	gan_tts/vits/generator.py	/^    def forward($/;"	m	class:VITSGenerator	typeref:typename:Tuple[torch.Tensor,torch.Tensor,torch.Tensor,torch.Tensor,torch.Tensor,torch.Tensor,Tuple[torch.Tensor,torch.Tensor,torch.Tensor,torch.Tensor,torch.Tensor,torch.Tensor,],]
+forward	gan_tts/vits/loss.py	/^    def forward($/;"	m	class:KLDivergenceLoss	typeref:typename:torch.Tensor
+forward	gan_tts/vits/posterior_encoder.py	/^    def forward($/;"	m	class:PosteriorEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,torch.Tensor,torch.Tensor]
+forward	gan_tts/vits/residual_coupling.py	/^    def forward($/;"	m	class:ResidualAffineCouplingBlock	typeref:typename:torch.Tensor
+forward	gan_tts/vits/residual_coupling.py	/^    def forward($/;"	m	class:ResidualAffineCouplingLayer	typeref:typename:Union[torch.Tensor,Tuple[torch.Tensor,torch.Tensor]]
+forward	gan_tts/vits/text_encoder.py	/^    def forward($/;"	m	class:TextEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,torch.Tensor,torch.Tensor]
+forward	gan_tts/vits/vits.py	/^    def forward($/;"	m	class:VITS	typeref:typename:Dict[str,Any]
+forward	gan_tts/wavenet/residual_block.py	/^    def forward($/;"	m	class:ResidualBlock	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	gan_tts/wavenet/wavenet.py	/^    def forward($/;"	m	class:WaveNet	typeref:typename:torch.Tensor
+forward	hubert/espnet_model.py	/^    def forward($/;"	m	class:HubertPretrainModel	typeref:typename:Tuple[torch.Tensor,Dict[str,torch.Tensor],torch.Tensor]
+forward	hubert/hubert_loss.py	/^    def forward(self, model, enc_outputs, reduce=True):$/;"	m	class:HubertPretrainLoss
+forward	layers/abs_normalize.py	/^    def forward($/;"	m	class:AbsNormalize	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	layers/global_mvn.py	/^    def forward($/;"	m	class:GlobalMVN	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	layers/label_aggregation.py	/^    def forward($/;"	m	class:LabelAggregate	typeref:typename:Tuple[torch.Tensor,Optional[torch.Tensor]]
+forward	layers/log_mel.py	/^    def forward($/;"	m	class:LogMel	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	layers/mask_along_axis.py	/^    def forward(self, spec: torch.Tensor, spec_lengths: torch.Tensor = None):$/;"	m	class:MaskAlongAxis
+forward	layers/sinc_conv.py	/^    def forward(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:LogCompression	typeref:typename:torch.Tensor
+forward	layers/sinc_conv.py	/^    def forward(self, xs: torch.Tensor) -> torch.Tensor:$/;"	m	class:SincConv	typeref:typename:torch.Tensor
+forward	layers/stft.py	/^    def forward($/;"	m	class:Stft	typeref:typename:Tuple[torch.Tensor,Optional[torch.Tensor]]
+forward	layers/time_warp.py	/^    def forward(self, x: torch.Tensor, x_lengths: torch.Tensor = None):$/;"	m	class:TimeWarp
+forward	layers/utterance_mvn.py	/^    def forward($/;"	m	class:UtteranceMVN	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	lm/abs_model.py	/^    def forward($/;"	m	class:AbsLM	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	lm/espnet_model.py	/^    def forward($/;"	m	class:ESPnetLanguageModel	typeref:typename:Tuple[torch.Tensor,Dict[str,torch.Tensor],torch.Tensor]
+forward	lm/seq_rnn_lm.py	/^    def forward($/;"	m	class:SequentialRNNLM	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	lm/transformer_lm.py	/^    def forward(self, input: torch.Tensor, hidden: None) -> Tuple[torch.Tensor, None]:$/;"	m	class:TransformerLM	typeref:typename:Tuple[torch.Tensor,None]
+forward	torch_utils/forward_adaptor.py	/^    def forward(self, *args, **kwargs):$/;"	m	class:ForwardAdaptor
+forward	train/abs_espnet_model.py	/^    def forward($/;"	m	class:AbsESPnetModel	typeref:typename:Tuple[torch.Tensor,Dict[str,torch.Tensor],torch.Tensor]
+forward	train/abs_gan_espnet_model.py	/^    def forward($/;"	m	class:AbsGANESPnetModel	typeref:typename:Dict[str,Union[torch.Tensor,Dict[str,torch.Tensor],int]]
+forward	tts/abs_tts.py	/^    def forward($/;"	m	class:AbsTTS	typeref:typename:Tuple[torch.Tensor,Dict[str,torch.Tensor],torch.Tensor]
+forward	tts/espnet_model.py	/^    def forward($/;"	m	class:ESPnetTTSModel	typeref:typename:Tuple[torch.Tensor,Dict[str,torch.Tensor],torch.Tensor]
+forward	tts/fastspeech/fastspeech.py	/^    def forward($/;"	m	class:FastSpeech	typeref:typename:Tuple[torch.Tensor,Dict[str,torch.Tensor],torch.Tensor]
+forward	tts/fastspeech2/fastspeech2.py	/^    def forward($/;"	m	class:FastSpeech2	typeref:typename:Tuple[torch.Tensor,Dict[str,torch.Tensor],torch.Tensor]
+forward	tts/fastspeech2/loss.py	/^    def forward($/;"	m	class:FastSpeech2Loss	typeref:typename:Tuple[torch.Tensor,torch.Tensor,torch.Tensor,torch.Tensor]
+forward	tts/fastspeech2/variance_predictor.py	/^    def forward(self, xs: torch.Tensor, x_masks: torch.Tensor = None) -> torch.Tensor:$/;"	m	class:VariancePredictor	typeref:typename:torch.Tensor
+forward	tts/feats_extract/abs_feats_extract.py	/^    def forward($/;"	m	class:AbsFeatsExtract	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	tts/feats_extract/dio.py	/^    def forward($/;"	m	class:Dio	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	tts/feats_extract/energy.py	/^    def forward($/;"	m	class:Energy	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	tts/feats_extract/linear_spectrogram.py	/^    def forward($/;"	m	class:LinearSpectrogram	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	tts/feats_extract/log_mel_fbank.py	/^    def forward($/;"	m	class:LogMelFbank	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	tts/feats_extract/log_spectrogram.py	/^    def forward($/;"	m	class:LogSpectrogram	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	tts/gst/style_encoder.py	/^    def forward(self, ref_embs: torch.Tensor) -> torch.Tensor:$/;"	m	class:StyleTokenLayer	typeref:typename:torch.Tensor
+forward	tts/gst/style_encoder.py	/^    def forward(self, speech: torch.Tensor) -> torch.Tensor:$/;"	m	class:ReferenceEncoder	typeref:typename:torch.Tensor
+forward	tts/gst/style_encoder.py	/^    def forward(self, speech: torch.Tensor) -> torch.Tensor:$/;"	m	class:StyleEncoder	typeref:typename:torch.Tensor
+forward	tts/tacotron2/tacotron2.py	/^    def forward($/;"	m	class:Tacotron2	typeref:typename:Tuple[torch.Tensor,Dict[str,torch.Tensor],torch.Tensor]
+forward	tts/transformer/transformer.py	/^    def forward($/;"	m	class:Transformer	typeref:typename:Tuple[torch.Tensor,Dict[str,torch.Tensor],torch.Tensor]
+forward	tts/utils/duration_calculator.py	/^    def forward(self, att_ws: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:$/;"	m	class:DurationCalculator	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward	tts/utils/parallel_wavegan_pretrained_vocoder.py	/^    def forward(self, feats: torch.Tensor) -> torch.Tensor:$/;"	m	class:ParallelWaveGANPretrainedVocoder	typeref:typename:torch.Tensor
+forward_infer	asr/encoder/contextual_block_conformer_encoder.py	/^    def forward_infer($/;"	m	class:ContextualBlockConformerEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,Optional[torch.Tensor]]
+forward_infer	asr/encoder/contextual_block_transformer_encoder.py	/^    def forward_infer($/;"	m	class:ContextualBlockTransformerEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,Optional[torch.Tensor]]
+forward_one_step	asr/decoder/transformer_decoder.py	/^    def forward_one_step($/;"	m	class:BaseTransformerDecoder	typeref:typename:Tuple[torch.Tensor,List[torch.Tensor]]
+forward_rawwav	diar/abs_diar.py	/^    def forward_rawwav($/;"	m	class:AbsDiarization	typeref:typename:Tuple[torch.Tensor,torch.Tensor,OrderedDict]
+forward_rawwav	enh/abs_enh.py	/^    def forward_rawwav($/;"	m	class:AbsEnhancement	typeref:typename:Tuple[torch.Tensor,torch.Tensor,OrderedDict]
+forward_rawwav	enh/separator/asteroid_models.py	/^    def forward_rawwav($/;"	m	class:AsteroidModel_Converter	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+forward_train	asr/encoder/contextual_block_conformer_encoder.py	/^    def forward_train($/;"	m	class:ContextualBlockConformerEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,Optional[torch.Tensor]]
+forward_train	asr/encoder/contextual_block_transformer_encoder.py	/^    def forward_train($/;"	m	class:ContextualBlockTransformerEncoder	typeref:typename:Tuple[torch.Tensor,torch.Tensor,Optional[torch.Tensor]]
+framing	train/preprocessor.py	/^def framing($/;"	f
+free_port	train/distributed_utils.py	/^def free_port():$/;"	f
+from_pretrained	bin/asr_inference.py	/^    def from_pretrained($/;"	m	class:Speech2Text
+from_pretrained	bin/asr_inference_k2.py	/^    def from_pretrained($/;"	m	class:k2Speech2Text
+from_pretrained	bin/diar_inference.py	/^    def from_pretrained($/;"	m	class:DiarizeSpeech
+from_pretrained	bin/enh_inference.py	/^    def from_pretrained($/;"	m	class:SeparateSpeech
+from_pretrained	bin/tts_inference.py	/^    def from_pretrained($/;"	m	class:Text2Speech
+frontend_choices	tasks/asr.py	/^frontend_choices = ClassChoices($/;"	v
+frontend_choices	tasks/diar.py	/^frontend_choices = ClassChoices($/;"	v
+frontend_choices	tasks/enh_asr.py	/^frontend_choices = ClassChoices($/;"	v
+frontend_choices	tasks/hubert.py	/^frontend_choices = ClassChoices($/;"	v
+fs	bin/asr_align.py	/^    fs = 16000$/;"	v	class:CTCSegmentation
+fs	bin/tts_inference.py	/^    def fs(self) -> Optional[int]:$/;"	m	class:Text2Speech	typeref:typename:Optional[int]
+g2p_choices	text/phoneme_tokenizer.py	/^g2p_choices = [$/;"	v
+gen_lsc_block	asr/preencoder/sinc.py	/^    def gen_lsc_block($/;"	m	class:LightweightSincConvs
+generate	iterators/sequence_iter_factory.py	/^    def generate(self, seed):$/;"	m	class:RawSampler
+generate	samplers/abs_sampler.py	/^    def generate(self, seed):$/;"	m	class:AbsSampler
+generate_info	main_funcs/pack_funcs.py	/^    def generate_info(self, name, size) -> Union[tarfile.TarInfo, zipfile.ZipInfo]:$/;"	m	class:Archiver	typeref:typename:Union[tarfile.TarInfo,zipfile.ZipInfo]
+get_WPD_filter	enh/layers/beamformer.py	/^def get_WPD_filter($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+get_WPD_filter_v2	enh/layers/beamformer.py	/^def get_WPD_filter_v2($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+get_WPD_filter_with_rtf	enh/layers/beamformer.py	/^def get_WPD_filter_with_rtf($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+get_adjacent	enh/layers/beamformer.py	/^def get_adjacent(spec, filter_length: int = 5):$/;"	f
+get_adjacent_th	enh/layers/beamformer.py	/^def get_adjacent_th(spec: torch.Tensor, filter_length: int = 5) -> torch.Tensor:$/;"	f	typeref:typename:torch.Tensor
+get_all_keys	train/reporter.py	/^    def get_all_keys(self, epoch: int = None) -> Tuple[Tuple[str, str], ...]:$/;"	m	class:Reporter	typeref:typename:Tuple[Tuple[str,str],...]
+get_attr	torch_utils/load_pretrained_model.py	/^        def get_attr(obj: Any, key: str):$/;"	f	function:load_pretrained_model	file:
+get_best_epoch	train/reporter.py	/^    def get_best_epoch(self, key: str, key2: str, mode: str, nbest: int = 0) -> int:$/;"	m	class:Reporter	typeref:typename:int
+get_class	train/class_choices.py	/^    def get_class(self, name: Optional[str]) -> Optional[type]:$/;"	m	class:ClassChoices	typeref:typename:Optional[type]
+get_class_type	tasks/abs_task.py	/^        def get_class_type(name: str, classes: dict):$/;"	f	member:AbsTask.get_default_config	file:
+get_correlations	enh/layers/wpe.py	/^def get_correlations($/;"	f	typeref:typename:Tuple[Union[torch.Tensor,ComplexTensor],Union[torch.Tensor,ComplexTensor]]
+get_covariances	enh/layers/beamformer.py	/^def get_covariances($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+get_default_config	tasks/abs_task.py	/^    def get_default_config(cls) -> Dict[str, Any]:$/;"	m	class:AbsTask	typeref:typename:Dict[str,Any]
+get_default_kwargs	utils/get_default_kwargs.py	/^def get_default_kwargs(func):$/;"	f
+get_dict_from_cache	main_funcs/pack_funcs.py	/^def get_dict_from_cache(meta: Union[Path, str]) -> Optional[Dict[str, str]]:$/;"	f	typeref:typename:Optional[Dict[str,str]]
+get_epoch	train/reporter.py	/^    def get_epoch(self) -> int:$/;"	m	class:Reporter	typeref:typename:int
+get_epoch	train/reporter.py	/^    def get_epoch(self) -> int:$/;"	m	class:SubReporter	typeref:typename:int
+get_filter_matrix_conj	enh/layers/wpe.py	/^def get_filter_matrix_conj($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+get_human_readable_count	torch_utils/model_summary.py	/^def get_human_readable_count(number: int) -> str:$/;"	f	typeref:typename:str
+get_keys	train/reporter.py	/^    def get_keys(self, epoch: int = None) -> Tuple[str, ...]:$/;"	m	class:Reporter	typeref:typename:Tuple[str,...]
+get_keys2	train/reporter.py	/^    def get_keys2(self, key: str, epoch: int = None) -> Tuple[str, ...]:$/;"	m	class:Reporter	typeref:typename:Tuple[str,...]
+get_local_rank	train/distributed_utils.py	/^def get_local_rank(prior=None, launcher: str = None) -> Optional[int]:$/;"	f	typeref:typename:Optional[int]
+get_lpz	bin/asr_align.py	/^    def get_lpz(self, speech: Union[torch.Tensor, np.ndarray]):$/;"	m	class:CTCSegmentation
+get_lr	schedulers/noam_lr.py	/^    def get_lr(self):$/;"	m	class:NoamLR
+get_lr	schedulers/warmup_lr.py	/^    def get_lr(self):$/;"	m	class:WarmupLR
+get_master_addr	train/distributed_utils.py	/^def get_master_addr(prior=None, launcher: str = None) -> Optional[str]:$/;"	f	typeref:typename:Optional[str]
+get_master_port	train/distributed_utils.py	/^def get_master_port(prior=None) -> Optional[int]:$/;"	f	typeref:typename:Optional[int]
+get_mfmvdr_vector	enh/layers/beamformer.py	/^def get_mfmvdr_vector(gammax, Phi, use_torch_solver: bool = True, eps: float = EPS):$/;"	f
+get_mvdr_vector	enh/layers/beamformer.py	/^def get_mvdr_vector($/;"	f
+get_mvdr_vector_with_rtf	enh/layers/beamformer.py	/^def get_mvdr_vector_with_rtf($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+get_name_from_info	main_funcs/pack_funcs.py	/^    def get_name_from_info(self, info):$/;"	m	class:Archiver
+get_node_rank	train/distributed_utils.py	/^def get_node_rank(prior=None, launcher: str = None) -> Optional[int]:$/;"	f	typeref:typename:Optional[int]
+get_num_nodes	train/distributed_utils.py	/^def get_num_nodes(prior=None, launcher: str = None) -> Optional[int]:$/;"	f	typeref:typename:Optional[int]
+get_num_vocabulary_size	text/token_id_converter.py	/^    def get_num_vocabulary_size(self) -> int:$/;"	m	class:TokenIDConverter	typeref:typename:int
+get_odim	layers/sinc_conv.py	/^    def get_odim(self, idim: int) -> int:$/;"	m	class:SincConv	typeref:typename:int
+get_parameters	tts/feats_extract/abs_feats_extract.py	/^    def get_parameters(self) -> Dict[str, Any]:$/;"	m	class:AbsFeatsExtract	typeref:typename:Dict[str,Any]
+get_parameters	tts/feats_extract/dio.py	/^    def get_parameters(self) -> Dict[str, Any]:$/;"	m	class:Dio	typeref:typename:Dict[str,Any]
+get_parameters	tts/feats_extract/energy.py	/^    def get_parameters(self) -> Dict[str, Any]:$/;"	m	class:Energy	typeref:typename:Dict[str,Any]
+get_parameters	tts/feats_extract/linear_spectrogram.py	/^    def get_parameters(self) -> Dict[str, Any]:$/;"	m	class:LinearSpectrogram	typeref:typename:Dict[str,Any]
+get_parameters	tts/feats_extract/log_mel_fbank.py	/^    def get_parameters(self) -> Dict[str, Any]:$/;"	m	class:LogMelFbank	typeref:typename:Dict[str,Any]
+get_parameters	tts/feats_extract/log_spectrogram.py	/^    def get_parameters(self) -> Dict[str, Any]:$/;"	m	class:LogSpectrogram	typeref:typename:Dict[str,Any]
+get_parser	bin/aggregate_stats_dirs.py	/^def get_parser() -> argparse.ArgumentParser:$/;"	f	typeref:typename:argparse.ArgumentParser
+get_parser	bin/asr_align.py	/^def get_parser():$/;"	f
+get_parser	bin/asr_inference.py	/^def get_parser():$/;"	f
+get_parser	bin/asr_inference_k2.py	/^def get_parser():$/;"	f
+get_parser	bin/asr_inference_streaming.py	/^def get_parser():$/;"	f
+get_parser	bin/asr_train.py	/^def get_parser():$/;"	f
+get_parser	bin/diar_inference.py	/^def get_parser():$/;"	f
+get_parser	bin/diar_train.py	/^def get_parser():$/;"	f
+get_parser	bin/enh_inference.py	/^def get_parser():$/;"	f
+get_parser	bin/enh_scoring.py	/^def get_parser():$/;"	f
+get_parser	bin/enh_train.py	/^def get_parser():$/;"	f
+get_parser	bin/gan_tts_train.py	/^def get_parser():$/;"	f
+get_parser	bin/hubert_train.py	/^def get_parser():$/;"	f
+get_parser	bin/launch.py	/^def get_parser():$/;"	f
+get_parser	bin/lm_calc_perplexity.py	/^def get_parser():$/;"	f
+get_parser	bin/lm_train.py	/^def get_parser():$/;"	f
+get_parser	bin/pack.py	/^def get_parser() -> argparse.ArgumentParser:$/;"	f	typeref:typename:argparse.ArgumentParser
+get_parser	bin/split_scps.py	/^def get_parser() -> argparse.ArgumentParser:$/;"	f	typeref:typename:argparse.ArgumentParser
+get_parser	bin/tokenize_text.py	/^def get_parser() -> argparse.ArgumentParser:$/;"	f	typeref:typename:argparse.ArgumentParser
+get_parser	bin/tts_inference.py	/^def get_parser():$/;"	f
+get_parser	bin/tts_train.py	/^def get_parser():$/;"	f
+get_parser	tasks/abs_task.py	/^    def get_parser(cls) -> config_argparse.ArgumentParser:$/;"	m	class:AbsTask	typeref:typename:config_argparse.ArgumentParser
+get_path	fileio/npy_scp.py	/^    def get_path(self, key):$/;"	m	class:NpyScpReader
+get_path	fileio/npy_scp.py	/^    def get_path(self, key):$/;"	m	class:NpyScpWriter
+get_path	fileio/sound_scp.py	/^    def get_path(self, key):$/;"	m	class:SoundScpReader
+get_path	fileio/sound_scp.py	/^    def get_path(self, key):$/;"	m	class:SoundScpWriter
+get_power	enh/layers/wpe.py	/^def get_power(signal, dim=-2) -> torch.Tensor:$/;"	f	typeref:typename:torch.Tensor
+get_power_spectral_density_matrix	enh/layers/beamformer.py	/^def get_power_spectral_density_matrix($/;"	f
+get_random_segments	gan_tts/utils/get_random_segments.py	/^def get_random_segments($/;"	f	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+get_rank	train/distributed_utils.py	/^def get_rank(prior=None, launcher: str = None) -> Optional[int]:$/;"	f	typeref:typename:Optional[int]
+get_rtf	enh/layers/beamformer.py	/^def get_rtf($/;"	f
+get_segments	bin/asr_align.py	/^    def get_segments(task: CTCSegmentationTask):$/;"	m	class:CTCSegmentation
+get_segments	gan_tts/utils/get_random_segments.py	/^def get_segments($/;"	f	typeref:typename:torch.Tensor
+get_size	utils/sized_dict.py	/^def get_size(obj, seen=None):$/;"	f
+get_texts	bin/asr_inference_k2.py	/^def get_texts(best_paths: k2.Fsa) -> List[List[int]]:$/;"	f	typeref:typename:List[List[int]]
+get_timing_config	bin/asr_align.py	/^    def get_timing_config(self, speech_len=None, lpz_len=None):$/;"	m	class:CTCSegmentation
+get_total_count	train/reporter.py	/^    def get_total_count(self) -> int:$/;"	m	class:SubReporter	typeref:typename:int
+get_value	train/reporter.py	/^    def get_value(self, key: str, key2: str, epoch: int = None):$/;"	m	class:Reporter
+get_world_size	train/distributed_utils.py	/^def get_world_size(prior=None, launcher: str = None) -> int:$/;"	f	typeref:typename:int
+griffin_lim	utils/griffin_lim.py	/^def griffin_lim($/;"	f	typeref:typename:np.ndarray
+ground_truth_mat	bin/asr_align.py	/^    ground_truth_mat = None$/;"	v	class:CTCSegmentationTask
+hamming_window	layers/sinc_conv.py	/^    def hamming_window(x: torch.Tensor) -> torch.Tensor:$/;"	m	class:SincConv	typeref:typename:torch.Tensor
+has	train/reporter.py	/^    def has(self, key: str, key2: str, epoch: int = None) -> bool:$/;"	m	class:Reporter	typeref:typename:bool
+has_name	train/dataset.py	/^    def has_name(self, name) -> bool:$/;"	m	class:AbsDataset	typeref:typename:bool
+has_name	train/dataset.py	/^    def has_name(self, name) -> bool:$/;"	m	class:ESPnetDataset	typeref:typename:bool
+has_name	train/iterable_dataset.py	/^    def has_name(self, name) -> bool:$/;"	m	class:IterableESPnetDataset	typeref:typename:bool
+hook	main_funcs/calculate_all_attentions.py	/^        def hook(module, input, output, name=name):$/;"	f	function:calculate_all_attentions	file:
+humanfriendly_or_none	bin/enh_inference.py	/^def humanfriendly_or_none(value: str):$/;"	f
+humanfriendly_parse_size_or_none	utils/types.py	/^def humanfriendly_parse_size_or_none(value) -> Optional[float]:$/;"	f	typeref:typename:Optional[float]
+ids2tokens	text/token_id_converter.py	/^    def ids2tokens(self, integers: Union[np.ndarray, Iterable[int]]) -> List[str]:$/;"	m	class:TokenIDConverter	typeref:typename:List[str]
+ignore_aliases	utils/yaml_no_alias_safe_dump.py	/^    def ignore_aliases(self, data):$/;"	m	class:NoAliasSafeDumper
+indices_to_split_size	bin/asr_inference_k2.py	/^def indices_to_split_size(indices, total_elements: int = None):$/;"	f
+inference	bin/asr_inference.py	/^def inference($/;"	f
+inference	bin/asr_inference_k2.py	/^def inference($/;"	f
+inference	bin/asr_inference_streaming.py	/^def inference($/;"	f
+inference	bin/diar_inference.py	/^def inference($/;"	f
+inference	bin/enh_inference.py	/^def inference($/;"	f
+inference	bin/tts_inference.py	/^def inference($/;"	f
+inference	gan_tts/hifigan/hifigan.py	/^    def inference($/;"	m	class:HiFiGANGenerator	typeref:typename:torch.Tensor
+inference	gan_tts/joint/joint_text2wav.py	/^    def inference($/;"	m	class:JointText2Wav	typeref:typename:Dict[str,torch.Tensor]
+inference	gan_tts/melgan/melgan.py	/^    def inference(self, c: torch.Tensor) -> torch.Tensor:$/;"	m	class:MelGANGenerator	typeref:typename:torch.Tensor
+inference	gan_tts/parallel_wavegan/parallel_wavegan.py	/^    def inference($/;"	m	class:ParallelWaveGANGenerator	typeref:typename:torch.Tensor
+inference	gan_tts/style_melgan/style_melgan.py	/^    def inference(self, c: torch.Tensor) -> torch.Tensor:$/;"	m	class:StyleMelGANGenerator	typeref:typename:torch.Tensor
+inference	gan_tts/vits/generator.py	/^    def inference($/;"	m	class:VITSGenerator	typeref:typename:Tuple[torch.Tensor,torch.Tensor,torch.Tensor]
+inference	gan_tts/vits/vits.py	/^    def inference($/;"	m	class:VITS	typeref:typename:Dict[str,torch.Tensor]
+inference	tts/abs_tts.py	/^    def inference($/;"	m	class:AbsTTS	typeref:typename:Dict[str,torch.Tensor]
+inference	tts/espnet_model.py	/^    def inference($/;"	m	class:ESPnetTTSModel	typeref:typename:Dict[str,torch.Tensor]
+inference	tts/fastspeech/fastspeech.py	/^    def inference($/;"	m	class:FastSpeech	typeref:typename:Dict[str,torch.Tensor]
+inference	tts/fastspeech2/fastspeech2.py	/^    def inference($/;"	m	class:FastSpeech2	typeref:typename:Dict[str,torch.Tensor]
+inference	tts/tacotron2/tacotron2.py	/^    def inference($/;"	m	class:Tacotron2	typeref:typename:Dict[str,torch.Tensor]
+inference	tts/transformer/transformer.py	/^    def inference($/;"	m	class:Transformer	typeref:typename:Dict[str,torch.Tensor]
+init_filters	layers/sinc_conv.py	/^    def init_filters(self):$/;"	m	class:SincConv
+init_options	train/distributed_utils.py	/^    def init_options(self):$/;"	m	class:DistributedOption
+init_state	asr/decoder/rnn_decoder.py	/^    def init_state(self, x):$/;"	m	class:RNNDecoder
+init_torch_distributed	train/distributed_utils.py	/^    def init_torch_distributed(self):$/;"	m	class:DistributedOption
+initialize	torch_utils/initialize.py	/^def initialize(model: torch.nn.Module, init: str):$/;"	f
+int_or_none	utils/types.py	/^def int_or_none(value: str) -> Optional[int]:$/;"	f	typeref:typename:Optional[int]
+inverse	enh/layers/complex_utils.py	/^def inverse($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+inverse	layers/global_mvn.py	/^    def inverse($/;"	m	class:GlobalMVN	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+inverse	layers/inversible_interface.py	/^    def inverse($/;"	m	class:InversibleInterface	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+inverse	layers/stft.py	/^    def inverse($/;"	m	class:Stft	typeref:typename:Tuple[torch.Tensor,Optional[torch.Tensor]]
+invert	layers/sinc_conv.py	/^    def invert(x):$/;"	m	class:BarkScale
+invert	layers/sinc_conv.py	/^    def invert(x):$/;"	m	class:MelScale
+is_complex	enh/layers/complex_utils.py	/^def is_complex(c):$/;"	f
+is_cython_avalable	gan_tts/vits/monotonic_align/__init__.py	/^    is_cython_avalable = False$/;"	v
+is_cython_avalable	gan_tts/vits/monotonic_align/__init__.py	/^    is_cython_avalable = True$/;"	v
+is_in_slurm_job	train/distributed_utils.py	/^def is_in_slurm_job() -> bool:$/;"	f	typeref:typename:bool
+is_in_slurm_step	train/distributed_utils.py	/^def is_in_slurm_step() -> bool:$/;"	f	typeref:typename:bool
+is_torch_1_7_plus	layers/stft.py	/^is_torch_1_7_plus = LooseVersion(torch.__version__) >= LooseVersion("1.7")$/;"	v
+is_torch_1_8_plus	enh/layers/complex_utils.py	/^is_torch_1_8_plus = LooseVersion(torch.__version__) >= LooseVersion("1.8.0")$/;"	v
+is_torch_1_9_plus	enh/decoder/stft_decoder.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	enh/encoder/stft_encoder.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	enh/espnet_model.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	enh/layers/beamformer.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	enh/layers/complex_utils.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	enh/layers/dnn_beamformer.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	enh/layers/mask_estimator.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	enh/layers/wpe.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	enh/loss/criterions/tf_domain.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	enh/separator/conformer_separator.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	enh/separator/dprnn_separator.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	enh/separator/rnn_separator.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	enh/separator/tcn_separator.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	enh/separator/transformer_separator.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_1_9_plus	layers/stft.py	/^is_torch_1_9_plus = LooseVersion(torch.__version__) >= LooseVersion("1.9.0")$/;"	v
+is_torch_complex_tensor	enh/layers/complex_utils.py	/^def is_torch_complex_tensor(c):$/;"	f
+is_transformers_available	asr/postencoder/hugging_face_transformers_postencoder.py	/^    is_transformers_available = False$/;"	v
+is_transformers_available	asr/postencoder/hugging_face_transformers_postencoder.py	/^    is_transformers_available = True$/;"	v
+k2Speech2Text	bin/asr_inference_k2.py	/^class k2Speech2Text:$/;"	c
+kaldi_loader	train/dataset.py	/^def kaldi_loader(path, float_dtype=None, max_cache_fd: int = 0):$/;"	f
+keys	fileio/npy_scp.py	/^    def keys(self):$/;"	m	class:NpyScpReader
+keys	fileio/rttm.py	/^    def keys(self):$/;"	m	class:RttmReader
+keys	fileio/sound_scp.py	/^    def keys(self):$/;"	m	class:SoundScpReader
+keys	train/dataset.py	/^    def keys(self):$/;"	m	class:AdapterForSoundScpReader
+label_aggregator_choices	tasks/diar.py	/^label_aggregator_choices = ClassChoices($/;"	v
+lm_choices	tasks/lm.py	/^lm_choices = ClassChoices($/;"	v
+load_kaldi	train/iterable_dataset.py	/^def load_kaldi(input):$/;"	f
+load_num_sequence_text	fileio/read_text.py	/^def load_num_sequence_text($/;"	f	typeref:typename:Dict[str,List[Union[float,int]]]
+load_pretrained_model	torch_utils/load_pretrained_model.py	/^def load_pretrained_model($/;"	f
+load_rttm_text	fileio/rttm.py	/^def load_rttm_text(path: Union[Path, str]) -> Dict[str, List[Tuple[str, float, float]]]:$/;"	f	typeref:typename:Dict[str,List[Tuple[str,float,float]]]
+load_state_dict	schedulers/abs_scheduler.py	/^    def load_state_dict(self, state):$/;"	m	class:AbsBatchStepScheduler
+load_state_dict	schedulers/abs_scheduler.py	/^    def load_state_dict(self, state):$/;"	m	class:AbsEpochStepScheduler
+load_state_dict	schedulers/abs_scheduler.py	/^    def load_state_dict(self, state):$/;"	m	class:AbsScheduler
+load_state_dict	schedulers/abs_scheduler.py	/^    def load_state_dict(self, state):$/;"	m	class:AbsValEpochStepScheduler
+load_state_dict	train/reporter.py	/^    def load_state_dict(self, state_dict: dict):$/;"	m	class:Reporter
+local_rank	train/distributed_utils.py	/^    local_rank: Optional[int] = None$/;"	v	class:DistributedOption	typeref:typename:Optional[int]
+log_message	train/reporter.py	/^    def log_message(self, epoch: int = None) -> str:$/;"	m	class:Reporter	typeref:typename:str
+log_message	train/reporter.py	/^    def log_message(self, start: int = None, end: int = None) -> str:$/;"	m	class:SubReporter	typeref:typename:str
+log_softmax	asr/ctc.py	/^    def log_softmax(self, hs_pad):$/;"	m	class:CTC
+logmel2linear	utils/griffin_lim.py	/^def logmel2linear($/;"	f	typeref:typename:np.ndarray
+loss_fn	asr/ctc.py	/^    def loss_fn(self, th_pred, th_target, th_ilen, th_olen) -> torch.Tensor:$/;"	m	class:CTC	typeref:typename:torch.Tensor
+loss_wrapper_choices	tasks/enh.py	/^loss_wrapper_choices = ClassChoices($/;"	v
+lpz	bin/asr_align.py	/^    lpz = None$/;"	v	class:CTCSegmentationTask
+lr_for_WarmupLR	schedulers/noam_lr.py	/^    def lr_for_WarmupLR(self, lr: float) -> float:$/;"	m	class:NoamLR	typeref:typename:float
+main	bin/aggregate_stats_dirs.py	/^def main(cmd=None):$/;"	f
+main	bin/asr_align.py	/^def main(cmd=None):$/;"	f
+main	bin/asr_inference.py	/^def main(cmd=None):$/;"	f
+main	bin/asr_inference_k2.py	/^def main(cmd=None):$/;"	f
+main	bin/asr_inference_streaming.py	/^def main(cmd=None):$/;"	f
+main	bin/asr_train.py	/^def main(cmd=None):$/;"	f
+main	bin/diar_inference.py	/^def main(cmd=None):$/;"	f
+main	bin/diar_train.py	/^def main(cmd=None):$/;"	f
+main	bin/enh_inference.py	/^def main(cmd=None):$/;"	f
+main	bin/enh_scoring.py	/^def main(cmd=None):$/;"	f
+main	bin/enh_train.py	/^def main(cmd=None):$/;"	f
+main	bin/gan_tts_train.py	/^def main(cmd=None):$/;"	f
+main	bin/hubert_train.py	/^def main(cmd=None):$/;"	f
+main	bin/launch.py	/^def main(cmd=None):$/;"	f
+main	bin/lm_calc_perplexity.py	/^def main(cmd=None):$/;"	f
+main	bin/lm_train.py	/^def main(cmd=None):$/;"	f
+main	bin/pack.py	/^def main(cmd=None):$/;"	f
+main	bin/split_scps.py	/^def main(cmd=None):$/;"	f
+main	bin/tokenize_text.py	/^def main(cmd=None):$/;"	f
+main	bin/tts_inference.py	/^def main(cmd=None):$/;"	f
+main	bin/tts_train.py	/^def main(cmd=None):$/;"	f
+main	tasks/abs_task.py	/^    def main(cls, args: argparse.Namespace = None, cmd: Sequence[str] = None):$/;"	m	class:AbsTask
+main_worker	tasks/abs_task.py	/^    def main_worker(cls, args: argparse.Namespace):$/;"	m	class:AbsTask
+mask_along_axis	layers/mask_along_axis.py	/^def mask_along_axis($/;"	f
+mask_type	enh/loss/criterions/tf_domain.py	/^    def mask_type() -> str:$/;"	m	class:FrequencyDomainLoss	typeref:typename:str
+mask_type	enh/loss/criterions/tf_domain.py	/^    def mask_type(self) -> str:$/;"	m	class:FrequencyDomainL1	typeref:typename:str
+mask_type	enh/loss/criterions/tf_domain.py	/^    def mask_type(self) -> str:$/;"	m	class:FrequencyDomainMSE	typeref:typename:str
+matmul	enh/layers/complex_utils.py	/^def matmul($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+matplotlib_plot	train/reporter.py	/^    def matplotlib_plot(self, output_dir: Union[str, Path]):$/;"	m	class:Reporter
+maximum_path	gan_tts/vits/monotonic_align/__init__.py	/^def maximum_path(neg_x_ent: torch.Tensor, attn_mask: torch.Tensor) -> torch.Tensor:$/;"	f	typeref:typename:torch.Tensor
+maximum_path_c	gan_tts/vits/monotonic_align/core.pyx	/^cpdef void maximum_path_c(int[:, :, ::1] paths, float[:, :, ::1] values, int[::1] t_ys, int[::1]/;"	f
+maximum_path_each	gan_tts/vits/monotonic_align/core.pyx	/^cdef void maximum_path_each(int[:, ::1] path, float[:, ::1] value, int t_y, int t_x, float max_n/;"	f
+maximum_path_each_numba	gan_tts/vits/monotonic_align/__init__.py	/^def maximum_path_each_numba(path, value, t_y, t_x, max_neg_val=-np.inf):$/;"	f
+maximum_path_numba	gan_tts/vits/monotonic_align/__init__.py	/^def maximum_path_numba(paths, values, t_ys, t_xs):$/;"	f
+measure_iter_time	train/reporter.py	/^    def measure_iter_time(self, iterable, name: str):$/;"	m	class:SubReporter
+measure_time	train/reporter.py	/^    def measure_time(self, name: str):$/;"	m	class:SubReporter
+merge_feature	enh/layers/dprnn.py	/^def merge_feature(input, rest):$/;"	f
+minimum_gain_like	enh/layers/beamformer.py	/^def minimum_gain_like($/;"	f
+mixture	enh/separator/asteroid_models.py	/^    mixture = torch.randn(3, 16000)$/;"	v
+model_summary	torch_utils/model_summary.py	/^def model_summary(model: torch.nn.Module) -> str:$/;"	f	typeref:typename:str
+multiprocessing_distributed	train/distributed_utils.py	/^    multiprocessing_distributed: bool = True$/;"	v	class:DistributedOption	typeref:typename:bool
+name	bin/asr_align.py	/^    name = "utt"$/;"	v	class:CTCSegmentationTask
+name	enh/loss/criterions/abs_loss.py	/^    def name(self) -> str:$/;"	m	class:AbsEnhLoss	typeref:typename:str
+name	enh/loss/criterions/tf_domain.py	/^    def name(self) -> str:$/;"	m	class:FrequencyDomainL1	typeref:typename:str
+name	enh/loss/criterions/tf_domain.py	/^    def name(self) -> str:$/;"	m	class:FrequencyDomainMSE	typeref:typename:str
+name	enh/loss/criterions/time_domain.py	/^    def name(self) -> str:$/;"	m	class:CISDRLoss	typeref:typename:str
+name	enh/loss/criterions/time_domain.py	/^    def name(self) -> str:$/;"	m	class:SISNRLoss	typeref:typename:str
+name	enh/loss/criterions/time_domain.py	/^    def name(self) -> str:$/;"	m	class:SNRLoss	typeref:typename:str
+names	train/dataset.py	/^    def names(self) -> Tuple[str, ...]:$/;"	m	class:AbsDataset	typeref:typename:Tuple[str,...]
+names	train/dataset.py	/^    def names(self) -> Tuple[str, ...]:$/;"	m	class:ESPnetDataset	typeref:typename:Tuple[str,...]
+names	train/iterable_dataset.py	/^    def names(self) -> Tuple[str, ...]:$/;"	m	class:IterableESPnetDataset	typeref:typename:Tuple[str,...]
+nbest_am_lm_scores	fst/lm_rescore.py	/^def nbest_am_lm_scores($/;"	f
+net	enh/separator/asteroid_models.py	/^    net = AsteroidModel_Converter($/;"	v
+new_complex_like	enh/layers/complex_utils.py	/^def new_complex_like($/;"	f
+next	train/reporter.py	/^    def next(self):$/;"	m	class:SubReporter
+ngpu	train/distributed_utils.py	/^    ngpu: int = 0$/;"	v	class:DistributedOption	typeref:typename:int
+nll	asr/espnet_model.py	/^    def nll($/;"	m	class:ESPnetASRModel	typeref:typename:torch.Tensor
+nll	lm/espnet_model.py	/^    def nll($/;"	m	class:ESPnetLanguageModel	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+nn	enh/layers/dprnn.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	enh/layers/tcn.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	lm/seq_rnn_lm.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	lm/transformer_lm.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+none_window	layers/sinc_conv.py	/^    def none_window(x: torch.Tensor) -> torch.Tensor:$/;"	m	class:SincConv	typeref:typename:torch.Tensor
+normalize_choices	tasks/asr.py	/^normalize_choices = ClassChoices($/;"	v
+normalize_choices	tasks/diar.py	/^normalize_choices = ClassChoices($/;"	v
+normalize_choices	tasks/enh_asr.py	/^normalize_choices = ClassChoices($/;"	v
+normalize_choices	tasks/gan_tts.py	/^normalize_choices = ClassChoices($/;"	v
+normalize_choices	tasks/hubert.py	/^normalize_choices = ClassChoices($/;"	v
+normalize_choices	tasks/tts.py	/^normalize_choices = ClassChoices($/;"	v
+normalize_text	text/korean_cleaner.py	/^    def normalize_text(cls, text):$/;"	m	class:KoreanCleaner
+np	asr/decoder/rnn_decoder.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	asr/encoder/rnn_encoder.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	asr/encoder/vgg_rnn_encoder.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	asr/frontend/default.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	asr/frontend/fused.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	bin/aggregate_stats_dirs.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	bin/asr_align.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	bin/asr_inference.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	bin/asr_inference_k2.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	bin/asr_inference_streaming.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	bin/diar_inference.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	bin/enh_inference.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	bin/enh_scoring.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	bin/lm_calc_perplexity.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	bin/tts_inference.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	diar/espnet_model.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	enh/layers/beamformer.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	enh/layers/mask_estimator.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	fileio/npy_scp.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	fileio/rand_gen_dataset.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	fileio/rttm.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	fileio/sound_scp.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	gan_tts/hifigan/hifigan.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	gan_tts/melgan/melgan.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	gan_tts/melgan/pqmf.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	gan_tts/parallel_wavegan/parallel_wavegan.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	gan_tts/parallel_wavegan/upsample.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	gan_tts/style_melgan/style_melgan.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	gan_tts/vits/generator.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	gan_tts/vits/monotonic_align/__init__.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	gan_tts/vits/transform.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	iterators/chunk_iter_factory.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	iterators/multiple_iter_factory.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	iterators/sequence_iter_factory.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	layers/global_mvn.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	layers/stft.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	main_funcs/collect_stats.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	samplers/num_elements_batch_sampler.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tasks/abs_task.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tasks/asr.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tasks/diar.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tasks/enh.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tasks/enh_asr.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tasks/gan_tts.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tasks/hubert.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tasks/lm.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tasks/tts.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	text/token_id_converter.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	torch_utils/device_funcs.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	torch_utils/model_summary.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	torch_utils/set_all_random_seed.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	train/collate_fn.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	train/dataset.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	train/iterable_dataset.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	train/preprocessor.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	train/reporter.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	train/trainer.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tts/feats_extract/dio.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	utils/griffin_lim.py	/^import numpy as np$/;"	I	nameref:module:numpy
+num_optimizers	tasks/abs_task.py	/^    num_optimizers: int = 1$/;"	v	class:AbsTask	typeref:typename:int
+num_optimizers	tasks/asr.py	/^    num_optimizers: int = 1$/;"	v	class:ASRTask	typeref:typename:int
+num_optimizers	tasks/diar.py	/^    num_optimizers: int = 1$/;"	v	class:DiarizationTask	typeref:typename:int
+num_optimizers	tasks/enh.py	/^    num_optimizers: int = 1$/;"	v	class:EnhancementTask	typeref:typename:int
+num_optimizers	tasks/enh_asr.py	/^    num_optimizers: int = 1$/;"	v	class:ASRTask	typeref:typename:int
+num_optimizers	tasks/gan_tts.py	/^    num_optimizers: int = 2$/;"	v	class:GANTTSTask	typeref:typename:int
+num_optimizers	tasks/hubert.py	/^    num_optimizers: int = 1$/;"	v	class:HubertTask	typeref:typename:int
+num_optimizers	tasks/lm.py	/^    num_optimizers: int = 1$/;"	v	class:LMTask	typeref:typename:int
+num_optimizers	tasks/tts.py	/^    num_optimizers: int = 1$/;"	v	class:TTSTask	typeref:typename:int
+num_spk	diar/decoder/abs_decoder.py	/^    def num_spk(self):$/;"	m	class:AbsDecoder
+num_spk	diar/decoder/linear_decoder.py	/^    def num_spk(self):$/;"	m	class:LinearDecoder
+num_spk	enh/separator/abs_separator.py	/^    def num_spk(self):$/;"	m	class:AbsSeparator
+num_spk	enh/separator/asteroid_models.py	/^    def num_spk(self):$/;"	m	class:AsteroidModel_Converter
+num_spk	enh/separator/conformer_separator.py	/^    def num_spk(self):$/;"	m	class:ConformerSeparator
+num_spk	enh/separator/dprnn_separator.py	/^    def num_spk(self):$/;"	m	class:DPRNNSeparator
+num_spk	enh/separator/neural_beamformer.py	/^    def num_spk(self):$/;"	m	class:NeuralBeamformer
+num_spk	enh/separator/rnn_separator.py	/^    def num_spk(self):$/;"	m	class:RNNSeparator
+num_spk	enh/separator/tcn_separator.py	/^    def num_spk(self):$/;"	m	class:TCNSeparator
+num_spk	enh/separator/transformer_separator.py	/^    def num_spk(self):$/;"	m	class:TransformerSeparator
+observe	train/reporter.py	/^    def observe(self, key: str, epoch: int = None) -> ContextManager[SubReporter]:$/;"	m	class:Reporter	typeref:typename:ContextManager[SubReporter]
+optim_classes	tasks/abs_task.py	/^optim_classes = dict($/;"	v
+optim_classes	tasks/abs_task.py	/^optim_classes = {k.lower(): v for k, v in optim_classes.items()}$/;"	v
+optional_data_names	tasks/abs_task.py	/^    def optional_data_names($/;"	m	class:AbsTask	typeref:typename:Tuple[str,...]
+optional_data_names	tasks/asr.py	/^    def optional_data_names($/;"	m	class:ASRTask	typeref:typename:Tuple[str,...]
+optional_data_names	tasks/diar.py	/^    def optional_data_names($/;"	m	class:DiarizationTask	typeref:typename:Tuple[str,...]
+optional_data_names	tasks/enh.py	/^    def optional_data_names($/;"	m	class:EnhancementTask	typeref:typename:Tuple[str,...]
+optional_data_names	tasks/enh_asr.py	/^    def optional_data_names($/;"	m	class:ASRTask	typeref:typename:Tuple[str,...]
+optional_data_names	tasks/gan_tts.py	/^    def optional_data_names($/;"	m	class:GANTTSTask	typeref:typename:Tuple[str,...]
+optional_data_names	tasks/hubert.py	/^    def optional_data_names($/;"	m	class:HubertTask	typeref:typename:Tuple[str,...]
+optional_data_names	tasks/lm.py	/^    def optional_data_names($/;"	m	class:LMTask	typeref:typename:Tuple[str,...]
+optional_data_names	tasks/tts.py	/^    def optional_data_names($/;"	m	class:TTSTask	typeref:typename:Tuple[str,...]
+output_dim	enh/encoder/abs_encoder.py	/^    def output_dim(self) -> int:$/;"	m	class:AbsEncoder	typeref:typename:int
+output_dim	enh/encoder/conv_encoder.py	/^    def output_dim(self) -> int:$/;"	m	class:ConvEncoder	typeref:typename:int
+output_dim	enh/encoder/null_encoder.py	/^    def output_dim(self) -> int:$/;"	m	class:NullEncoder	typeref:typename:int
+output_dim	enh/encoder/stft_encoder.py	/^    def output_dim(self) -> int:$/;"	m	class:STFTEncoder	typeref:typename:int
+output_size	asr/encoder/abs_encoder.py	/^    def output_size(self) -> int:$/;"	m	class:AbsEncoder	typeref:typename:int
+output_size	asr/encoder/conformer_encoder.py	/^    def output_size(self) -> int:$/;"	m	class:ConformerEncoder	typeref:typename:int
+output_size	asr/encoder/contextual_block_conformer_encoder.py	/^    def output_size(self) -> int:$/;"	m	class:ContextualBlockConformerEncoder	typeref:typename:int
+output_size	asr/encoder/contextual_block_transformer_encoder.py	/^    def output_size(self) -> int:$/;"	m	class:ContextualBlockTransformerEncoder	typeref:typename:int
+output_size	asr/encoder/hubert_encoder.py	/^    def output_size(self) -> int:$/;"	m	class:FairseqHubertEncoder	typeref:typename:int
+output_size	asr/encoder/hubert_encoder.py	/^    def output_size(self) -> int:$/;"	m	class:FairseqHubertPretrainEncoder	typeref:typename:int
+output_size	asr/encoder/rnn_encoder.py	/^    def output_size(self) -> int:$/;"	m	class:RNNEncoder	typeref:typename:int
+output_size	asr/encoder/transformer_encoder.py	/^    def output_size(self) -> int:$/;"	m	class:TransformerEncoder	typeref:typename:int
+output_size	asr/encoder/vgg_rnn_encoder.py	/^    def output_size(self) -> int:$/;"	m	class:VGGRNNEncoder	typeref:typename:int
+output_size	asr/encoder/wav2vec2_encoder.py	/^    def output_size(self) -> int:$/;"	m	class:FairSeqWav2Vec2Encoder	typeref:typename:int
+output_size	asr/frontend/abs_frontend.py	/^    def output_size(self) -> int:$/;"	m	class:AbsFrontend	typeref:typename:int
+output_size	asr/frontend/default.py	/^    def output_size(self) -> int:$/;"	m	class:DefaultFrontend	typeref:typename:int
+output_size	asr/frontend/fused.py	/^    def output_size(self) -> int:$/;"	m	class:FusedFrontends	typeref:typename:int
+output_size	asr/frontend/s3prl.py	/^    def output_size(self) -> int:$/;"	m	class:S3prlFrontend	typeref:typename:int
+output_size	asr/frontend/windowing.py	/^    def output_size(self) -> int:$/;"	m	class:SlidingWindow	typeref:typename:int
+output_size	asr/postencoder/abs_postencoder.py	/^    def output_size(self) -> int:$/;"	m	class:AbsPostEncoder	typeref:typename:int
+output_size	asr/postencoder/hugging_face_transformers_postencoder.py	/^    def output_size(self) -> int:$/;"	m	class:HuggingFaceTransformersPostEncoder	typeref:typename:int
+output_size	asr/preencoder/abs_preencoder.py	/^    def output_size(self) -> int:$/;"	m	class:AbsPreEncoder	typeref:typename:int
+output_size	asr/preencoder/linear.py	/^    def output_size(self) -> int:$/;"	m	class:LinearProjection	typeref:typename:int
+output_size	asr/preencoder/sinc.py	/^    def output_size(self) -> int:$/;"	m	class:LightweightSincConvs	typeref:typename:int
+output_size	tts/feats_extract/abs_feats_extract.py	/^    def output_size(self) -> int:$/;"	m	class:AbsFeatsExtract	typeref:typename:int
+output_size	tts/feats_extract/dio.py	/^    def output_size(self) -> int:$/;"	m	class:Dio	typeref:typename:int
+output_size	tts/feats_extract/energy.py	/^    def output_size(self) -> int:$/;"	m	class:Energy	typeref:typename:int
+output_size	tts/feats_extract/linear_spectrogram.py	/^    def output_size(self) -> int:$/;"	m	class:LinearSpectrogram	typeref:typename:int
+output_size	tts/feats_extract/log_mel_fbank.py	/^    def output_size(self) -> int:$/;"	m	class:LogMelFbank	typeref:typename:int
+output_size	tts/feats_extract/log_spectrogram.py	/^    def output_size(self) -> int:$/;"	m	class:LogSpectrogram	typeref:typename:int
+pack	main_funcs/pack_funcs.py	/^def pack($/;"	f
+pair_loss	enh/loss/wrappers/pit_solver.py	/^        def pair_loss(permutation):$/;"	f	member:PITSolver.forward	file:
+parse_known_args	utils/config_argparse.py	/^    def parse_known_args(self, args=None, namespace=None):$/;"	m	class:ArgumentParser
+perform_WPD_filtering	enh/layers/beamformer.py	/^def perform_WPD_filtering($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+perform_filter_operation	enh/layers/wpe.py	/^def perform_filter_operation($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+piecewise_rational_quadratic_transform	gan_tts/vits/transform.py	/^def piecewise_rational_quadratic_transform($/;"	f
+pit_loss	diar/espnet_model.py	/^    def pit_loss(self, pred, label, lengths):$/;"	m	class:ESPnetDiarizationModel
+pit_loss_single_permute	diar/espnet_model.py	/^    def pit_loss_single_permute(self, pred, label, length):$/;"	m	class:ESPnetDiarizationModel
+pitch_extractor_choices	tasks/gan_tts.py	/^pitch_extractor_choices = ClassChoices($/;"	v
+pitch_extractor_choices	tasks/tts.py	/^pitch_extractor_choices = ClassChoices($/;"	v
+pitch_normalize_choices	tasks/gan_tts.py	/^pitch_normalize_choices = ClassChoices($/;"	v
+pitch_normalize_choices	tasks/tts.py	/^pitch_normalize_choices = ClassChoices($/;"	v
+plot_attention	train/trainer.py	/^    def plot_attention($/;"	m	class:Trainer	typeref:typename:None
+plt	bin/tts_inference.py	/^    import matplotlib.pyplot as plt$/;"	I	function:inference	file:	nameref:module:matplotlib.pyplot
+plt	train/reporter.py	/^        import matplotlib.pyplot as plt$/;"	I	member:Reporter._plot_stats	file:	nameref:module:matplotlib.pyplot
+plt	train/trainer.py	/^        import matplotlib.pyplot as plt$/;"	I	member:Trainer.plot_attention	file:	nameref:module:matplotlib.pyplot
+pos_enc_class	lm/transformer_lm.py	/^            def pos_enc_class(*args, **kwargs):$/;"	f	member:TransformerLM.__init__	file:
+postencoder_choices	tasks/asr.py	/^postencoder_choices = ClassChoices($/;"	v
+predict_mask	enh/layers/dnn_beamformer.py	/^    def predict_mask($/;"	m	class:DNN_Beamformer	typeref:typename:Tuple[Tuple[torch.Tensor,...],torch.LongTensor]
+predict_mask	enh/layers/dnn_wpe.py	/^    def predict_mask($/;"	m	class:DNN_WPE	typeref:typename:Tuple[torch.Tensor,torch.LongTensor]
+preencoder_choices	tasks/asr.py	/^preencoder_choices = ClassChoices($/;"	v
+preencoder_choices	tasks/hubert.py	/^preencoder_choices = ClassChoices($/;"	v
+prepare_segmentation_task	bin/asr_align.py	/^    def prepare_segmentation_task(self, text, lpz, name=None, speech_len=None):$/;"	m	class:CTCSegmentation
+print_confidence_score	bin/asr_align.py	/^    print_confidence_score = True$/;"	v	class:CTCSegmentationTask
+print_config	tasks/abs_task.py	/^    def print_config(cls, file=sys.stdout) -> None:$/;"	m	class:AbsTask	typeref:typename:None
+print_utterance_text	bin/asr_align.py	/^    print_utterance_text = True$/;"	v	class:CTCSegmentationTask
+pyopenjtalk_g2p	text/phoneme_tokenizer.py	/^def pyopenjtalk_g2p(text) -> List[str]:$/;"	f	typeref:typename:List[str]
+pyopenjtalk_g2p_accent	text/phoneme_tokenizer.py	/^def pyopenjtalk_g2p_accent(text) -> List[str]:$/;"	f	typeref:typename:List[str]
+pyopenjtalk_g2p_accent_with_pause	text/phoneme_tokenizer.py	/^def pyopenjtalk_g2p_accent_with_pause(text) -> List[str]:$/;"	f	typeref:typename:List[str]
+pyopenjtalk_g2p_kana	text/phoneme_tokenizer.py	/^def pyopenjtalk_g2p_kana(text) -> List[str]:$/;"	f	typeref:typename:List[str]
+pyopenjtalk_g2p_prosody	text/phoneme_tokenizer.py	/^def pyopenjtalk_g2p_prosody(text: str, drop_unvoiced_vowels: bool = True) -> List[str]:$/;"	f	typeref:typename:List[str]
+pypinyin_g2p	text/phoneme_tokenizer.py	/^def pypinyin_g2p(text) -> List[str]:$/;"	f	typeref:typename:List[str]
+pypinyin_g2p_phone	text/phoneme_tokenizer.py	/^def pypinyin_g2p_phone(text) -> List[str]:$/;"	f	typeref:typename:List[str]
+pytorch_cudnn_version	torch_utils/pytorch_version.py	/^def pytorch_cudnn_version() -> str:$/;"	f	typeref:typename:str
+rand_int_loader	train/dataset.py	/^def rand_int_loader(filepath, loader_type):$/;"	f
+rational_quadratic_spline	gan_tts/vits/transform.py	/^def rational_quadratic_spline($/;"	f
+read_2column_text	fileio/read_text.py	/^def read_2column_text(path: Union[Path, str]) -> Dict[str, str]:$/;"	f	typeref:typename:Dict[str,str]
+receptive_field_size	gan_tts/parallel_wavegan/parallel_wavegan.py	/^    def receptive_field_size(self):$/;"	m	class:ParallelWaveGANGenerator
+receptive_field_size	gan_tts/wavenet/wavenet.py	/^    def receptive_field_size(self) -> int:$/;"	m	class:WaveNet	typeref:typename:int
+recursive_average	torch_utils/recursive_op.py	/^def recursive_average(obj, weight: torch.Tensor, distributed: bool = False):$/;"	f
+recursive_divide	torch_utils/recursive_op.py	/^def recursive_divide(a, b: torch.Tensor):$/;"	f
+recursive_sum	torch_utils/recursive_op.py	/^def recursive_sum(obj, weight: torch.Tensor, distributed: bool = False):$/;"	f
+register	train/reporter.py	/^    def register($/;"	m	class:SubReporter	typeref:typename:None
+reload_pretrained_parameters	asr/encoder/hubert_encoder.py	/^    def reload_pretrained_parameters(self):$/;"	m	class:FairseqHubertEncoder
+reload_pretrained_parameters	asr/encoder/hubert_encoder.py	/^    def reload_pretrained_parameters(self):$/;"	m	class:FairseqHubertPretrainEncoder
+reload_pretrained_parameters	asr/encoder/wav2vec2_encoder.py	/^    def reload_pretrained_parameters(self):$/;"	m	class:FairSeqWav2Vec2Encoder
+reload_pretrained_parameters	asr/frontend/s3prl.py	/^    def reload_pretrained_parameters(self):$/;"	m	class:S3prlFrontend
+reload_pretrained_parameters	asr/postencoder/hugging_face_transformers_postencoder.py	/^    def reload_pretrained_parameters(self):$/;"	m	class:HuggingFaceTransformersPostEncoder
+remove_parenthesis	utils/types.py	/^def remove_parenthesis(value: str):$/;"	f
+remove_quotes	utils/types.py	/^def remove_quotes(value: str):$/;"	f
+remove_repeated_and_leq	fst/lm_rescore.py	/^def remove_repeated_and_leq(tokens: List[int], blank_id: int = 0):$/;"	f
+remove_weight_norm	gan_tts/hifigan/hifigan.py	/^    def remove_weight_norm(self):$/;"	m	class:HiFiGANGenerator
+remove_weight_norm	gan_tts/melgan/melgan.py	/^    def remove_weight_norm(self):$/;"	m	class:MelGANGenerator
+remove_weight_norm	gan_tts/melgan/melgan.py	/^    def remove_weight_norm(self):$/;"	m	class:MelGANMultiScaleDiscriminator
+remove_weight_norm	gan_tts/parallel_wavegan/parallel_wavegan.py	/^    def remove_weight_norm(self):$/;"	m	class:ParallelWaveGANDiscriminator
+remove_weight_norm	gan_tts/parallel_wavegan/parallel_wavegan.py	/^    def remove_weight_norm(self):$/;"	m	class:ParallelWaveGANGenerator
+remove_weight_norm	gan_tts/style_melgan/style_melgan.py	/^    def remove_weight_norm(self):$/;"	m	class:StyleMelGANGenerator
+remove_weight_norm	gan_tts/wavenet/wavenet.py	/^    def remove_weight_norm(self):$/;"	m	class:WaveNet
+require_raw_speech	gan_tts/joint/joint_text2wav.py	/^    def require_raw_speech(self):$/;"	m	class:JointText2Wav
+require_raw_speech	gan_tts/vits/vits.py	/^    def require_raw_speech(self):$/;"	m	class:VITS
+require_raw_speech	tts/abs_tts.py	/^    def require_raw_speech(self):$/;"	m	class:AbsTTS
+require_vocoder	gan_tts/joint/joint_text2wav.py	/^    def require_vocoder(self):$/;"	m	class:JointText2Wav
+require_vocoder	gan_tts/vits/vits.py	/^    def require_vocoder(self):$/;"	m	class:VITS
+require_vocoder	tts/abs_tts.py	/^    def require_vocoder(self):$/;"	m	class:AbsTTS
+required_data_names	tasks/abs_task.py	/^    def required_data_names($/;"	m	class:AbsTask	typeref:typename:Tuple[str,...]
+required_data_names	tasks/asr.py	/^    def required_data_names($/;"	m	class:ASRTask	typeref:typename:Tuple[str,...]
+required_data_names	tasks/diar.py	/^    def required_data_names($/;"	m	class:DiarizationTask	typeref:typename:Tuple[str,...]
+required_data_names	tasks/enh.py	/^    def required_data_names($/;"	m	class:EnhancementTask	typeref:typename:Tuple[str,...]
+required_data_names	tasks/enh_asr.py	/^    def required_data_names($/;"	m	class:ASRTask	typeref:typename:Tuple[str,...]
+required_data_names	tasks/gan_tts.py	/^    def required_data_names($/;"	m	class:GANTTSTask	typeref:typename:Tuple[str,...]
+required_data_names	tasks/hubert.py	/^    def required_data_names($/;"	m	class:HubertTask	typeref:typename:Tuple[str,...]
+required_data_names	tasks/lm.py	/^    def required_data_names($/;"	m	class:LMTask	typeref:typename:Tuple[str,...]
+required_data_names	tasks/tts.py	/^    def required_data_names($/;"	m	class:TTSTask	typeref:typename:Tuple[str,...]
+reset	bin/asr_inference_streaming.py	/^    def reset(self):$/;"	m	class:Speech2TextStreaming
+reset_parameters	enh/layers/tcn.py	/^    def reset_parameters(self):$/;"	m	class:ChannelwiseLayerNorm
+reset_parameters	enh/layers/tcn.py	/^    def reset_parameters(self):$/;"	m	class:GlobalLayerNorm
+reset_parameters	gan_tts/hifigan/hifigan.py	/^    def reset_parameters(self):$/;"	m	class:HiFiGANGenerator
+reset_parameters	gan_tts/melgan/melgan.py	/^    def reset_parameters(self):$/;"	m	class:MelGANGenerator
+reset_parameters	gan_tts/melgan/melgan.py	/^    def reset_parameters(self):$/;"	m	class:MelGANMultiScaleDiscriminator
+reset_parameters	gan_tts/parallel_wavegan/upsample.py	/^    def reset_parameters(self):$/;"	m	class:Conv2d
+reset_parameters	gan_tts/style_melgan/style_melgan.py	/^    def reset_parameters(self):$/;"	m	class:StyleMelGANDiscriminator
+reset_parameters	gan_tts/style_melgan/style_melgan.py	/^    def reset_parameters(self):$/;"	m	class:StyleMelGANGenerator
+reset_parameters	gan_tts/wavenet/residual_block.py	/^    def reset_parameters(self):$/;"	m	class:Conv1d
+resolve_distributed_mode	train/distributed_utils.py	/^def resolve_distributed_mode(args):$/;"	f
+resume	train/trainer.py	/^    def resume($/;"	m	class:Trainer
+reverse	enh/layers/complex_utils.py	/^def reverse(a: Union[torch.Tensor, ComplexTensor], dim=0):$/;"	f
+rnn_forward	asr/decoder/rnn_decoder.py	/^    def rnn_forward(self, ey, z_list, c_list, z_prev, c_prev):$/;"	m	class:RNNDecoder
+run	train/trainer.py	/^    def run($/;"	m	class:Trainer	typeref:typename:None
+samples_to_frames_ratio	bin/asr_align.py	/^    samples_to_frames_ratio = None$/;"	v	class:CTCSegmentation
+scheduler_classes	tasks/abs_task.py	/^scheduler_classes = dict($/;"	v
+scheduler_classes	tasks/abs_task.py	/^scheduler_classes = {k.lower(): v for k, v in scheduler_classes.items()}$/;"	v
+score	asr/decoder/rnn_decoder.py	/^    def score(self, yseq, state, x):$/;"	m	class:RNNDecoder
+score	asr/decoder/transformer_decoder.py	/^    def score(self, ys, state, x):$/;"	m	class:BaseTransformerDecoder
+score	lm/seq_rnn_lm.py	/^    def score($/;"	m	class:SequentialRNNLM	typeref:typename:Tuple[torch.Tensor,Union[torch.Tensor,Tuple[torch.Tensor,torch.Tensor]]]
+score	lm/transformer_lm.py	/^    def score($/;"	m	class:TransformerLM	typeref:typename:Tuple[torch.Tensor,Any]
+scoring	bin/enh_scoring.py	/^def scoring($/;"	f
+segments	bin/asr_align.py	/^    segments = None$/;"	v	class:CTCSegmentationTask
+separator_choices	tasks/enh.py	/^separator_choices = ClassChoices($/;"	v
+set	bin/asr_align.py	/^    def set(self, **kwargs):$/;"	m	class:CTCSegmentationTask
+set_all_random_seed	torch_utils/set_all_random_seed.py	/^def set_all_random_seed(seed: int):$/;"	f
+set_config	bin/asr_align.py	/^    def set_config(self, **kwargs):$/;"	m	class:CTCSegmentation
+set_epoch	train/reporter.py	/^    def set_epoch(self, epoch: int) -> None:$/;"	m	class:Reporter	typeref:typename:None
+sf	bin/tts_inference.py	/^import soundfile as sf$/;"	I	nameref:module:soundfile
+si_snr_loss	bin/enh_scoring.py	/^si_snr_loss = SISNRLoss()$/;"	v
+signal_framing	enh/layers/beamformer.py	/^def signal_framing($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+signal_framing	enh/layers/wpe.py	/^def signal_framing($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+sinc	layers/sinc_conv.py	/^    def sinc(x: torch.Tensor) -> torch.Tensor:$/;"	m	class:SincConv	typeref:typename:torch.Tensor
+solve	enh/layers/complex_utils.py	/^def solve(b: Union[torch.Tensor, ComplexTensor], a: Union[torch.Tensor, ComplexTensor]):$/;"	f
+sort_epochs	train/reporter.py	/^    def sort_epochs(self, key: str, key2: str, mode: str) -> List[int]:$/;"	m	class:Reporter	typeref:typename:List[int]
+sort_epochs_and_values	train/reporter.py	/^    def sort_epochs_and_values($/;"	m	class:Reporter	typeref:typename:List[Tuple[int,float]]
+sort_values	train/reporter.py	/^    def sort_values(self, key: str, key2: str, mode: str) -> List[float]:$/;"	m	class:Reporter	typeref:typename:List[float]
+sound_loader	train/dataset.py	/^def sound_loader(path, float_dtype=None):$/;"	f
+specaug_choices	tasks/asr.py	/^specaug_choices = ClassChoices($/;"	v
+specaug_choices	tasks/enh_asr.py	/^specaug_choices = ClassChoices($/;"	v
+specaug_choices	tasks/hubert.py	/^specaug_choices = ClassChoices($/;"	v
+split_by_space	text/phoneme_tokenizer.py	/^def split_by_space(text) -> List[str]:$/;"	f	typeref:typename:List[str]
+split_feature	enh/layers/dprnn.py	/^def split_feature(input, segment_size):$/;"	f
+split_scps	bin/split_scps.py	/^def split_scps($/;"	f
+spm	text/sentencepiece_tokenizer.py	/^import sentencepiece as spm$/;"	I	nameref:module:sentencepiece
+start_epoch	train/reporter.py	/^    def start_epoch(self, key: str, epoch: int = None) -> SubReporter:$/;"	m	class:Reporter	typeref:typename:SubReporter
+state_dict	schedulers/abs_scheduler.py	/^    def state_dict(self):$/;"	m	class:AbsBatchStepScheduler
+state_dict	schedulers/abs_scheduler.py	/^    def state_dict(self):$/;"	m	class:AbsEpochStepScheduler
+state_dict	schedulers/abs_scheduler.py	/^    def state_dict(self):$/;"	m	class:AbsScheduler
+state_dict	schedulers/abs_scheduler.py	/^    def state_dict(self):$/;"	m	class:AbsValEpochStepScheduler
+state_dict	train/reporter.py	/^    def state_dict(self):$/;"	m	class:Reporter
+state_list	bin/asr_align.py	/^    state_list = None$/;"	v	class:CTCSegmentationTask
+step	schedulers/abs_scheduler.py	/^    def step(self, epoch: int = None):$/;"	m	class:AbsBatchStepScheduler
+step	schedulers/abs_scheduler.py	/^    def step(self, epoch: int = None):$/;"	m	class:AbsEpochStepScheduler
+step	schedulers/abs_scheduler.py	/^    def step(self, epoch: int = None):$/;"	m	class:AbsScheduler
+step	schedulers/abs_scheduler.py	/^    def step(self, val, epoch: int = None):$/;"	m	class:AbsValEpochStepScheduler
+str2bool	utils/types.py	/^def str2bool(value: str) -> bool:$/;"	f	typeref:typename:bool
+str2pair_str	utils/types.py	/^def str2pair_str(value: str) -> Tuple[str, str]:$/;"	f	typeref:typename:Tuple[str,str]
+str2triple_str	utils/types.py	/^def str2triple_str(value: str) -> Tuple[str, str, str]:$/;"	f	typeref:typename:Tuple[str,str,str]
+str_or_int	utils/types.py	/^def str_or_int(value: str) -> Union[str, int]:$/;"	f	typeref:typename:Union[str,int]
+str_or_none	utils/types.py	/^def str_or_none(value: str) -> Optional[str]:$/;"	f	typeref:typename:Optional[str]
+synthesis	gan_tts/melgan/pqmf.py	/^    def synthesis(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:PQMF	typeref:typename:torch.Tensor
+tensorboard_add_scalar	train/reporter.py	/^    def tensorboard_add_scalar(self, summary_writer, epoch: int = None):$/;"	m	class:Reporter
+tensorboard_add_scalar	train/reporter.py	/^    def tensorboard_add_scalar(self, summary_writer, start: int = None):$/;"	m	class:SubReporter
+text	bin/asr_align.py	/^    text = None$/;"	v	class:CTCSegmentationTask
+text2tokens	text/abs_tokenizer.py	/^    def text2tokens(self, line: str) -> List[str]:$/;"	m	class:AbsTokenizer	typeref:typename:List[str]
+text2tokens	text/char_tokenizer.py	/^    def text2tokens(self, line: str) -> List[str]:$/;"	m	class:CharTokenizer	typeref:typename:List[str]
+text2tokens	text/phoneme_tokenizer.py	/^    def text2tokens(self, line: str) -> List[str]:$/;"	m	class:PhonemeTokenizer	typeref:typename:List[str]
+text2tokens	text/sentencepiece_tokenizer.py	/^    def text2tokens(self, line: str) -> List[str]:$/;"	m	class:SentencepiecesTokenizer	typeref:typename:List[str]
+text2tokens	text/word_tokenizer.py	/^    def text2tokens(self, line: str) -> List[str]:$/;"	m	class:WordTokenizer	typeref:typename:List[str]
+text_converter	bin/asr_align.py	/^    text_converter = "tokenize"$/;"	v	class:CTCSegmentation
+ticker	train/reporter.py	/^        import matplotlib.ticker as ticker$/;"	I	member:Reporter._plot_stats	file:	nameref:module:matplotlib.ticker
+tik_reg	enh/layers/beamformer.py	/^def tik_reg(mat, reg: float = 1e-8, eps: float = 1e-8):$/;"	f
+time_stamps	bin/asr_align.py	/^    time_stamps = "auto"$/;"	v	class:CTCSegmentation
+time_warp	layers/time_warp.py	/^def time_warp(x: torch.Tensor, window: int = 80, mode: str = DEFAULT_TIME_WARP_MODE):$/;"	f
+timings	bin/asr_align.py	/^    timings = None$/;"	v	class:CTCSegmentationTask
+to_bytes	torch_utils/model_summary.py	/^def to_bytes(dtype) -> int:$/;"	f	typeref:typename:int
+to_device	torch_utils/device_funcs.py	/^def to_device(data, device=None, dtype=None, non_blocking=False, copy=False):$/;"	f
+to_double	enh/layers/complex_utils.py	/^def to_double(c):$/;"	f
+to_float	enh/layers/complex_utils.py	/^def to_float(c):$/;"	f
+to_reported_value	train/reporter.py	/^def to_reported_value(v: Num, weight: Num = None) -> "ReportedValue":$/;"	f	typeref:typename:"ReportedValue"
+tokenize	bin/tokenize_text.py	/^def tokenize($/;"	f
+tokens2ids	text/token_id_converter.py	/^    def tokens2ids(self, tokens: Iterable[str]) -> List[int]:$/;"	m	class:TokenIDConverter	typeref:typename:List[int]
+tokens2text	text/abs_tokenizer.py	/^    def tokens2text(self, tokens: Iterable[str]) -> str:$/;"	m	class:AbsTokenizer	typeref:typename:str
+tokens2text	text/char_tokenizer.py	/^    def tokens2text(self, tokens: Iterable[str]) -> str:$/;"	m	class:CharTokenizer	typeref:typename:str
+tokens2text	text/phoneme_tokenizer.py	/^    def tokens2text(self, tokens: Iterable[str]) -> str:$/;"	m	class:PhonemeTokenizer	typeref:typename:str
+tokens2text	text/sentencepiece_tokenizer.py	/^    def tokens2text(self, tokens: Iterable[str]) -> str:$/;"	m	class:SentencepiecesTokenizer	typeref:typename:str
+tokens2text	text/word_tokenizer.py	/^    def tokens2text(self, tokens: Iterable[str]) -> str:$/;"	m	class:WordTokenizer	typeref:typename:str
+train_one_epoch	train/gan_trainer.py	/^    def train_one_epoch($/;"	m	class:GANTrainer	typeref:typename:bool
+train_one_epoch	train/trainer.py	/^    def train_one_epoch($/;"	m	class:Trainer	typeref:typename:bool
+trainer	tasks/abs_task.py	/^    trainer = Trainer$/;"	v	class:AbsTask
+trainer	tasks/asr.py	/^    trainer = Trainer$/;"	v	class:ASRTask
+trainer	tasks/diar.py	/^    trainer = Trainer$/;"	v	class:DiarizationTask
+trainer	tasks/enh.py	/^    trainer = Trainer$/;"	v	class:EnhancementTask
+trainer	tasks/enh_asr.py	/^    trainer = Trainer$/;"	v	class:ASRTask
+trainer	tasks/gan_tts.py	/^    trainer = GANTrainer$/;"	v	class:GANTTSTask
+trainer	tasks/hubert.py	/^    trainer = Trainer$/;"	v	class:HubertTask
+trainer	tasks/lm.py	/^    trainer = Trainer$/;"	v	class:LMTask
+trainer	tasks/tts.py	/^    trainer = Trainer$/;"	v	class:TTSTask
+tts_choices	tasks/gan_tts.py	/^tts_choices = ClassChoices($/;"	v
+tts_choices	tasks/tts.py	/^tts_choices = ClassChoices($/;"	v
+unconstrained_rational_quadratic_spline	gan_tts/vits/transform.py	/^def unconstrained_rational_quadratic_spline($/;"	f
+unpack	main_funcs/pack_funcs.py	/^def unpack($/;"	f	typeref:typename:Dict[str,str]
+use_lids	bin/tts_inference.py	/^    def use_lids(self) -> bool:$/;"	m	class:Text2Speech	typeref:typename:bool
+use_sids	bin/tts_inference.py	/^    def use_sids(self) -> bool:$/;"	m	class:Text2Speech	typeref:typename:bool
+use_speech	bin/tts_inference.py	/^    def use_speech(self) -> bool:$/;"	m	class:Text2Speech	typeref:typename:bool
+use_spembs	bin/tts_inference.py	/^    def use_spembs(self) -> bool:$/;"	m	class:Text2Speech	typeref:typename:bool
+utt_begin_indices	bin/asr_align.py	/^    utt_begin_indices = None$/;"	v	class:CTCSegmentationTask
+utt_ids	bin/asr_align.py	/^    utt_ids = None$/;"	v	class:CTCSegmentationTask
+utterance_mvn	layers/utterance_mvn.py	/^def utterance_mvn($/;"	f	typeref:typename:Tuple[torch.Tensor,torch.Tensor]
+validate_one_epoch	train/gan_trainer.py	/^    def validate_one_epoch($/;"	m	class:GANTrainer	typeref:typename:None
+validate_one_epoch	train/trainer.py	/^    def validate_one_epoch($/;"	m	class:Trainer	typeref:typename:None
+vector_to_Hermitian	enh/layers/beamformer.py	/^def vector_to_Hermitian(vec, use_builtin_complex=False):$/;"	f
+vietnamese_cleaners	text/cleaner.py	/^    vietnamese_cleaners = None$/;"	v
+wandb	tasks/abs_task.py	/^    wandb = None$/;"	v
+wandb_get_prefix	train/reporter.py	/^def wandb_get_prefix(key: str):$/;"	f
+wandb_log	train/reporter.py	/^    def wandb_log(self, epoch: int = None):$/;"	m	class:Reporter
+wandb_log	train/reporter.py	/^    def wandb_log(self, start: int = None):$/;"	m	class:SubReporter
+warned_about_misconfiguration	bin/asr_align.py	/^    warned_about_misconfiguration = False$/;"	v	class:CTCSegmentation
+warp_ctc	asr/ctc.py	/^            import warpctc_pytorch as warp_ctc$/;"	I	member:CTC.__init__	file:	nameref:module:warpctc_pytorch
+weight	enh/loss/wrappers/abs_wrapper.py	/^    weight = 1.0$/;"	v	class:AbsLossWrapper
+wpe	enh/layers/wpe.py	/^def wpe($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+wpe_one_iteration	enh/layers/wpe.py	/^def wpe_one_iteration($/;"	f	typeref:typename:Union[torch.Tensor,ComplexTensor]
+yaml_files	bin/pack.py	/^    yaml_files = ["asr_train_config", "lm_train_config"]$/;"	v	class:ASRPackedContents
+yaml_files	bin/pack.py	/^    yaml_files = ["train_config"]$/;"	v	class:DiarPackedContents
+yaml_files	bin/pack.py	/^    yaml_files = ["train_config"]$/;"	v	class:EnhPackedContents
+yaml_files	bin/pack.py	/^    yaml_files = ["train_config"]$/;"	v	class:TTSPackedContents
+yaml_files	bin/pack.py	/^    yaml_files = []$/;"	v	class:PackedContents
+yaml_no_alias_safe_dump	utils/yaml_no_alias_safe_dump.py	/^def yaml_no_alias_safe_dump(data, stream=None, **kwargs):$/;"	f
+yaml_serializable	utils/get_default_kwargs.py	/^    def yaml_serializable(value):$/;"	f	function:get_default_kwargs	file:
+zero_state	asr/decoder/rnn_decoder.py	/^    def zero_state(self, hs_pad):$/;"	m	class:RNNDecoder

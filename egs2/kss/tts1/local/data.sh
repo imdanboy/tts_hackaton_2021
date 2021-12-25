@@ -15,7 +15,8 @@ SECONDS=0
 
 stage=-1
 stop_stage=2
-text_format=raw
+#text_format=raw
+text_format=phn
 threshold=35
 nj=32
 g2p=g2pk_no_space

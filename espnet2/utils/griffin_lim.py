@@ -44,7 +44,8 @@ def logmel2linear(
     assert lmspc.shape[1] == n_mels
     fmin = 0 if fmin is None else fmin
     fmax = fs / 2 if fmax is None else fmax
-    mspc = np.power(10.0, lmspc)
+    #mspc = np.power(10.0, lmspc)
+    mspc = np.power(np.e, lmspc)
     mel_basis = librosa.filters.mel(fs, n_fft, n_mels, fmin, fmax)
     inv_mel_basis = np.linalg.pinv(mel_basis)
     return np.maximum(EPS, np.dot(inv_mel_basis, mspc.T).T)

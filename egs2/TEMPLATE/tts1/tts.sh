@@ -33,10 +33,10 @@ skip_train=false     # Skip training stages.
 skip_eval=false      # Skip decoding and evaluation stages.
 skip_upload=true     # Skip packing and uploading stages.
 skip_upload_hf=true # Skip uploading to hugging face stages.
-ngpu=1               # The number of gpus ("0" uses cpu, otherwise use gpu).
+ngpu=4               # The number of gpus ("0" uses cpu, otherwise use gpu).
 num_nodes=1          # The number of nodes.
-nj=32                # The number of parallel jobs.
-inference_nj=32      # The number of parallel jobs in decoding.
+nj=50                # The number of parallel jobs.
+inference_nj=50      # The number of parallel jobs in decoding.
 gpu_inference=false  # Whether to perform gpu decoding.
 dumpdir=dump         # Directory to dump features.
 expdir=exp           # Directory to save experiments.
@@ -48,14 +48,16 @@ local_data_opts="" # Options to be passed to local/data.sh.
 # Feature extraction related
 feats_type=raw             # Input feature type.
 audio_format=flac          # Audio format: wav, flac, wav.ark, flac.ark  (only in feats_type=raw).
+#min_wav_duration=0.1       # Minimum duration in second.
+#max_wav_duration=30        # Maximum duration in second.
 min_wav_duration=0.1       # Minimum duration in second.
-max_wav_duration=20        # Maximum duration in second.
+max_wav_duration=11        # Maximum duration in second.
 use_xvector=false          # Whether to use x-vector (Require Kaldi).
-use_sid=false              # Whether to use speaker id as the inputs (Need utt2spk in data directory).
-use_lid=false              # Whether to use language id as the inputs (Need utt2lang in data directory).
+use_sid=true              # Whether to use speaker id as the inputs (Need utt2spk in data directory).
+use_lid=true              # Whether to use language id as the inputs (Need utt2lang in data directory).
 feats_extract=fbank        # On-the-fly feature extractor.
 feats_normalize=global_mvn # On-the-fly feature normalizer.
-fs=16000                   # Sampling rate.
+fs=22050                   # Sampling rate.
 n_fft=1024                 # The number of fft points.
 n_shift=256                # The number of shift points.
 win_length=null            # Window length.
@@ -63,8 +65,10 @@ fmin=80                    # Minimum frequency of Mel basis.
 fmax=7600                  # Maximum frequency of Mel basis.
 n_mels=80                  # The number of mel basis.
 # Only used for the model using pitch & energy features (e.g. FastSpeech2)
-f0min=80  # Maximum f0 for pitch extraction.
-f0max=400 # Minimum f0 for pitch extraction.
+#f0min=80  # Maximum f0 for pitch extraction.
+#f0max=400 # Minimum f0 for pitch extraction.
+f0min=50  # Maximum f0 for pitch extraction.
+f0max=600 # Minimum f0 for pitch extraction.
 
 # Vocabulary related
 oov="<unk>"         # Out of vocabrary symbol.
@@ -80,7 +84,7 @@ tts_exp=""         # Specify the directory path for experiment. If this option i
 tts_stats_dir=""   # Specify the directory path for statistics. If empty, automatically decided.
 num_splits=1       # Number of splitting for tts corpus.
 teacher_dumpdir="" # Directory of teacher outputs (needed if tts=fastspeech).
-write_collected_feats=false # Whether to dump features in stats collection.
+write_collected_feats=true # Whether to dump features in stats collection.
 tts_task=tts                # TTS task (tts or gan_tts).
 
 # Decoding related
@@ -88,7 +92,8 @@ inference_config="" # Config for decoding.
 inference_args=""   # Arguments for decoding (e.g., "--threshold 0.75").
                     # Note that it will overwrite args in inference config.
 inference_tag=""    # Suffix for decoding directory.
-inference_model=train.loss.ave.pth # Model path for decoding.
+#inference_model=train.loss.ave.pth # Model path for decoding.
+inference_model=latest.pth # Model path for decoding.
                                    # e.g.
                                    # inference_model=train.loss.best.pth
                                    # inference_model=3epoch.pth
@@ -322,6 +327,8 @@ if ! "${skip_data_prep}"; then
                 _suf=""
             fi
             utils/copy_data_dir.sh data/"${dset}" "${data_feats}${_suf}/${dset}"
+            # NOTE(sato)
+            cp data/"${dset}"/utt2lang "${data_feats}${_suf}/${dset}/utt2lang"
             rm -f ${data_feats}${_suf}/${dset}/{segments,wav.scp,reco2file_and_channel}
             _opts=
             if [ -e data/"${dset}"/segments ]; then
@@ -415,6 +422,7 @@ if ! "${skip_data_prep}"; then
             done
         fi
 
+        # NOTE(sato): bugfix
         # Prepare lang id input
         if "${use_lid}"; then
             log "Stage 2+: Prepare lang id: data/ -> ${data_feats}/"
@@ -429,7 +437,7 @@ if ! "${skip_data_prep}"; then
                     # NOTE(kan-bayashi): 0 is reserved for unknown languages
                     echo "<unk> 0" > "${data_feats}${_suf}/${dset}/lang2lid"
                     cut -f 2 -d " " "${data_feats}${_suf}/${dset}/utt2lang" | sort | uniq | \
-                        awk '{print $1 " " NR}' >> "${data_feats}${_suf}/${dset}/utt2lid"
+                        awk '{print $1 " " NR}' >> "${data_feats}${_suf}/${dset}/lang2lid"
                 fi
                 # NOTE(kan-bayashi): We can reuse the same script for making utt2sid
                 pyscripts/utils/utt2spk_to_utt2sid.py \
@@ -479,6 +487,7 @@ if ! "${skip_data_prep}"; then
             if [ -e "${data_feats}/org/${dset}/utt2sid" ]; then
                 _fix_opts="--utt_extra_files utt2sid "
             fi
+            utils/fix_data_dir.sh ${_fix_opts} "${data_feats}/${dset}"
             if [ -e "${data_feats}/org/${dset}/utt2lid" ]; then
                 _fix_opts="--utt_extra_files utt2lid "
             fi
