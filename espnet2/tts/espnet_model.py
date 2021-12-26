@@ -296,6 +296,8 @@ class ESPnetTTSModel(AbsESPnetModel):
         if lids is not None:
             input_dict.update(lids=lids)
 
+        if decode_config['f0_shift'] is not None:
+            decode_config['pitch_normalize'] = self.pitch_normalize
         output_dict = self.tts.inference(**input_dict, **decode_config)
 
         if self.normalize is not None and output_dict.get("feat_gen") is not None:

@@ -17,6 +17,14 @@ from espnet2.hifi_gan.env import AttrDict
 
 
 
+def clamp_min_max(x, vmin, vmax):
+    if x < vmin:
+        return vmin
+    elif x > vmax:
+        return vmax
+    else:
+        return x
+
 class TextToSpeech:
 
     def __init__(self,
@@ -65,6 +73,7 @@ class TextToSpeech:
         sid=14,
         lid=3,
         speed_control_alpha=1.0,
+        f0_shift = None,
         ):
         # prepare batch
         tokens = self.tokenizer.text2tokens(text)
@@ -74,6 +83,9 @@ class TextToSpeech:
         batch['sids'] = torch.LongTensor([sid])
         batch['lids'] = torch.LongTensor([lid])
         batch = {k: v.to(self.device) for k, v in batch.items()}
+
+        self.cfg['alpha'] = clamp_min_max(speed_control_alpha, 0.5, 2.0)
+        self.cfg['f0_shift'] = clamp_min_max(f0_shift, -50, 50) if f0_shift is not None else f0_shift
 
         # inference
         output_dict = self.model.inference(**batch, **self.cfg)
@@ -86,4 +98,4 @@ class TextToSpeech:
         audio = audio.cpu().numpy().astype('int16')
 
         write(f"synthesis.wav", self.sr, audio)
-        print("synthesis.wav generated.")
+        #print("synthesis.wav generated.")

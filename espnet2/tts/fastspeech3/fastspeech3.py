@@ -844,6 +844,8 @@ class FastSpeech3(AbsTTS):
         lids: Optional[torch.Tensor] = None,
         is_inference: bool = False,
         alpha: float = 1.0,
+        f0_shift = None,
+        pitch_normalize = None,
     ) -> Sequence[torch.Tensor]:
         # forward encoder
         x_masks = self._source_mask(ilens)
@@ -881,10 +883,19 @@ class FastSpeech3(AbsTTS):
         if is_inference:
             d_outs = self.duration_predictor.inference(hs, d_masks)  # (B, T_text)
             # use prediction in inference
+            ###
+            if f0_shift is not None:
+                p_outs, _ = pitch_normalize.inverse(p_outs)
+                p_outs = torch.exp(p_outs) + f0_shift
+                p_outs, _ = pitch_normalize(torch.log(p_outs))
+            ###
             p_embs = self.pitch_embed(p_outs.transpose(1, 2)).transpose(1, 2)
             e_embs = self.energy_embed(e_outs.transpose(1, 2)).transpose(1, 2)
             hs = hs + e_embs + p_embs
             #hs = self.length_regulator(hs, d_outs, alpha)  # (B, T_feats, adim)
+            ###
+            d_outs = d_outs * alpha
+            ###
             gu_p_attn = gaussian_upsampling(d_outs.to(torch.float))
             hs = torch.matmul(gu_p_attn, hs)
             log_p_attn = None
@@ -949,6 +960,8 @@ class FastSpeech3(AbsTTS):
         energy: Optional[torch.Tensor] = None,
         alpha: float = 1.0,
         use_teacher_forcing: bool = False,
+        f0_shift = None,
+        pitch_normalize = None,
     ) -> Dict[str, torch.Tensor]:
         """Generate the sequence of features given the sequences of characters.
 
@@ -1012,6 +1025,8 @@ class FastSpeech3(AbsTTS):
                 lids=lids,
                 is_inference=True,
                 alpha=alpha,
+                f0_shift=f0_shift,
+                pitch_normalize=pitch_normalize,
             )  # (1, T_feats, odim)
 
         return dict(
